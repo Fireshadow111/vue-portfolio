@@ -1,0 +1,69 @@
+{
+
+    "home": [{
+
+        "logo": "https://postimg.cc/bZFv86Mp",
+
+        "heading":"Welcome to the world of Muhammad Rajah",
+
+        "homeButton": "My Projects"
+
+
+}],
+
+
+       " about": [{
+
+
+        "heading1": "Who am I?",
+        
+        "info1": "I am an ambitious individual who loves to encounter new problems and I take pleasure in solving them. I have a great passion for expressing myself through my work. I believe that life is a never-ending journey of learning, there is always something new to learn, whether it is a new skill, a new piece of information, or a new way of looking at things. I am always willing to learn and not afraid to ask questions.",
+
+        "heading2": "Personal Details",
+
+        "info2": [
+        "Date of birth", 
+        "11 April 2001",
+        "Location: Heideveld",
+        "Cell No: 067 774 1883",
+        "Email: muhammadrajah22@gmail.com"],
+
+        "image":"https://i.postimg.cc/5207hPVN/image-1-modified-removebg-preview.png"
+
+       }],
+
+
+       "resume": [{
+
+
+        "heading1": "Education",
+
+        "info1": ["Life Choice Code Academy - September 2023 to Present",
+                "International Peace College South Africa - January 2023 to December 2023",
+                "College of Cape Town - 2019 to 2021 - IT NCV LVL 4"
+            ],
+
+        "heading2": "Job Experience",
+
+        "info2": [
+            "Sales - Daughtless Dynasty Marketing",
+            "Administration - Islamic Relief"
+
+        ]}],
+
+
+        "projects": [{
+
+            "card-image": ""
+
+
+        }]
+
+
+
+
+
+
+
+
+}
