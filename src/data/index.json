@@ -54,11 +54,132 @@
 
         "projects": [{
 
-            "card-image": ""
+            "projects-head": "Projects",
+
+            "card-image1": "https://i.postimg.cc/NM5NztKx/Screenshot-2023-10-30-102253.png",
+
+            "proj-card-title1": "Keyboard - HTML/CSS",
+
+            
+            "github1": "",
+
+            "live-link1": "",
+
+            "card-image2": "https://i.postimg.cc/NM5NztKx/Screenshot-2023-10-30-102253.png",
+
+            "proj-card-title2": "Keyboard - HTML/CSS",
+
+            
+            "github2": "",
+
+            "live-link2": "",
+
+
+            "card-image3": "https://i.postimg.cc/NM5NztKx/Screenshot-2023-10-30-102253.png",
+
+            "proj-card-title3": "Keyboard - HTML/CSS",
+
+            
+            "github3": "",
+
+            "live-link3": "",
+
+
+            "card-image4": "https://i.postimg.cc/NM5NztKx/Screenshot-2023-10-30-102253.png",
+
+            "proj-card-title4": "Keyboard - HTML/CSS",
+
+            
+            "github4": "",
+
+            "live-link4": "",
+
+
+            "card-image5": "https://i.postimg.cc/NM5NztKx/Screenshot-2023-10-30-102253.png",
+
+            "proj-card-title5": "Keyboard - HTML/CSS",
+
+            
+            "github5": "",
+
+            "live-link5": "",
+
+
+            "card-image6": "https://i.postimg.cc/NM5NztKx/Screenshot-2023-10-30-102253.png",
+
+            "proj-card-title6": "Keyboard - HTML/CSS",
+
+            
+            "github6": "",
+
+            "live-link6": ""
+
+
+        }],
+
+
+
+        "testimonials": [{
+
+            "test-image1": "",
+
+            "test-head1": "",
+
+            "test-text1": "",
+
+
+            "test-image2": "",
+
+            "test-head2": "",
+
+            "test-text2": "",
+
+
+            "test-image3": "",
+
+            "test-head3": "",
+
+            "test-text3": "",
+
+
+
+            "test-image4": "",
+
+            "test-head4": "",
+
+            "test-text4": "",
+
+
+
+            "test-image5": "",
+
+            "test-head5": "",
+
+            "test-text5": "",
+
+
+            "test-image6": "",
+
+            "test-head6": "",
+
+            "test-text6": ""
+
+
+        }],
+
+
+        "contact": [{
+
+            "contact-head": "Get In Touch",
+
+
+            "contact-page": "",
+
+
+            "contact-links": ""
 
 
         }]
-
 
 
 
