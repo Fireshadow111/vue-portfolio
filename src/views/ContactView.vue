@@ -3,17 +3,17 @@
   <body id = "background">
     
  
-     <div class="container text-center pb-2 pt-5">
+     <div class="container text-center">
       <div class="row align-items-center">
-        <div class="contact-div">
+        <div id="contact-div">
 
-          <h1 class="contact-head">Contact</h1>
+          <h1 id="contact-head" class = "mt-2 mb-4">Contact</h1>
 
         </div>
       </div>
     </div>
 
-    <div class="contactForm-div">
+    <div id="contactForm-div">
 
 
       <form action="https://formspree.io/f/myyqoarq" method="POST">
@@ -29,23 +29,38 @@
       </form>
 
 
-      <div class="icons">
+      <div id = "icons" class = "d-flex justify-content-center mt-4">
 
+<div id = "linkedin-div">
+  <a href="https://www.linkedin.com/in/muhammad-rajah-a1a00421a/" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
+  
+</div>
 
-        <div class="instagram-div">
+<div id = "github-div" class = "mx-3">
 
-          <a href="https://www.instagram.com/muhammadrajah111/" target="_blank"><i class="fa-brands fa-instagram fa-xl"
-              style="color: #40d62c; cursor: pointer;"></i></a>
+  <a href="https://github.com/Fireshadow111" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #40d62c; cursor: pointer;"></i></a>
 
-        </div>
+</div>
 
-        <div class="facebook-div">
+<div id = "whatsapp-div">
 
-          <a href="https://www.facebook.com/muhammad.rajah.716/" target="_blank"><i
-              class="fa-brands fa-square-facebook fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
+  <a href="https://wa.me/+277741883" target="_blank"><i class="fa-brands fa-whatsapp fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
 
-        </div>
+</div>
+
+<div id = "instagram-div" class = "mx-3">
+
+  <a href="https://www.instagram.com/muhammadrajah111/" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #40d62c; cursor: pointer;"></i></a>
+
+</div>
+
+<div id= "facebook-div">
+
+  <a href="https://www.facebook.com/muhammad.rajah.716/" target="_blank"><i class="fa-brands fa-square-facebook fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
+  
+</div>
       </div>
+
       </div>
 
     </body>
@@ -59,31 +74,28 @@ export default {
     
     #background{
       background-color: black;
-      color:  #44d62c;;
+      color:  #44d62c;
     }
 
     .contact-container {
   border-radius: 5px;
   background-color: black;
-  padding: 10px;
-}
-
-.contact-div {
-  margin-bottom: 50px;
 
 }
 
-.contact-head {
+
+
+#contact-head {
   background-color: black;
   color: white;
-  border: 5px solid var(--razerGreen);
-  border-radius: 50px;
+  border: 4px solid #44d62c;
+  border-radius: 55px;
   font-family: "DM Serif Display";
   font-size: 50px;
 }
 
 
-.contactForm-div {
+#contactForm-div {
   width: 400px;
   margin: auto;
 
@@ -92,7 +104,7 @@ export default {
 label {
   font-family: "Roboto";
   font-size: 22px;
-  color: var(--razerGreen);
+  color:#44d62c;
 }
 
 input[type=text],
@@ -103,6 +115,7 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  border-radius: 15px;
 }
 
 input[type=submit] {
@@ -112,7 +125,7 @@ input[type=submit] {
   font-family: "Roboto";
   font-size: 22px;
   font-weight: bold;
-  background-color: var(--razerGreen);
+  background-color: #44d62c;
   border: solid 3px black;
   border-radius: 50px;
   cursor: pointer;
@@ -121,7 +134,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: black;
-  color: var(--razerGreen);
+  color: #44d62c;
   border-color: white;
 }
 
@@ -130,17 +143,6 @@ input[type=submit]:active {
   transform: translatex(4px);
 }
 
-.icons {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
 
-}
-
-
-.instagram-div {
-  margin-right: 30px;
-}
 
 </style>
