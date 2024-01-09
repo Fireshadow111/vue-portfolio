@@ -65,7 +65,7 @@ export default {
   border: 4px solid #44d62c ;
   border-radius: 50px;
   font-family: "DM Serif Display";
-  font-size: 60px;
+  font-size: 55px;
 
 }
 
