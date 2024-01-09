@@ -18,6 +18,7 @@ const routes = [
     component: AboutView
   },
 
+
   {
     path: '/resume',
     name: 'resume',

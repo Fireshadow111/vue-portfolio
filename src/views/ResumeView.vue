@@ -1,7 +1,12 @@
 <template>
-    <div>
+   <body id = "background">
+    
+
+
+
+   </body>
         
-    </div>
+    
 </template>
 <script>
 export default {
@@ -9,5 +14,11 @@ export default {
 }
 </script>
 <style>
+
+
+#background{
+    background-color: black;
+    color: #44d62c;
+}
     
 </style>
