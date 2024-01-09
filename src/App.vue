@@ -12,7 +12,8 @@
 export default{
 
   components: {
-    navbar
+    navbar,
+   
   }
 }
 
@@ -23,10 +24,7 @@ export default{
 
 
 
-*{
-  background-color: black;
-  color:  #44d62c;
-}
+
 
 
 </style>

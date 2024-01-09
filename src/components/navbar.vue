@@ -1,6 +1,7 @@
 <template>
     <div id="navbarContainer" class="bg-black">
 
+      
         
         <nav class="navbar navbar-expand-lg">
   <div class="container-fluid justify-content-center">
@@ -9,13 +10,13 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
-      <ul class="navbar-nav ">
-        <router-link id = "links" aria-current="page" to= "/">Home</router-link> 
-        <router-link id = "links" to ="/about">About</router-link>
-        <router-link id = "links" to ="/resume">Resume</router-link>
-        <router-link id = "links" to ="/projects">Projects</router-link>
-        <router-link id = "links" to ="/testimonials">Testimonials</router-link>
-        <router-link id = "links" to ="/contact">Contact</router-link>
+      <ul class="navbar-nav mb-1 ">
+        <router-link id = "links" class = "mx-2" aria-current="page" to= "/">Home</router-link> 
+        <router-link id = "links" class = "mx-2" to ="/about">About</router-link>
+        <router-link id = "links" class = "mx-2" to ="/resume">Resume</router-link>
+        <router-link id = "links" class = "mx-2" to ="/projects">Projects</router-link>
+        <router-link id = "links" class = "mx-2" to ="/testimonials">Testimonials</router-link>
+        <router-link id = "links" class = "mx-2" to ="/contact">Contact</router-link>
       </ul>
     </div>
   </div>
@@ -36,9 +37,11 @@ export default {
 }
 #links {
   font-size: 25px;
-  font-weight: bold;
   color: #44d62c;
-  margin-right: 20px;
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: bold;
+
   transition: text-decoration 0.5s;
   text-decoration: none;
 }

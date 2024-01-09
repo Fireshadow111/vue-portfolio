@@ -1,5 +1,6 @@
 <template>
-    <div>
+      <body id = "background">
+        
         
         <div class="container text-center">
       <div class="row align-items-center">
@@ -31,7 +32,7 @@
       </div>
     </div>
 
-    </div>
+  </body>
 </template>
 <script>
 export default {
@@ -39,5 +40,12 @@ export default {
 }
 </script>
 <style>
+
+#background{
+  background-color: black;
+  min-height: 100vh;
+  color: #44d62c;
+}
+
     
 </style>
