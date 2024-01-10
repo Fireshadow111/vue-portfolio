@@ -2,8 +2,9 @@
     <body id = "background">
         
 
+ 
+</body>
 
-    </body>
 </template>
 <script>
 export default {
@@ -14,7 +15,10 @@ export default {
 
 #background{
     background-color: black;
-    color: #44d62c;;
+    color: #44d62c;
+    min-height: 100vh;
 }
+
+
     
 </style>
