@@ -58,6 +58,12 @@ export default {
 #about-img{
   border-radius: 50px;
   border: 3px solid #44d62c;
+  transition: transform 0.3s;
+  box-shadow: 0px 0px 15px 4px
+}
+
+#about-img:hover{
+    transform:scale(105%)
 }
 
 #about-me-head{
@@ -80,12 +86,23 @@ export default {
 #info-con{
   border: 2px solid #44d62c ;
   border-radius: 50px;
+  transition: transform 0.3s;
+  box-shadow: 0px 0px 15px 4px
 }
 
+#info-con:hover{
+  transform:scale(105%)
+}
     
 #about-pi-con{
   border: 2px solid #44d62c ;
   border-radius: 50px;
+  transition: transform 0.3s;
+  box-shadow: 0px 0px 15px 4px
+}
+
+#about-pi-con:hover{
+  transform:scale(105%)
 }
 
 #about-me-pi{
