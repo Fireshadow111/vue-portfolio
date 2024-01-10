@@ -16,7 +16,7 @@
     <div id="contactForm-div">
 
 
-      <form action="https://formspree.io/f/myyqoarq" method="POST">
+      <form action="https://formspree.io/f/myyqoarq" method="POST" target = "_blank">
         <label for="firstName">First Name:</label>
         <input type="text" id="firstName" name="firstName" placeholder="Enter your name..">
         <label for="lastName">Last Name:</label>
@@ -70,7 +70,7 @@ export default {
     
 }
 </script>
-<style>
+<style scoped>
     
     #background{
       background-color: black;

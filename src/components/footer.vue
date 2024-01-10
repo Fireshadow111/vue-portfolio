@@ -1,7 +1,7 @@
 <template>
     <div>
         
-        <footer class = "footer"><span class = "footer-name">محمد</span> - @Copyright&copy  - 2023</footer>
+        <footer id = "footer"><span id = "footer-name">محمد</span> - @Copyright&copy  - 2023</footer>
 
     </div>
 </template>
@@ -12,11 +12,11 @@ export default {
 </script>
 <style>
     
-    .footer {
+    #footer {
       font-size: 25px;
     }
   
-    .footer-name {
+    #footer-name {
       font-size: 35px;
     }
 
