@@ -183,19 +183,7 @@ export default {
 
 
 :root {
-	--color-gray-light-1: #f8f8f8;
-	--color-gray-light-2: #e9e9e9;
-	--color-gray-light-3: #dedede;
-	--color-gray-dark-1: #545454;
-	--color-gray-dark-2: #737373;
-	--color-gray-dark-3: #9a9a9a;
-	--color-blue-dark-1: #00387f;
-	--color-tiffany: #00a6a6;
-	--profile-theme: #4682bf;
-	--timeline-circle-theme: #14253e;
-	
 	--pgbar-length: 100%;
-
 	--MATH-PI: 3.1415px;
 	--percent: 100;
 }
@@ -224,7 +212,7 @@ export default {
 	max-width: 70rem;
 	background-color: #e9e9e9;
 	display: flex;
-	box-shadow: 0px 0px 15px 4px #b3b3b3;
+	box-shadow: 0px 0px 15px 4px #44d62c;
 }
 
 .intro {
