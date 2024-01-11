@@ -20,8 +20,8 @@
       <div class="photo">
         <img src="https://cdn-images.imagevenue.com/d8/13/83/ME17GCBF_o.png">
       </div>
-      <div class="bio">
-        <h1 id = "resume-name"  class="name">Muhammad Rajah</h1>
+      <div class="bio" v-for="resume in $store.state.resumeData" :key="resume">
+        <h1 id = "resume-name"  class="name">{{resume.resumeName}}</h1>
         <p id = "resume-title" class="profession">Web Developer</p>
       </div>
     </div>
@@ -180,9 +180,19 @@
     
 </template>
 <script>
+
 export default {
+  methods: {
+    fetchDataResume() {
+      this.$store.dispatch('fetchDataResume');
+    }
+  },
+  mounted() {
+    this.fetchDataResume();
+  },
+};
     
-}
+
 </script>
 <style scoped>
 

@@ -81,7 +81,7 @@
 
   
 
-
+<!-- <footer id = "footer"><span id = "footer-name">محمد</span> - @Copyright&copy  - 2023</footer> -->
 </body>
     
     
@@ -222,6 +222,21 @@ h2{
 }
 
 
+/* #footer {
+  font-size: 15px;
+  color: #44d62c;
+  font-weight: bolder;
+  text-align: center;
+  background-color: black
+}
+
+.footer-prob {
+  position: sticky;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: ba;
+} */
 
 
 </style>
