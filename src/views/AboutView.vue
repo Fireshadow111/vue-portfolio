@@ -51,8 +51,8 @@ export default {
 
 #background{
   background-color: black;
-  min-height: 100vh;
   color: #44d62c;
+  height: 100vh;
 }
 
 #about-img{

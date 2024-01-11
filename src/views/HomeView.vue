@@ -119,7 +119,7 @@ export default {
   background-image: url("https://cdn-images.imagevenue.com/66/ad/a9/ME17G3OJ_o.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 92vh;
+  height: 100vh;
 }
 
 #heading-div{

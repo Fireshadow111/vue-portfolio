@@ -115,31 +115,31 @@
           <li>
             <span>HTML</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 85%"></div>
+              <div class="skillbar" style="--pgbar-length: 60%"></div>
             </div>
           </li>
           <li>
             <span>CSS</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 80%"></div>
+              <div class="skillbar" style="--pgbar-length: 55%"></div>
             </div>
           </li>
           <li>
             <span>Javascript</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 40%"></div>
+              <div class="skillbar" style="--pgbar-length: 20%"></div>
             </div>
           </li>
           <li>
             <span>Wordpress</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 45%"></div>
+              <div class="skillbar" style="--pgbar-length: 30%"></div>
             </div>
           </li>
           <li>
             <span>VueJS</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 35%"></div>
+              <div class="skillbar" style="--pgbar-length: 15%"></div>
             </div>
           </li>
           <li>
@@ -178,6 +178,7 @@ export default {
 #background{
     background-color: black;
     color: #44d62c;
+		height: 100vh;
 }
 
 
