@@ -14,7 +14,8 @@ export default createStore({
   },
   mutations: {
     setResume(state, data) {
-      state.resume = data;
+      state.resume = data[0];
+      console.log(data[0]);
     },
 
     setProjects(state, data) {
@@ -31,9 +32,8 @@ export default createStore({
       axios.get("https://fireshadow111.github.io/vue-portfolio-data/")
         .then((r) => {
           context.commit("setResume", r.data.resume);
+          console.log(r.data);
 
-
-          console.log(r.data.resume);
         });
     },
           fetchDataProjects(context) {
@@ -42,7 +42,7 @@ export default createStore({
          
           context.commit("setProjects", p.data.projects);
 
-          console.log(p.data.projects);
+          console.log(p.data);
         });
     },
     fetchDataTestimonials(context) {
@@ -51,7 +51,7 @@ export default createStore({
         
           context.commit("setTestimonials", t.data.testimonials);
 
-          console.log(t.data.testimonials);
+          console.log(t.data);
         });
     },
   },
