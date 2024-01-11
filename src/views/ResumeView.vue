@@ -1,8 +1,20 @@
 <template>
    <body id = "background">
-    
 
-    <div class="wrapper">
+	
+	<div class="container text-center">
+     <div class="row align-items-center">
+     <div class = "resume-head-div mt-3">
+       <h1 class = "resume-head">Resume</h1>
+
+	 </div>
+
+	 </div>
+	</div>
+
+    <div class="wrapper mt-3">
+
+		
   <div class="intro">
     <div class="profile">
       <div class="photo">
@@ -178,7 +190,7 @@ export default {
 #background{
     background-color: black;
     color: #44d62c;
-		height: 100vh;
+		
 }
 
 
@@ -194,7 +206,17 @@ export default {
 	box-sizing: border-box;
 }
 
-#resume-name{
+.resume-head{
+        background-color: black;
+        color: white !important;
+        border: 5px solid #44d62c;
+        border-radius: 50px;
+        font-family: "DM Serif Display";
+        font-size: 55px;
+       
+      }
+
+	  #resume-name{
    font-family: "DM Serif Display"; 
    font-size:27px;
    color: #44d62c!important;
@@ -205,7 +227,6 @@ export default {
     font-size: 23px;
     font-weight: bold;
 }
-
 
 
 .wrapper {
@@ -219,7 +240,7 @@ export default {
 .intro {
 	flex: 0 0 250px;
 	background-color: #f8f8f8;
-	box-shadow: 5px 0px 15px 0px #b3b3b3;
+	box-shadow: 5px 0px 15px 0px #44d62c;
 	z-index: 5;
 }
 .profile {
