@@ -2,6 +2,16 @@
     <body id = "background">
 
 
+        <div class="container text-center">
+      <div class="row align-items-center">
+
+      <div class = "project-head-div mt-3">
+        <h1 class = "project-head">Project</h1>
+          </div>
+        </div>
+
+        </div>
+
       <div id = "proj-con" class="container text-center">
             <div class="row">
                 <div class="col-md-4 my-5">
@@ -114,8 +124,18 @@ export default {
 #background{
     background-color: black;
     color: #44d62c;
-    height: 100vh;
+  
 }
+
+.project-head{
+      background-color: black;
+      color: white;
+      border: 5px solid #44d62c;
+      border-radius: 50px;
+      font-family: "DM Serif Display";
+      font-size: 55px;
+     
+    }
 
 .card{
   background-color: #44d62c;

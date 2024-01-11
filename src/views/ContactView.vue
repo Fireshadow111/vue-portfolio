@@ -75,7 +75,7 @@ export default {
     #background{
       background-color: black;
       color:  #44d62c;
-      height: 100vh;
+  
     }
 
     .contact-container {
@@ -93,6 +93,7 @@ export default {
   border-radius: 55px;
   font-family: "DM Serif Display";
   font-size: 50px;
+
 }
 
 

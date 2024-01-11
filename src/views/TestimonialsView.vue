@@ -1,8 +1,23 @@
 <template>
     <body id = "background">
+
+
+     
+
+     
+     
         
         <div class="container">
+
+            
             <div class="row">
+                <div class="container text-center mt-3">
+    <div class="row align-items-center">
+      <div class = "test-head-div">
+        <h1 class = "test-head">Testimonials</h1>
+          </div>
+        </div>
+        </div>
                 <div class="col-md-4 my-5">
                     <div style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card d-flex mx-auto">
                         <div class="card-image">
@@ -117,6 +132,15 @@ export default {
     font-family: sans-serif;
 }
 
+.test-head{
+    background-color: black;
+    color: white;
+    border: 5px solid #44d62c;
+    border-radius: 50px;
+    font-family: "DM Serif Display";
+    font-size: 55px;
+  
+  }
 
 .container{
     max-width: 950px;

@@ -1,120 +1,180 @@
 {
 
-    "home": [{
-
-        "logo": "https://postimg.cc/bZFv86Mp",
-
-        "background":"",
-
-        "heading":"Welcome to the world of Muhammad Rajah",
-
-        "homeButton": "My Projects"
-
-
-}],
-
-
-       " about": [{
-
-
-        "heading1": "Who am I?",
-        
-        "info1": "I am an ambitious individual who loves to encounter new problems and I take pleasure in solving them. I have a great passion for expressing myself through my work. I believe that life is a never-ending journey of learning, there is always something new to learn, whether it is a new skill, a new piece of information, or a new way of looking at things. I am always willing to learn and not afraid to ask questions.",
-
-        "heading2": "Personal Details",
-
-        "info2": [
-        "Date of birth", 
-        "11 April 2001",
-        "Location: Heideveld",
-        "Cell No: 067 774 1883",
-        "Email: muhammadrajah22@gmail.com"],
-
-        "image":"https://i.postimg.cc/5207hPVN/image-1-modified-removebg-preview.png"
-
-       }],
-
-
        "resume": [{
 
+        
+        "resumeImage1": "https://cdn-images.imagevenue.com/d8/13/83/ME17GCBF_o.png",
 
-        "heading1": "Education",
+        "resumeName": "Muhammad Rajah",
 
-        "info1": ["Life Choice Code Academy - September 2023 to Present",
-                "International Peace College South Africa - January 2023 to December 2023",
-                "College of Cape Town - 2019 to 2021 - IT NCV LVL 4"
-            ],
+        "profession": "Web Developer",
 
-        "heading2": "Job Experience",
+        "contactTitle": "Contact",
 
-        "info2": [
-            "Sales - Daughtless Dynasty Marketing",
-            "Administration - Islamic Relief"
+        "number": "067 774 1883",
 
-        ]}],
+        "location": "Heideveld",
+
+        "email": "muhammadrajah22",
+
+        "socials": "Socials",
+
+       
+
+        "resumeSocials1": "Linkdin1",
+
+        "resumeSocials2": "Github1",
+
+        "resumeSocials3": "Whatsapp1",
+
+        "resumeSocials4": "Instagram1",
+
+        "resumeSocials5": "Facebook1",
+
+
+        "resumeLink1": "https://www.linkedin.com/in/muhammad-rajah-a1a00421a/",
+
+        "resumeLink2": "https://github.com/Fireshadow111",
+
+        "resumeLink3": "https://wa.me/+277741883",
+
+        "resumeLink4": "https://www.instagram.com/muhammadrajah111/",
+
+        "resumeLink5": "https://www.facebook.com/muhammad.rajah.716/",
+
+
+        "resumeHeading1": "Education",
+
+        "resumeInfo1": "Life Choices Coding Academy",
+
+        "resumeInfo2": "Web Development",
+
+        "resumeInfo3": "2023 - Present",
+
+
+        "resumeInfo4": "College of Cape Town",
+
+        "resumeInfo5": "NCV IT - level 4",
+
+        "resumeInfo6": "2019 - 2021",
+
+
+        "resumeInfo7": "International Peace College",
+
+        "resumeInfo8": "Bachloars Degree in Arabic and Islamic Studies",
+
+        "resumeInfo9": "2023 - 2024",
+
+
+
+        "resumeHeading2": "Job Experience",
+
+        "jobEx1": "Sales - Daughtless Dynasty Marketing",
+        
+        "jobEx2": "Administration - Islamic Relief"
+
+        }],
 
 
         "projects": [{
 
             "projects-head": "Projects",
 
-            "card-image1": "https://i.postimg.cc/NM5NztKx/Screenshot-2023-10-30-102253.png",
+            "card-image1": "https://cdn-images.imagevenue.com/01/e1/1e/ME17GDPY_o.png",
 
-            "proj-card-title1": "Keyboard - HTML/CSS",
+            "proj-card-title1": "Interest Calculator",
+
+            "proj-card-info1": "This project users JavaScript and accepts numeric inputs and outputs the amount of interest accumulated over the duration given.",
+
+            "site1": "Visit site",
+
+            "code1": "Github link",
+
+            "site2": "Visit site",
+
+            "code2":"Github link",
+
+            "site3": "Visit site",
+
+            "code3":"Github link",
+
+            "site4": "Visit site",
+
+            "code4":"Github link",
+
+            "site5": "Visit site",
+
+            "code5":"Github link",
+
+            "site6": "Visit site",
+
+            "code6":"Github link",
+
+
+            "live-link1": "https://fancy-begonia-21b598.netlify.app/",
+            
+            "github1": "https://github.com/Fireshadow111/interest-amount.git",
+
+
+            "card-image2": "https://cdn-images.imagevenue.com/d9/ea/be/ME17GDQ4_o.png",
+
+            "proj-card-title2": "Ecommerce Store",
+
+            "proj-card-info2": "Created with HTML/CSS/JavaScript that allows a user to add to cart, checkout and also gives administrative privilages to admins.",
+            
+            "live-link2": "https://ecommerce-store-javascript.netlify.app/",
+
+            "github2": "https://github.com/Fireshadow111/ecommerce-store-javascript.git",
+
+           
+            "card-image3": "https://cdn-images.imagevenue.com/89/9f/2c/ME17GDQ1_o.png",
+
+            "proj-card-title3": "RGB to HEX Converter",
+
+            "proj-card-info3": "The primary function of the project involves receiving input in the form of RGB (Red, Green, Blue) color values and outputs the HEX colour equivalent.",
+
+            "live-link3": "https://chipper-biscotti-6718f0.netlify.app/",
+
+            "github3": "https://github.com/Fireshadow111/rgb-to-hex.git",
+
+           
+
+            "card-image4": "https://cdn-images.imagevenue.com/61/c0/1c/ME17GDPZ_o.png",
+
+            "proj-card-title4": "Temperature Converter",
+
+            "proj-card-info4": "This project users JavaScript and converts fahrenheit to celsius.",
+
+            "live-link4": "https://chipper-sundae-f73811.netlify.app/",
+
+            "github4": "https://github.com/Fireshadow111/tempConverter-project.git",
 
             
-            "github1": "",
 
-            "live-link1": "",
+            "card-image5": "https://cdn-images.imagevenue.com/54/6f/57/ME17GDQ5_o.png",
 
-            "card-image2": "https://i.postimg.cc/NM5NztKx/Screenshot-2023-10-30-102253.png",
+            "proj-card-title5": "Razer Store",
 
-            "proj-card-title2": "Keyboard - HTML/CSS",
+            "proj-card-info5": "This is a store created with HTML/CSS, it has no real functionality.",
 
+            "live-link5": "https://musical-dodol-21bd7b.netlify.app/",
+
+            "github5": "https://github.com/Fireshadow111/razer-project-personal.git",
+
+          
+
+
+            "card-image6": "https://cdn-images.imagevenue.com/20/e1/23/ME17GDQ2_o.pngg",
+
+            "proj-card-title6": "Calculator",
+
+            "proj-card-info6": "This calculator accepts the numbers and operations clicked by the user and outputs the answer.",
             
-            "github2": "",
+            "live-link6": "https://effulgent-banoffee-8f84bc.netlify.app/",
 
-            "live-link2": "",
+            "github6": "https://github.com/Fireshadow111/fancy-calculator.git"
 
-
-            "card-image3": "https://i.postimg.cc/NM5NztKx/Screenshot-2023-10-30-102253.png",
-
-            "proj-card-title3": "Keyboard - HTML/CSS",
-
-            
-            "github3": "",
-
-            "live-link3": "",
-
-
-            "card-image4": "https://i.postimg.cc/NM5NztKx/Screenshot-2023-10-30-102253.png",
-
-            "proj-card-title4": "Keyboard - HTML/CSS",
-
-            
-            "github4": "",
-
-            "live-link4": "",
-
-
-            "card-image5": "https://i.postimg.cc/NM5NztKx/Screenshot-2023-10-30-102253.png",
-
-            "proj-card-title5": "Keyboard - HTML/CSS",
-
-            
-            "github5": "",
-
-            "live-link5": "",
-
-
-            "card-image6": "https://i.postimg.cc/NM5NztKx/Screenshot-2023-10-30-102253.png",
-
-            "proj-card-title6": "Keyboard - HTML/CSS",
-
-            
-            "github6": "",
-
-            "live-link6": ""
+          
 
 
         }],
@@ -123,66 +183,65 @@
 
         "testimonials": [{
 
-            "test-image1": "",
+            "test-image1": "https://cdn-images.imagevenue.com/46/b0/a9/ME17GECZ_o.jpg",
 
-            "test-head1": "",
+            "test-head1": "Joel Mukanya",
 
-            "test-text1": "",
+            "test-text1": "Muhammad is a creative, and well-behaved individual who always prioritizes his work. He excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub.",
 
-
-            "test-image2": "",
-
-            "test-head2": "",
-
-            "test-text2": "",
+            "test-footer1": "-Coding Lecturer",
 
 
-            "test-image3": "",
+            "test-image2": "https://cdn-images.imagevenue.com/93/11/7c/ME17GED0_o.jpg",
 
-            "test-head3": "",
+            "test-head2": "Damon Raffels",
 
-            "test-text3": "",
+            "test-text2": "Muhammad Rajah is a strong willed, hard-working man with a healthy competitive spirit when it comes to projects, always taking inspiration from others to better his knowledge and skills. He has a great understanding of the workings of the world and incredible religious values that is tuly humbling to be in the presence of.",
 
-
-
-            "test-image4": "",
-
-            "test-head4": "",
-
-            "test-text4": "",
+            "test-footer2": "-Colleague",
 
 
+            "test-image3": "https://cdn-images.imagevenue.com/18/d4/1c/ME17GED4_o.jpg",
 
-            "test-image5": "",
+            "test-head3": "Khwezilomso Mbobo",
 
-            "test-head5": "",
+            "test-text3": "Muhammad Rajah is someone of great integrity; spirit and determination, who reflects every aspect of this in his work. Anyone would be lucky to work with him, but proud to know him.",
 
-            "test-text5": "",
-
-
-            "test-image6": "",
-
-            "test-head6": "",
-
-            "test-text6": ""
+            "test-footer3": "-Colleague",
 
 
-        }],
+            "test-image4": "https://cdn-images.imagevenue.com/86/c5/e8/ME17GED3_o.jpg",
+
+            "test-head4": "Haanim Pietersen",
+
+            "test-text4": "Muhammad Rajah is an amazing person with an amazing personality. He is someone that can present themselves in a manner that will get everyone's attention. I would recommend Muhammad Rajah as someone who can explain and grasp things well, as well as someone who is good at doing the frontend",
 
 
-        "contact": [{
-
-            "contact-head": "Get In Touch",
+            "test-footer4": "-Colleague",
 
 
-            "contact-page": "",
+            "test-image5": "https://cdn-images.imagevenue.com/ee/62/24/ME17GED2_o.jpg",
+
+            "test-head5": "Tauha Hoosain Shaik",
+
+            "test-text5": "Muhammad Rajah is a very charismatic individual with high energy and an output to match. He excels in bringing positivity and his optimism is a driving force in achieving results above the expectation. With Muhammad, impossible is nothing.",
+
+            "test-footer5": "-Colleague",
 
 
-            "contact-links": ""
+            "test-image6": "https://cdn-images.imagevenue.com/9f/8a/47/ME17GED1_o.png",
+
+            "test-head6": "Naeema Omar",
+
+            "test-text6": "Rajah is a well-spoken and energetic guy. His competitive nature pushes him to constantly strive for growth and development which makes him a dependable colleague",
+
+            "test-footer6": "-Colleague"
 
 
         }]
 
+
+  
 
 
 

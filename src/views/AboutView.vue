@@ -9,6 +9,8 @@
           <h1 id = "about-me-head">About me</h1>
     
         </div>
+
+    
      
         <div class="col-md-8 col-sm-8 mt-4">
 
@@ -43,16 +45,26 @@
   </body>
 </template>
 <script>
+import { mapGetters } from 'vuex';
+
 export default {
-    
-}
+  computed: {
+    ...mapGetters(['getAboutData']),
+    aboutData() {
+      return this.getAboutData;
+    },
+  },
+  mounted() {
+    this.$store.dispatch('fetchAboutData');
+  },
+};
 </script>
 <style scoped>
 
 #background{
   background-color: black;
   color: #44d62c;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #about-img{
