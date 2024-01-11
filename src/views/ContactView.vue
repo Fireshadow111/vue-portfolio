@@ -75,6 +75,7 @@ export default {
     #background{
       background-color: black;
       color:  #44d62c;
+      height: 100vh;
     }
 
     .contact-container {
