@@ -1,9 +1,10 @@
 <template>
-    <div>
+ 
         
         <footer id = "footer"><span id = "footer-name">محمد</span> - @Copyright&copy  - 2023</footer>
 
-    </div>
+  
+   
 </template>
 <script>
 export default {

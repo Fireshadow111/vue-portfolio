@@ -115,7 +115,14 @@
 </template>
 <script>
 export default {
-    
+    methods: {
+    fetchDataProjects() {
+      this.$store.dispatch('fetchDataProjects');
+    }
+  },
+  mounted() {
+    this.fetchDataProjects();
+  },
 }
 </script>
 <style scoped>

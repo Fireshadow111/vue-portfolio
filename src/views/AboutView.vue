@@ -48,15 +48,7 @@
 import { mapGetters } from 'vuex';
 
 export default {
-  computed: {
-    ...mapGetters(['getAboutData']),
-    aboutData() {
-      return this.getAboutData;
-    },
-  },
-  mounted() {
-    this.$store.dispatch('fetchAboutData');
-  },
+  
 };
 </script>
 <style scoped>
