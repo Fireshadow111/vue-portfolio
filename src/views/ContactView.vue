@@ -147,4 +147,137 @@ input[type=submit]:active {
 
 
 
+/* Contact Page */
+
+@media (max-width: 300px) {
+
+body {
+  flex-wrap: wrap;
+}
+
+
+.navbar {
+  padding: 5px;
+}
+
+.home-logo {
+  max-width: 100%;
+}
+
+.contact-head {
+  font-size: 30px;
+}
+
+.contactForm-div {
+  width: 90%;
+  margin: auto;
+}
+
+label {
+  font-size: 14px;
+}
+
+input[type=text] {
+  width: 100%;
+  font-size: 12px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  font-size: 12px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+input[type=submit] {
+  width: auto;
+  height: auto;
+  font-size: 14px;
+}
+
+
+
+.fa-brands {
+  margin-bottom: 10px;
+}
+
+#footer {
+  margin-top: 10px;
+  font-size: 14px;
+}
+}
+
+
+@media (max-width: 720px) {
+
+body {
+  flex-wrap: wrap;
+}
+
+.contactForm-div {
+  width: 90%;
+  margin: auto;
+}
+
+label {
+  font-size: 18px;
+}
+
+input[type=text] {
+  width: 100%;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+textarea {
+  width: 100%;
+  font-size: 16px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+input[type=submit] {
+  width: 100%;
+  height: 45px;
+  font-size: 18px;
+}
+}
+
+
+@media (max-width: 1080px) {
+.contactForm-div {
+  width: 80%;
+  margin: auto;
+}
+
+label {
+  font-size: 22px;
+}
+
+input[type=text] {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+textarea {
+  width: 100%;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+  width: 100%;
+  height: 50px;
+  font-size: 22px;
+}
+}
+
+
+
 </style>

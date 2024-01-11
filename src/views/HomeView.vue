@@ -14,7 +14,7 @@
 
 <div class = "d-flex justify-content-center mt-2">
 
-  <h1>Aspiring Full-Stack Developer</h1>
+  <h2>Web Developer</h2>
 
 </div>
 
@@ -174,6 +174,14 @@ export default {
 h1{
   font-family: "DM Serif Display";
   font-size: 70px;
+}
+
+h2{
+  color: white;
+  font-size: 45px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-style: italic;
 }
 
 #button1{
