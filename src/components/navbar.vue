@@ -4,7 +4,10 @@
 
       <nav class="navbar navbar-expand-lg  navbar-dark">
   <div class="container-fluid justify-content-center">
-    <a class="navbar-brand" href="#"></a>
+
+  
+    <a class="navbar-brand" href="#"><img id ="nav-image" src="		https://cdn-images.imagevenue.com/94/d5/66/ME17GIVB_o.jpg" alt=""></a>
+  
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -58,4 +61,10 @@ export default {
   text-decoration-thickness: 3px;
 }
     
+
+  #nav-image{
+    max-width: 160px;
+  
+    
+  }
 </style>
