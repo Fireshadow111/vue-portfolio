@@ -64,6 +64,10 @@
       </div>
 
 
+      <div class = "d-flex justify-content-center mt-4" id = "map">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13236.235373779607!2d18.543614656051087!3d-33.96532702103352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc44ce607184e1%3A0xc2c79ab7ca9c30f4!2sHeideveld%2C%20Cape%20Town%2C%207764!5e0!3m2!1sen!2sza!4v1705067887599!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
 
 
 
@@ -82,7 +86,7 @@ export default {
     #background{
       background-color: black;
       color:  #44d62c;
-      min-height: 110vh;
+      min-height: 175vh;
     }
 
     .contact-container {
@@ -114,6 +118,7 @@ label {
   font-family: "Roboto";
   font-size: 22px;
   color:#44d62c;
+  font-weight: bold;
 }
 
 input[type=text],
@@ -152,6 +157,14 @@ input[type=submit]:active {
   transform: translatex(4px);
 }
 
+.footer {
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #44d62c;
+}
+
 
 
 /* Contact Page */
@@ -163,19 +176,12 @@ body {
 }
 
 
-.navbar {
-  padding: 5px;
-}
 
-.home-logo {
-  max-width: 100%;
-}
-
-.contact-head {
+#ontact-head {
   font-size: 30px;
 }
 
-.contactForm-div {
+#contactForm-div {
   width: 90%;
   margin: auto;
 }
@@ -210,10 +216,14 @@ input[type=submit] {
   margin-bottom: 10px;
 }
 
-#footer {
-  margin-top: 10px;
-  font-size: 14px;
+#map iframe {
+    width: 100%;
+    height: 300px;
 }
+.footer {
+    font-size: 12px; 
+    padding: 5px;
+  }
 }
 
 
@@ -223,7 +233,7 @@ body {
   flex-wrap: wrap;
 }
 
-.contactForm-div {
+#contactForm-div {
   width: 90%;
   margin: auto;
 }
@@ -251,11 +261,16 @@ input[type=submit] {
   height: 45px;
   font-size: 18px;
 }
+
+#map iframe {
+            width: 100%;
+            height: 200px; 
+        }
 }
 
 
 @media (max-width: 1080px) {
-.contactForm-div {
+#contactForm-div {
   width: 80%;
   margin: auto;
 }
@@ -285,7 +300,9 @@ input[type=submit] {
 }
 }
 
-
+#map iframe {
+    width: 100%;
+  }
 .footer {
   font-size: 15px;
   color: black;
@@ -293,7 +310,6 @@ input[type=submit] {
   text-align: center;
   background-color: #44d62c;
 }
-
 
 
 

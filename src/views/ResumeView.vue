@@ -20,8 +20,8 @@
         <img src="https://cdn-images.imagevenue.com/d8/13/83/ME17GCBF_o.png">
       </div>
       <div class="bio">
-        <h1 id = "resume-name"  class="name">Muhammad</h1>
-        <p id = "resume-title" class="profession">Web Developer</p>
+        <h1 id = "resume-name"  class="name">Muhammad Rajah</h1>
+        <p id = "resume-title" class="profession"> Aspiring Frontend Devveloper</p>
       </div>
     </div>
    
@@ -186,16 +186,20 @@
 <script>	
 
 export default {
-computed:{
-	fetchDataResume(){
-		this.$store.dispatch('fetchDataResume')
-	},
+	methods: {
+    fetchDataResume() {
+      this.$store.dispatch('fetchDataResume');
+    }
+  },
+
+  computed:{
+
+raja()  {return this.$store.state.resume}
 },
 
-
-	mounted(){
-		this.fetchDataResume
-	}
+  mounted() {
+    this.fetchDataResume();
+  },
 }
     
 
@@ -653,11 +657,9 @@ h1{
 
   .footer {
     font-size: 14px;
+	padding: 5px; 
   }
 }
-
-
-
 
     
 </style>

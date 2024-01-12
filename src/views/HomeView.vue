@@ -96,7 +96,7 @@
 export default {
   name: 'HomeView',
   components: {
-   
+
   }
 }
 </script>
@@ -251,6 +251,7 @@ h2{
 
   .footer {
     font-size: 12px; 
+      margin-top: 20px;
   }
 }
 

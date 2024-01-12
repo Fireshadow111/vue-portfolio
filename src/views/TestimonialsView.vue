@@ -5,9 +5,36 @@
      
 
      
-     
         
         <div class="container">
+
+            
+<div class="row">
+    <div class="container text-center mt-3">
+<div class="row align-items-center">
+<div class = "test-head-div">
+<h1 class = "test-head">Testimonials</h1>
+</div>
+</div>
+</div>
+    <div class="col my-5">
+        <div v-for ="testimonials in raja" :key = "testimonials" style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card d-flex mx-auto">
+            <div class="card-image">
+                <img class="img-fluid d-flex mx-auto" :src="testimonials.testImage">
+            </div>
+            <div class="card-text">
+                <div class="card-title my-1">{{testimonials.testHead}}</div>
+                <p>{{testimonials.testText}}</p>
+            </div>
+            <div class="footer">
+                <span id="name">{{testimonials.testFooter}}</span>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+        
+        <!-- <div class="container">
 
             
             <div class="row">
@@ -106,7 +133,7 @@
             </div>
         </div>
 
-      
+       -->
         
         
 
@@ -129,7 +156,7 @@ export default {
 
   computed:{
 
-raja()  {return this.$store.state.projects}
+raja()  {return this.$store.state.testimonials}
 },
 
   mounted() {
@@ -234,12 +261,12 @@ img{
     
 }
 
-.card{
+/* .card{
     transition: transform 0.3s;
 }
 .card:hover{
     transform:scale(105%)
-}
+} */
 
 
 .footer2 {
@@ -251,14 +278,13 @@ img{
 }
 
 
-
 @media (max-width: 300px) {
   #background {
-    min-height: 100vh; 
+    min-height: 100vh;
   }
 
   .test-head {
-    font-size: 30px; 
+    font-size: 30px;
   }
 
   .card {
@@ -266,21 +292,28 @@ img{
   }
 
   img {
-    width: 100%; 
+    width: 100%;
   }
 
   .col-md-4 {
-    padding: 0 0.2rem; 
+    padding: 0 0.2rem;
   }
 
   .card-text {
-    padding: 1rem 1rem; 
+    padding: 1rem 1rem;
   }
 
   .footer2 {
-    font-size: 12px; 
+    font-size: 12px;
+    width: 100%; 
+    bottom: 0;
+    text-align: center;
+    background-color: #44d62c;
+    color: black;
+    font-weight: bolder;
   }
 }
+
 
 
     
