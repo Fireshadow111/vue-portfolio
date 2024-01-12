@@ -1,9 +1,8 @@
 <template>
  
         
- <footer>fsafdsfds</footer>
 
-  
+ <footer class = "footer-prob"><span class = "footer">محمد</span> - @Copyright&copy  - 2023</footer>
    
 </template>
 <script>
@@ -11,11 +10,21 @@ export default {
     
 }
 </script>
-<style>
+<style scoped>
 
-footer{
-  color: #44d62c;;
-  background-color: black;
+
+#footer {
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #44d62c;
+}
+
+.footer-prob {
+  position: sticky;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 

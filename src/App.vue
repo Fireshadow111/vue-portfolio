@@ -2,7 +2,7 @@
   
   <navbar/>
 
- 
+
   <router-view/> 
   <footer/>
 </template>
@@ -12,6 +12,7 @@
 
  import navbar from './components/navbar.vue'
  import footer from './components/footer.vue'
+
 
 export default{
 
