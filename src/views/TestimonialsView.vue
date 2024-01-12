@@ -25,7 +25,7 @@
                         </div>
                         <div class="card-text">
                             <div class="card-title my-1">Joel Mukanya</div>
-                            "Muhammad is a creative, and well-behaved individual who always prioritizes his work. He excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub."
+                            <p>"Muhammad is a creative, and well-behaved individual who always prioritizes his work. He excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub."</p>
                         </div>
                         <div class="footer">
                             <span id="name">-Coding Lecturer</span>
@@ -39,7 +39,7 @@
                         </div>
                         <div class="card-text">
                             <div class="card-title my-1">Damon Raffels</div>
-                            "Muhammad Rajah is a strong willed, hard-working man with a healthy competitive spirit when it comes to projects, always taking inspiration from others to better his knowledge and skills. He has a great understanding of the workings of the world and incredible religious values that is tuly humbling to be in the presence of."
+                           <p>"Muhammad Rajah is a strong willed, hard-working man with a healthy competitive spirit when it comes to projects, always taking inspiration from others to better his knowledge and skills. He has a great understanding of the workings of the world and incredible religious values that is tuly humbling to be in the presence of."</p> 
                         </div>
                         <div class="footer">
                             <span id="name">-Colleague</span>
@@ -53,7 +53,7 @@
                         </div>
                         <div class="card-text">
                             <div class="card-title my-1">Khwezilomso Mbobo</div>
-                            "Muhammad Rajah is someone of great integrity; spirit and determination, who reflects every aspect of this in his work. Anyone would be lucky to work with him, but proud to know him."
+                          <p>"Muhammad Rajah is someone of great integrity; spirit and determination, who reflects every aspect of this in his work. Anyone would be lucky to work with him, but proud to know him."</p>  
                         </div>
                         <div class="footer">
                             <span id="name">-Colleague</span>
@@ -68,7 +68,7 @@
                         </div>
                         <div class="card-text">
                             <div class="card-title my-1">Haanim Pietersen</div>
-                            "Muhammad Rajah is an amazing person with an amazing personality. He is someone that can present themselves in a manner that will get everyone's attention. I would recommend Muhammad Rajah as someone who can explain and grasp things well, as well as someone who is good at doing the frontend"
+                            <p>"Muhammad Rajah is an amazing person with an amazing personality. He is someone that can present themselves in a manner that will get everyone's attention. I would recommend Muhammad Rajah as someone who can explain and grasp things well, as well as someone who is good at doing the frontend"</p>
                         </div>
                         <div class="footer">
                             <span id="name">-Colleague</span>
@@ -82,7 +82,7 @@
                         </div>
                         <div class="card-text">
                             <div class="card-title my-1">Tauha Hoosain Shaik</div>
-                            "Muhammad Rajah is a very charismatic individual with high energy and an output to match. He excels in bringing positivity and his optimism is a driving force in achieving results above the expectation. With Muhammad, impossible is nothing."
+                         <p>"Muhammad Rajah is a very charismatic individual with high energy and an output to match. He excels in bringing positivity and his optimism is a driving force in achieving results above the expectation. With Muhammad, impossible is nothing."</p>   
                         </div>
                         <div class="footer">
                             <span id="name">-Colleague</span>
@@ -96,7 +96,7 @@
                         </div>
                         <div class="card-text">
                             <div class="card-title my-1">Naeema Omar</div>
-                            "Rajah is a well-spoken and energetic guy. His competitive nature pushes him to constantly strive for growth and development which makes him a dependable colleague."
+                            <p>"Rajah is a well-spoken and energetic guy. His competitive nature pushes him to constantly strive for growth and development which makes him a dependable colleague."</p>
                         </div>
                         <div class="footer">
                             <span id="name">-Colleague</span>
@@ -167,6 +167,17 @@ raja()  {return this.$store.state.projects}
     height: 450px;
     background-color: black;
 }
+
+.card-text{
+    font-size: 30px;
+}
+
+p{
+    font-size: 16px;
+}
+
+
+
 @media(max-width:767px){
     .card{
         margin: 1rem 0.7rem 1rem;
@@ -239,6 +250,37 @@ img{
   background-color: #44d62c;
 }
 
+
+
+@media (max-width: 300px) {
+  #background {
+    min-height: 100vh; 
+  }
+
+  .test-head {
+    font-size: 30px; 
+  }
+
+  .card {
+    height: auto;
+  }
+
+  img {
+    width: 100%; 
+  }
+
+  .col-md-4 {
+    padding: 0 0.2rem; 
+  }
+
+  .card-text {
+    padding: 1rem 1rem; 
+  }
+
+  .footer2 {
+    font-size: 12px; 
+  }
+}
 
 
     

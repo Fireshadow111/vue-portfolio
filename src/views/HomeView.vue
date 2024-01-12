@@ -231,7 +231,28 @@ h2{
   background-color: #44d62c;
 }
 
+@media(max-width: 300px) {
+  #heading-div {
+    border-radius: 20px; 
+  }
 
+  h1 {
+    font-size: 40px; 
+  }
+
+  h2 {
+    font-size: 20px; 
+  }
+
+  #button1, #button2 {
+    font-size: 16px; 
+    margin-top: 10px; 
+  }
+
+  .footer {
+    font-size: 12px; 
+  }
+}
 
 
 

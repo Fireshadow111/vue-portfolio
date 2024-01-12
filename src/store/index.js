@@ -27,27 +27,44 @@ export default createStore({
 
   actions: {
     fetchDataResume(context) {
-      axios.get(url)
-        .then((r) => {
-          context.commit("setResume", r.data.resume);
-          console.log(r.data.resume);
-        });
+      try {
+        axios.get(url)
+          .then((r) => {
+            context.commit("setResume", r.data.resume);
+            console.log(r.data.resume);
+          });
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
     },
-
+  
     fetchDataProjects(context) {
-      axios.get(url)
-        .then((p) => {
-          context.commit("setProjects", p.data.projects);
-          console.log(p.data.projects);
-        });
-    },
+      try {
 
+        axios.get(url)
+          .then((p) => {
+            context.commit("setProjects", p.data.projects);
+            console.log(p.data.projects);
+          });
+      } catch (error) {
+
+        console.error("Error fetching data:", error);
+
+      }
+    },
+  
     fetchDataTestimonials(context) {
-      axios.get(url)
-        .then((t) => {
-          context.commit("setTestimonials", t.data.testimonials);
-          console.log(t.data.testimonials);
-        });
+      try {
+        axios.get(url)
+          .then((t) => {
+            context.commit("setTestimonials", t.data.testimonials);
+
+            console.log(t.data.testimonials);
+          });
+      } catch (error) {
+        
+        console.error("Error fetching data:", error);
+      }
     },
   },
 
