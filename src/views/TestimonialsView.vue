@@ -147,7 +147,13 @@
 
 </template>
 <script>
+
+
 export default {
+
+    components:{
+    
+    },
     methods: {
     fetchDataTestimonials() {
       this.$store.dispatch('fetchDataTestimonials');

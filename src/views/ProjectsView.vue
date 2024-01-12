@@ -169,7 +169,7 @@ raja()  {return this.$store.state.projects}
 #background{
     background-color: black;
     color: #44d62c;
-    min-height: 140vh;
+    min-height: 120vh;
   
 }
 
