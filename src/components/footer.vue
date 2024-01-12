@@ -2,7 +2,7 @@
  
         
 
- <footer class = "footer-prob"><span class = "footer">محمد</span> - @Copyright&copy  - 2023</footer>
+ <footer class = "footer">محمد - @Copyright&copy  - 2023</footer>
    
 </template>
 <script>
@@ -18,13 +18,6 @@ export default {
   font-weight: bolder;
   text-align: center;
   background-color: #44d62c;
-}
-
-.footer-prob {
-  position: sticky;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
 
 

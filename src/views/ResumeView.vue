@@ -614,6 +614,49 @@ h1{
 
 
 
+@media (max-width: 300px) {
+  #background {
+    min-height: auto;
+  }
+
+  .wrapper {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .intro, .detail {
+    flex: 0 0 100%;
+    box-shadow: none;
+  }
+
+  .photo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .timeline-block {
+    padding-left: 15px;
+  }
+
+  .sb-skeleton {
+    height: 1px;
+  }
+
+  .tool-list > li {
+    flex: 0 0 100%;
+    margin-bottom: 1rem;
+  }
+
+  .tool-list > li > svg {
+    width: 100%;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
+}
+
+
 
 
     

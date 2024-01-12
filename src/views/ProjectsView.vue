@@ -226,8 +226,12 @@ p{
   background-color: #44d62c;
 }
 
+@media (max-width: 300px) {
+  .card {
+    margin: 0 auto 10px;
+  }
 
-
+}
 </style>
 
         
