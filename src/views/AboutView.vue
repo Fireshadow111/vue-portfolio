@@ -42,10 +42,18 @@
       </div>
     </div>
 
+
+
+
+
+  
+
+
+    <footer class = "footer fixed-bottom">محمد - @Copyright&copy  - 2023</footer>
   </body>
 </template>
 <script>
-import { mapGetters } from 'vuex';
+
 
 export default {
   
@@ -132,5 +140,15 @@ export default {
 #about-me-pi-bod4{
   
 } */
+
+.footer {
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #44d62c;
+}
+
+
 
 </style>

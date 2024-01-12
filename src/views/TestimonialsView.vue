@@ -112,8 +112,10 @@
 
         
  
+  
 
 
+<footer class = "footer2 fixed-bottom">محمد - @Copyright&copy  - 2023</footer>
 </body>
 
 </template>
@@ -143,6 +145,7 @@ raja()  {return this.$store.state.projects}
     justify-content: center;
     background-color: black;
     font-family: sans-serif;
+    min-height: 165vh;
 }
 
 .test-head{
@@ -226,5 +229,17 @@ img{
 .card:hover{
     transform:scale(105%)
 }
+
+
+.footer2 {
+ font-size: 15px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #44d62c;
+}
+
+
+
     
 </style>

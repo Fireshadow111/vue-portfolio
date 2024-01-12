@@ -174,6 +174,11 @@
 </div>
 
 
+
+  
+
+
+<footer class = "footer fixed-bottom">محمد - @Copyright&copy  - 2023</footer>
    </body>
         
     
@@ -187,10 +192,7 @@ computed:{
 	},
 },
 
-computed:{
 
-raja()  {return this.$store.state.projects}
-},
 	mounted(){
 		this.fetchDataResume
 	}
@@ -204,6 +206,7 @@ raja()  {return this.$store.state.projects}
 #background{
     background-color: black;
     color: #44d62c;
+	min-height: 140vh;
 		
 }
 
@@ -333,7 +336,6 @@ raja()  {return this.$store.state.projects}
 	height: 2px;
 	background-color: #44d62c;
 	transition: width 0.3s;
-	/*transition-timing-function: cubic-bezier(.64,.51,.16,.86);*/
 	transition-timing-function: cubic-bezier(.92,.57,.33,1.02);
 	transform: translate(-50%, 0);
 }
@@ -411,7 +413,7 @@ h1{
 	letter-spacing: 1.5px;
 }
 
-/* time line block in education section */
+
 .timeline-block {
 	position: relative;
 	padding-left: 30px;
@@ -460,7 +462,6 @@ h1{
 	animation: circle 1.2s infinite;
 }
 
-/* Programming skills section */
 .pg-list, .tool-list, .favor-list {
 	padding: 0;
 	list-style: none;
@@ -539,7 +540,7 @@ h1{
 	font-size: 1rem;
 	transform: translate(-50%, -50%);
 }
-/* Interests Section */
+
 .outer-frame {
 	border: 1px solid #9a9a9a;
 	border-radius: 5px;
@@ -601,6 +602,15 @@ h1{
 	}
 } 
 
+
+
+.footer {
+  font-size: 15px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #44d62c;
+}
 
 
 
