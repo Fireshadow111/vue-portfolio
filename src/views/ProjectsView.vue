@@ -10,10 +10,9 @@
                             <div class="cardImage">
                             <img   style = "border-radius: 20px;" class="img-fluid d-flex mx-auto" :src="projects.projImage">
                         </div>
-                        <div class="card-text">
-                            <div class="card-title my-1">Interest Calculator</div>
-                            <p>This project users JavaScript and accepts numeric inputs and outputs the amount of interest accumulated
-                            over the duration given.</p>
+                        <div class="card-text"  v-for = "projects in raja" :key = "projects">
+                            <div class="card-title my-1">{{projects.projCardTitle}}</div>
+                            <p v-for = "projects in raja" :key = "projects">{{projects.projCardInfo}}</p>
                         </div>
                         <div class="footer">
                           <a target = _blank href="https://fancy-begonia-21b598.netlify.app/" style = "color: black; font-weight: bold;" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a>
@@ -25,8 +24,8 @@
                 </div>
 
             </div> 
-
-       -->
+       </div> -->
+      
 
        <div class="container text-center">
       <div class="row align-items-center">
@@ -137,6 +136,14 @@
         </div>
 
         
+
+
+
+
+  
+
+
+        <footer class = "footer fixed-bottom">محمد - @Copyright&copy  - 2023</footer>
     </body>
 </template>
 <script>
@@ -146,6 +153,11 @@ export default {
       this.$store.dispatch('fetchDataProjects');
     }
   },
+
+  computed:{
+
+raja()  {return this.$store.state.projects}
+},
   mounted() {
     this.fetchDataProjects();
   },
@@ -157,6 +169,7 @@ export default {
 #background{
     background-color: black;
     color: #44d62c;
+    min-height: 140vh;
   
 }
 
@@ -203,6 +216,17 @@ p{
 .btn:hover i.fab.fa-github {
     transform: scale(115%);
 }
+
+
+.footer {
+    font-size: 15px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #44d62c;
+}
+
+
 
 </style>
 

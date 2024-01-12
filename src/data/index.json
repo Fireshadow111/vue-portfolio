@@ -65,20 +65,20 @@
 
             {
                     "projImage": "https://cdn-images.imagevenue.com/01/e1/1e/ME17GDPY_o.png",
-                    "proj-card-title": "Interest Calculator",
-                    "proj-card-info": "This project users JavaScript and accepts numeric inputs and outputs the amount of interest accumulated over the duration given.",
-                    "live-link": "https://fancy-begonia-21b598.netlify.app/",
-                    "github": "https://github.com/Fireshadow111/interest-amount.git"
+                    "projCardTitle": "Interest Calculator",
+                    "projCardInfo": "This project users JavaScript and accepts numeric inputs and outputs the amount of interest accumulated over the duration given.",
+                    "liveLink": "https://fancy-begonia-21b598.netlify.app/",
+                    "gitHub": "https://github.com/Fireshadow111/interest-amount.git"
         
                   },
         
                {
         
                     "projImage": "https://cdn-images.imagevenue.com/d9/ea/be/ME17GDQ4_o.png",
-                    "proj-card-title": "Ecommerce Store",
-                    "proj-card-info": "Created with HTML/CSS/JavaScript that allows a user to add to cart, checkout and also gives administrative privilages to admins.",
-                    "live-link": "https://ecommerce-store-javascript.netlify.app/",
-                    "github": "https://github.com/Fireshadow111/ecommerce-store-javascript.git"
+                    "projCardTitle": "Ecommerce Store",
+                    "projCardInfo": "Created with HTML/CSS/JavaScript that allows a user to add to cart, checkout and also gives administrative privilages to admins.",
+                    "liveLink": "https://ecommerce-store-javascript.netlify.app/",
+                    "gitHub": "https://github.com/Fireshadow111/ecommerce-store-javascript.git"
         
                   },
         
@@ -86,20 +86,20 @@
                 {
         
                     "projImage": "https://cdn-images.imagevenue.com/89/9f/2c/ME17GDQ1_o.png",
-                    "proj-card-title": "RGB to HEX Converter",
-                    "proj-card-info": "The primary function of the project involves receiving input in the form of RGB (Red, Green, Blue) color values and outputs the HEX colour equivalent",
-                    "live-link": "https://chipper-biscotti-6718f0.netlify.app/",
-                    "github": "https://github.com/Fireshadow111/rgb-to-hex.git"
+                    "projCardTitle": "RGB to HEX Converter",
+                    "projCardInfo": "The primary function of the project involves receiving input in the form of RGB (Red, Green, Blue) color values and outputs the HEX colour equivalent",
+                    "liveLink": "https://chipper-biscotti-6718f0.netlify.app/",
+                    "gitHub": "https://github.com/Fireshadow111/rgb-to-hex.git"
         
                   },
         
                {
         
                     "projImage": "https://cdn-images.imagevenue.com/61/c0/1c/ME17GDPZ_o.png",
-                    "proj-card-title": "Temperature Converter",
-                    "proj-card-info": "This project users JavaScript and converts fahrenheit to celsius.",
-                    "live-link": "https://chipper-sundae-f73811.netlify.app/",
-                    "github": "https://github.com/Fireshadow111/tempConverter-project.git"
+                    "projCardTitle": "Temperature Converter",
+                    "projCardInfo": "This project users JavaScript and converts fahrenheit to celsius.",
+                    "liveLink": "https://chipper-sundae-f73811.netlify.app/",
+                    "gitHub": "https://github.com/Fireshadow111/tempConverter-project.git"
         
                   },
         
@@ -108,19 +108,19 @@
         
                      
                     "projImage": "https://cdn-images.imagevenue.com/54/6f/57/ME17GDQ5_o.png",
-                    "proj-card-title": "Razer Store",
-                    "proj-card-info": "This is a store created with HTML/CSS, it has no real functionality.",
-                    "live-link": "https://musical-dodol-21bd7b.netlify.app/",
-                    "github": "https://github.com/Fireshadow111/razer-project-personal.git"
+                    "projCardTitle": "Razer Store",
+                    "projCardInfo": "This is a store created with HTML/CSS, it has no real functionality.",
+                    "liveLink": "https://musical-dodol-21bd7b.netlify.app/",
+                    "gitHub": "https://github.com/Fireshadow111/razer-project-personal.git"
         
                   },
         
              {
-                    "projImage": "https://cdn-images.imagevenue.com/20/e1/23/ME17GDQ2_o.pngg",
-                    "proj-card-title": "Calculator",
-                    "proj-card-info": "This calculator accepts the numbers and operations clicked by the user and outputs the answer.",
-                    "live-link": "https://effulgent-banoffee-8f84bc.netlify.app/",
-                    "github": "https://github.com/Fireshadow111/fancy-calculator.git"
+                    "projImage": "https://cdn-images.imagevenue.com/20/e1/23/ME17GDQ2_o.png",
+                    "projCardTitle": "Calculator",
+                    "projCardInfo": "This calculator accepts the numbers and operations clicked by the user and outputs the answer.",
+                    "liveLink": "https://effulgent-banoffee-8f84bc.netlify.app/",
+                    "gitHub": "https://github.com/Fireshadow111/fancy-calculator.git"
                   }
       
 

@@ -14,7 +14,7 @@
 
 <div class = "d-flex justify-content-center mt-2">
 
-  <h2>Web Developer</h2>
+  <h2>Aspiring Front End Developer</h2>
 
 </div>
 
@@ -81,7 +81,8 @@
 
   
 
-<!-- <footer id = "footer"><span id = "footer-name">محمد</span> - @Copyright&copy  - 2023</footer> -->
+
+<footer class = "footer fixed-bottom">محمد - @Copyright&copy  - 2023</footer>
 </body>
     
     
@@ -119,7 +120,7 @@ export default {
   background-image: url("https://cdn-images.imagevenue.com/66/ad/a9/ME17G3OJ_o.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #heading-div{
@@ -222,21 +223,14 @@ h2{
 }
 
 
-/* #footer {
+.footer {
   font-size: 15px;
-  color: #44d62c;
+  color: black;
   font-weight: bolder;
   text-align: center;
-  background-color: black
+  background-color: #44d62c;
 }
 
-.footer-prob {
-  position: sticky;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background-color: ba;
-} */
 
 
 
