@@ -151,5 +151,13 @@ export default {
 
 
 
+@media (max-width: 300px) {
+  .footer {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 
 </style>
