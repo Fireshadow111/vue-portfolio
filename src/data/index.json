@@ -2,41 +2,36 @@
   "resume": {
     "resumeImage1": "https://cdn-images.imagevenue.com/d8/13/83/ME17GCBF_o.png"
   },
-  "resumeContact": [
+  "contactInfo": {
+    "resumeName": "Muhammad Rajah",
+    "profession": "Web Developer",
+    "contactTitle": "Contact",
+    "number": "067 774 1883",
+    "location": "Heideveld",
+    "email": "muhammadrajah22@gmail.com"
+  },
+  "socialLinks": [
     {
-      "resumeName": "Muhammad Rajah",
-      "profession": "Web Developer",
-      "contactTitle": "Contact",
-      "number": "067 774 1883",
-      "location": "Heideveld",
-      "email": "muhammadrajah22@gmail.com",
-
-      "socials": [
-        {
-          "name": "LinkedIn",
-          "link": "https://www.linkedin.com/in/muhammad-rajah-a1a00421a/"
-        },
-        {
-          "name": "GitHub",
-          "link": "https://github.com/Fireshadow111"
-        },
-        {
-          "name": "WhatsApp",
-          "link": "https://wa.me/+277741883"
-        },
-        {
-          "name": "Instagram",
-          "link": "https://www.instagram.com/muhammadrajah111/"
-        },
-        {
-          "name": "Facebook",
-          "link": "https://www.facebook.com/muhammad.rajah.716/"
-        }
-      ]
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/muhammad-rajah-a1a00421a/"
+    },
+    {
+      "name": "GitHub",
+      "link": "https://github.com/Fireshadow111"
+    },
+    {
+      "name": "WhatsApp",
+      "link": "https://wa.me/+277741883"
+    },
+    {
+      "name": "Instagram",
+      "link": "https://www.instagram.com/muhammadrajah111/"
+    },
+    {
+      "name": "Facebook",
+      "link": "https://www.facebook.com/muhammad.rajah.716/"
     }
   ],
-
-  "resumeHeading1": "Education",
   "education": [
     {
       "school": "Life Choices Coding Academy",
@@ -54,8 +49,7 @@
       "period": "2023 - 2024"
     }
   ],
-  "resumeHeading2": "Job Experience",
-  "jobExperience": [
+  "workExperience": [
     {
       "position": "Sales",
       "company": "Dauntless Dynasty Marketing"
@@ -67,133 +61,133 @@
   ],
 
     
-        "projects":{
-            "projects-head": "Projects"
-        },
+        "projects":[
+
+            {
+                    "card-image": "https://cdn-images.imagevenue.com/01/e1/1e/ME17GDPY_o.png",
+                    "proj-card-title": "Interest Calculator",
+                    "proj-card-info": "This project users JavaScript and accepts numeric inputs and outputs the amount of interest accumulated over the duration given.",
+                    "live-link": "https://fancy-begonia-21b598.netlify.app/",
+                    "github": "https://github.com/Fireshadow111/interest-amount.git"
+        
+                  },
+        
+               {
+        
+                    "card-image": "https://cdn-images.imagevenue.com/d9/ea/be/ME17GDQ4_o.png",
+                    "proj-card-title": "Ecommerce Store",
+                    "proj-card-info": "Created with HTML/CSS/JavaScript that allows a user to add to cart, checkout and also gives administrative privilages to admins.",
+                    "live-link": "https://ecommerce-store-javascript.netlify.app/",
+                    "github": "https://github.com/Fireshadow111/ecommerce-store-javascript.git"
+        
+                  },
+        
+        
+                {
+        
+                    "card-image": "https://cdn-images.imagevenue.com/89/9f/2c/ME17GDQ1_o.png",
+                    "proj-card-title": "RGB to HEX Converter",
+                    "proj-card-info": "The primary function of the project involves receiving input in the form of RGB (Red, Green, Blue) color values and outputs the HEX colour equivalent",
+                    "live-link": "https://chipper-biscotti-6718f0.netlify.app/",
+                    "github": "https://github.com/Fireshadow111/rgb-to-hex.git"
+        
+                  },
+        
+               {
+        
+                    "card-image": "https://cdn-images.imagevenue.com/61/c0/1c/ME17GDPZ_o.png",
+                    "proj-card-title": "Temperature Converter",
+                    "proj-card-info": "This project users JavaScript and converts fahrenheit to celsius.",
+                    "live-link": "https://chipper-sundae-f73811.netlify.app/",
+                    "github": "https://github.com/Fireshadow111/tempConverter-project.git"
+        
+                  },
+        
+        
+                  {
+        
+                     
+                    "card-image": "https://cdn-images.imagevenue.com/54/6f/57/ME17GDQ5_o.png",
+                    "proj-card-title": "Razer Store",
+                    "proj-card-info": "This is a store created with HTML/CSS, it has no real functionality.",
+                    "live-link": "https://musical-dodol-21bd7b.netlify.app/",
+                    "github": "https://github.com/Fireshadow111/razer-project-personal.git"
+        
+                  },
+        
+             {
+                    "card-image": "https://cdn-images.imagevenue.com/20/e1/23/ME17GDQ2_o.pngg",
+                    "proj-card-title": "Calculator",
+                    "proj-card-info": "This calculator accepts the numbers and operations clicked by the user and outputs the answer.",
+                    "live-link": "https://effulgent-banoffee-8f84bc.netlify.app/",
+                    "github": "https://github.com/Fireshadow111/fancy-calculator.git"
+                  }
+      
+
+        ],
  
 
-        "proj-cards1": [
-    {
-            "card-image1": "https://cdn-images.imagevenue.com/01/e1/1e/ME17GDPY_o.png",
-            "proj-card-title1": "Interest Calculator",
-            "proj-card-info1": "This project users JavaScript and accepts numeric inputs and outputs the amount of interest accumulated over the duration given.",
-            "live-link1": "https://fancy-begonia-21b598.netlify.app/",
-            "github1": "https://github.com/Fireshadow111/interest-amount.git"
-
-          }],
-
-          "proj-cards2": [{
-
-            "card-image2": "https://cdn-images.imagevenue.com/d9/ea/be/ME17GDQ4_o.png",
-            "proj-card-title2": "Ecommerce Store",
-            "proj-card-info2": "Created with HTML/CSS/JavaScript that allows a user to add to cart, checkout and also gives administrative privilages to admins.",
-            "live-link2": "https://ecommerce-store-javascript.netlify.app/",
-            "github2": "https://github.com/Fireshadow111/ecommerce-store-javascript.git"
-
-          }],
-
-
-          "proj-cards3":[{
-
-            "card-image3": "https://cdn-images.imagevenue.com/89/9f/2c/ME17GDQ1_o.png",
-            "proj-card-title3": "RGB to HEX Converter",
-            "proj-card-info3": "The primary function of the project involves receiving input in the form of RGB (Red, Green, Blue) color values and outputs the HEX colour equivalent",
-            "live-link3": "https://chipper-biscotti-6718f0.netlify.app/",
-            "github3": "https://github.com/Fireshadow111/rgb-to-hex.git"
-
-          }],
-
-          "proj-cards4":[{
-
-            "card-image4": "https://cdn-images.imagevenue.com/61/c0/1c/ME17GDPZ_o.png",
-            "proj-card-title4": "Temperature Converter",
-            "proj-card-info4": "This project users JavaScript and converts fahrenheit to celsius.",
-            "live-link4": "https://chipper-sundae-f73811.netlify.app/",
-            "github4": "https://github.com/Fireshadow111/tempConverter-project.git"
-
-          }],
-
-
-          "proj-cards-5": [{
-
-             
-            "card-image5": "https://cdn-images.imagevenue.com/54/6f/57/ME17GDQ5_o.png",
-            "proj-card-title5": "Razer Store",
-            "proj-card-info5": "This is a store created with HTML/CSS, it has no real functionality.",
-            "live-link5": "https://musical-dodol-21bd7b.netlify.app/",
-            "github5": "https://github.com/Fireshadow111/razer-project-personal.git"
-
-          }],
-
-
-          "proj-cards-6": [{
-
-            "card-image6": "https://cdn-images.imagevenue.com/20/e1/23/ME17GDQ2_o.pngg",
-            "proj-card-title6": "Calculator",
-            "proj-card-info6": "This calculator accepts the numbers and operations clicked by the user and outputs the answer.",
-            "live-link6": "https://effulgent-banoffee-8f84bc.netlify.app/",
-            "github6": "https://github.com/Fireshadow111/fancy-calculator.git"
-          }],
-
+   
            
           
           
-        "testimonials":{
+        "testimonials":[
 
-          "test1":[{
+         {
 
-            "test-image1": "https://cdn-images.imagevenue.com/46/b0/a9/ME17GECZ_o.jpg",
-            "test-head1": "Joel Mukanya",
-            "test-text1": "Muhammad is a creative, and well-behaved individual who always prioritizes his work. He excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub.",
-            "test-footer1": "-Coding Lecturer"
+            "test-image": "https://cdn-images.imagevenue.com/46/b0/a9/ME17GECZ_o.jpg",
+            "test-head": "Joel Mukanya",
+            "test-text": "Muhammad is a creative, and well-behaved individual who always prioritizes his work. He excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub.",
+            "test-footer": "-Coding Lecturer"
 
-            }],
-
-
-            "test2":[{
-
-              "test-image2": "https://cdn-images.imagevenue.com/93/11/7c/ME17GED0_o.jpg",
-              "test-head2": "Damon Raffels",
-              "test-text2": "Muhammad Rajah is a strong willed, hard-working man with a healthy competitive spirit when it comes to projects, always taking inspiration from others to better his knowledge and skills. He has a great understanding of the workings of the world and incredible religious values that is tuly humbling to be in the presence of.",
-              "test-footer2": "-Colleague"
-
-            }],
+            },
 
 
-            "test3":[{
+            {
 
-              "test-image3": "https://cdn-images.imagevenue.com/18/d4/1c/ME17GED4_o.jpg",
-              "test-head3": "Khwezilomso Mbobo",
-              "test-text3": "Muhammad Rajah is someone of great integrity; spirit and determination, who reflects every aspect of this in his work. Anyone would be lucky to work with him, but proud to know him.",
-              "test-footer3": "-Colleague"
+              "test-image": "https://cdn-images.imagevenue.com/93/11/7c/ME17GED0_o.jpg",
+              "test-head": "Damon Raffels",
+              "test-text": "Muhammad Rajah is a strong willed, hard-working man with a healthy competitive spirit when it comes to projects, always taking inspiration from others to better his knowledge and skills. He has a great understanding of the workings of the world and incredible religious values that is tuly humbling to be in the presence of.",
+              "test-footer": "-Colleague"
 
-            }],
-
-
-            "test4":[{
-
-              "test-image4": "https://cdn-images.imagevenue.com/86/c5/e8/ME17GED3_o.jpg",
-              "test-head4": "Haanim Pietersen",
-              "test-text4": "Muhammad Rajah is an amazing person with an amazing personality. He is someone that can present themselves in a manner that will get everyone's attention. I would recommend Muhammad Rajah as someone who can explain and grasp things well, as well as someone who is good at doing the frontend",
-              "test-footer4": "-Colleague"
-
-            }],
+            },
 
 
-            "test5":[{
+            {
 
-            "test-image5": "https://cdn-images.imagevenue.com/ee/62/24/ME17GED2_o.jpg",
-            "test-head5": "Tauha Hoosain Shaik",
-            "test-text5": "Muhammad Rajah is a very charismatic individual with high energy and an output to match. He excels in bringing positivity and his optimism is a driving force in achieving results above the expectation. With Muhammad, impossible is nothing.",
-            "test-footer5": "-Colleague"
+              "test-image": "https://cdn-images.imagevenue.com/18/d4/1c/ME17GED4_o.jpg",
+              "test-head": "Khwezilomso Mbobo",
+              "test-text": "Muhammad Rajah is someone of great integrity; spirit and determination, who reflects every aspect of this in his work. Anyone would be lucky to work with him, but proud to know him.",
+              "test-footer": "-Colleague"
 
-            }],
+            },
+
+
+           {
+
+              "test-image": "https://cdn-images.imagevenue.com/86/c5/e8/ME17GED3_o.jpg",
+              "test-head": "Haanim Pietersen",
+              "test-text": "Muhammad Rajah is an amazing person with an amazing personality. He is someone that can present themselves in a manner that will get everyone's attention. I would recommend Muhammad Rajah as someone who can explain and grasp things well, as well as someone who is good at doing the frontend",
+              "test-footer": "-Colleague"
+
+            },
+
+
+            {
+
+            "test-image": "https://cdn-images.imagevenue.com/ee/62/24/ME17GED2_o.jpg",
+            "test-head": "Tauha Hoosain Shaik",
+            "test-text": "Muhammad Rajah is a very charismatic individual with high energy and an output to match. He excels in bringing positivity and his optimism is a driving force in achieving results above the expectation. With Muhammad, impossible is nothing.",
+            "test-footer": "-Colleague"
+
+            },
            
-           "test6":[{
-            "test-image6": "https://cdn-images.imagevenue.com/9f/8a/47/ME17GED1_o.png",
-            "test-head6": "Naeema Omar",
-            "test-text6": "Rajah is a well-spoken and energetic guy. His competitive nature pushes him to constantly strive for growth and development which makes him a dependable colleague",
-            "test-footer6": "-Colleague"
+           {
+            "test-image": "https://cdn-images.imagevenue.com/9f/8a/47/ME17GED1_o.png",
+            "test-head": "Naeema Omar",
+            "test-text": "Rajah is a well-spoken and energetic guy. His competitive nature pushes him to constantly strive for growth and development which makes him a dependable colleague",
+            "test-footer": "-Colleague"
 
-           }]
-          }}
+           }
+          ]
+        }
