@@ -119,14 +119,20 @@
 </template>
 <script>
 export default {
-//     methods: {
-//     fetchDataTestimonials() {
-//       this.$store.dispatch('fetchDataTestimonials');
-//     }
-//   },
-//   mounted() {
-//     this.fetchDataTestimonials();
-//   },
+    methods: {
+    fetchDataTestimonials() {
+      this.$store.dispatch('fetchDataTestimonials');
+    }
+  },
+
+  computed:{
+
+raja()  {return this.$store.state.projects}
+},
+
+  mounted() {
+    this.fetchDataTestimonials();
+  },
 }
 </script>
 <style scoped>

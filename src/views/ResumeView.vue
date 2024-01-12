@@ -1,11 +1,6 @@
 <template>
    <body id = "background">
 
-	<!-- <div v-for = "resumes in $store.state.resume" :key = "resumes">
-		<img :src="resumes.resumeImage1" alt="">
-	</div>
- -->
-
 	<div class="container text-center">
      <div class="row align-items-center">
      <div class = "resume-head-div mt-3">
@@ -22,7 +17,7 @@
   <div class="intro">
     <div class="profile">
       <div class="photo">
-        <img v-for = "resumes in $store.state.resume" :key = "resumes" src=resumeImage1>
+        <img src="https://cdn-images.imagevenue.com/d8/13/83/ME17GCBF_o.png">
       </div>
       <div class="bio">
         <h1 id = "resume-name"  class="name">Muhammad</h1>
@@ -190,6 +185,11 @@ computed:{
 	fetchDataResume(){
 		this.$store.dispatch('fetchDataResume')
 	},
+},
+
+computed:{
+
+raja()  {return this.$store.state.projects}
 },
 	mounted(){
 		this.fetchDataResume
