@@ -1,7 +1,7 @@
 <template>
  
         
-        <footer id = "footer"><span id = "footer-name">محمد</span> - @Copyright&copy  - 2023</footer>
+ <footer>fsafdsfds</footer>
 
   
    
@@ -12,14 +12,12 @@ export default {
 }
 </script>
 <style>
-    
-    #footer {
-      font-size: 25px;
-    }
-  
-    #footer-name {
-      font-size: 35px;
-    }
+
+footer{
+  color: #44d62c;;
+  background-color: black;
+}
+
 
 
 </style>

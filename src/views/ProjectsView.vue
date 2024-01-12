@@ -160,7 +160,13 @@ p{
   
 }
 
-
+.card{
+    transition: transform 0.3s;
+}
+.card:hover{
+    transform:scale(105%)
+}
+    
 
 .btn i.fas.fa-link,
 .btn i.fab.fa-github {
