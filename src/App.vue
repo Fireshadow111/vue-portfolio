@@ -2,8 +2,9 @@
   
   <navbar/>
 
+ 
+  <router-view/> 
   <footer/>
-  <router-view/>
 </template>
 
 

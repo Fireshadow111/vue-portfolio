@@ -119,14 +119,14 @@
 </template>
 <script>
 export default {
-    methods: {
-    fetchDataTestimonials() {
-      this.$store.dispatch('fetchDataTestimonials');
-    }
-  },
-  mounted() {
-    this.fetchDataTestimonials();
-  },
+//     methods: {
+//     fetchDataTestimonials() {
+//       this.$store.dispatch('fetchDataTestimonials');
+//     }
+//   },
+//   mounted() {
+//     this.fetchDataTestimonials();
+//   },
 }
 </script>
 <style scoped>

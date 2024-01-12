@@ -15,9 +15,9 @@
       <div id = "proj-con" class="container text-center">
             <div class="row">
                 <div class="col-md-4 my-5">
-                    <div style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card d-flex mx-auto">
+                    <div v-for = "projects in $store.state.project" :key = "projects" style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card d-flex mx-auto">
                         <div class="card-image">
-                            <img style = "border-radius: 20px;" class="img-fluid d-flex mx-auto" src="https://cdn-images.imagevenue.com/01/e1/1e/ME17GDPY_o.png">
+                            <img style = "border-radius: 20px;" class="img-fluid d-flex mx-auto" :src="projects.card-image">
                         </div>
                         <div class="card-text">
                             <div class="card-title my-1">Interest Calculator</div>
@@ -31,7 +31,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 my-5">
+
+            </div>
+
+      </div>
+                <!-- <div class="col-md-4 my-5">
                     <div style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card d-flex mx-auto">
                         <div class="card-image">
                             <img style = "border-radius: 20px;" class="img-fluid d-flex mx-auto" src="https://cdn-images.imagevenue.com/d9/ea/be/ME17GDQ4_o.png">
@@ -108,21 +112,21 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         
     </body>
 </template>
 <script>
 export default {
-    methods: {
-    fetchDataProjects() {
+     methods: {
+   fetchDataProjects() {
       this.$store.dispatch('fetchDataProjects');
-    }
-  },
-  mounted() {
-    this.fetchDataProjects();
-  },
+     }
+   },
+   mounted() {
+     this.fetchDataProjects();
+   },
 }
 </script>
 <style scoped>
