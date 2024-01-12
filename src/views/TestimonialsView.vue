@@ -1,287 +1,192 @@
-<template>
-    <body id = "background">
+{
+  "resume": [{
+    "resumeImage1": "https://cdn-images.imagevenue.com/d8/13/83/ME17GCBF_o.png"
+  },
+   {
+    "resumeName": "Muhammad Rajah",
+    "profession": "Web Developer",
+    "contactTitle": "Contact",
+    "number": "067 774 1883",
+    "location": "Heideveld",
+    "email": "muhammadrajah22@gmail.com"
+  },
+   
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/muhammad-rajah-a1a00421a/"
+    },
+    {
+      "name": "GitHub",
+      "link": "https://github.com/Fireshadow111"
+    },
+    {
+      "name": "WhatsApp",
+      "link": "https://wa.me/+277741883"
+    },
+    {
+      "name": "Instagram",
+      "link": "https://www.instagram.com/muhammadrajah111/"
+    },
+    {
+      "name": "Facebook",
+      "link": "https://www.facebook.com/muhammad.rajah.716/"
+    },
+   
+    {
+      "school": "Life Choices Coding Academy",
+      "degree": "Web Development",
+      "period": "2023 - Present"
+    },
+    {
+      "school": "College of Cape Town",
+      "degree": "NCV IT - level 4",
+      "period": "2019 - 2021"
+    },
+    {
+      "school": "International Peace College",
+      "degree": "Bachelors Degree in Arabic and Islamic Studies",
+      "period": "2023 - 2024"
+    }
+  ,
+   
+    {
+      "position": "Sales",
+      "company": "Dauntless Dynasty Marketing"
+    },
+    {
+      "position": "Administration",
+      "company": "Islamic Relief"
+    }
+  ],
 
+    
+        "projects":[
 
-     
-
-     
-     
+            {
+                    "projImage": "https://cdn-images.imagevenue.com/01/e1/1e/ME17GDPY_o.png",
+                    "projCardTitle": "Interest Calculator",
+                    "projCardInfo": "This project users JavaScript and accepts numeric inputs and outputs the amount of interest accumulated over the duration given.",
+                    "liveLink": "https://fancy-begonia-21b598.netlify.app/",
+                    "gitHub": "https://github.com/Fireshadow111/interest-amount.git"
         
-        <div class="container">
-
-            
-            <div class="row">
-                <div class="container text-center mt-3">
-    <div class="row align-items-center">
-      <div class = "test-head-div">
-        <h1 class = "test-head">Testimonials</h1>
-          </div>
-        </div>
-        </div>
-                <div class="col-md-4 my-5">
-                    <div style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card d-flex mx-auto">
-                        <div class="card-image">
-                            <img class="img-fluid d-flex mx-auto" src="https://cdn-images.imagevenue.com/46/b0/a9/ME17GECZ_o.jpg">
-                        </div>
-                        <div class="card-text">
-                            <div class="card-title my-1">Joel Mukanya</div>
-                            <p>"Muhammad is a creative, and well-behaved individual who always prioritizes his work. He excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub."</p>
-                        </div>
-                        <div class="footer">
-                            <span id="name">-Coding Lecturer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-5">
-                    <div style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card d-flex mx-auto">
-                        <div class="card-image">
-                            <img class="img-fluid d-flex mx-auto" src="	https://cdn-images.imagevenue.com/93/11/7c/ME17GED0_o.jpg">
-                        </div>
-                        <div class="card-text">
-                            <div class="card-title my-1">Damon Raffels</div>
-                           <p>"Muhammad Rajah is a strong willed, hard-working man with a healthy competitive spirit when it comes to projects, always taking inspiration from others to better his knowledge and skills. He has a great understanding of the workings of the world and incredible religious values that is tuly humbling to be in the presence of."</p> 
-                        </div>
-                        <div class="footer">
-                            <span id="name">-Colleague</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-5">
-                    <div style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card d-flex mx-auto ">
-                        <div class="card-image">
-                            <img class="img-fluid d-flex mx-auto" src="	https://cdn-images.imagevenue.com/18/d4/1c/ME17GED4_o.jpg">
-                        </div>
-                        <div class="card-text">
-                            <div class="card-title my-1">Khwezilomso Mbobo</div>
-                          <p>"Muhammad Rajah is someone of great integrity; spirit and determination, who reflects every aspect of this in his work. Anyone would be lucky to work with him, but proud to know him."</p>  
-                        </div>
-                        <div class="footer">
-                            <span id="name">-Colleague</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 my-3">
-                    <div style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card d-flex mx-auto">
-                        <div class="card-image">
-                            <img class="img-fluid d-flex mx-auto" src="https://cdn-images.imagevenue.com/86/c5/e8/ME17GED3_o.jpg">
-                        </div>
-                        <div class="card-text">
-                            <div class="card-title my-1">Haanim Pietersen</div>
-                            <p>"Muhammad Rajah is an amazing person with an amazing personality. He is someone that can present themselves in a manner that will get everyone's attention. I would recommend Muhammad Rajah as someone who can explain and grasp things well, as well as someone who is good at doing the frontend"</p>
-                        </div>
-                        <div class="footer">
-                            <span id="name">-Colleague</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-3">
-                    <div style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card d-flex mx-auto">
-                        <div class="card-image">
-                            <img class="img-fluid d-flex mx-auto" src="	https://cdn-images.imagevenue.com/ee/62/24/ME17GED2_o.jpg">
-                        </div>
-                        <div class="card-text">
-                            <div class="card-title my-1">Tauha Hoosain Shaik</div>
-                         <p>"Muhammad Rajah is a very charismatic individual with high energy and an output to match. He excels in bringing positivity and his optimism is a driving force in achieving results above the expectation. With Muhammad, impossible is nothing."</p>   
-                        </div>
-                        <div class="footer">
-                            <span id="name">-Colleague</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 my-3">
-                    <div style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card d-flex mx-auto ">
-                        <div class="card-image">
-                            <img class="img-fluid d-flex mx-auto" src="https://cdn-images.imagevenue.com/9f/8a/47/ME17GED1_o.png">
-                        </div>
-                        <div class="card-text">
-                            <div class="card-title my-1">Naeema Omar</div>
-                            <p>"Rajah is a well-spoken and energetic guy. His competitive nature pushes him to constantly strive for growth and development which makes him a dependable colleague."</p>
-                        </div>
-                        <div class="footer">
-                            <span id="name">-Colleague</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+                  },
+        
+               {
+        
+                    "projImage": "https://cdn-images.imagevenue.com/d9/ea/be/ME17GDQ4_o.png",
+                    "projCardTitle": "Ecommerce Store",
+                    "projCardInfo": "Created with HTML/CSS/JavaScript that allows a user to add to cart, checkout and also gives administrative privilages to admins.",
+                    "liveLink": "https://ecommerce-store-javascript.netlify.app/",
+                    "gitHub": "https://github.com/Fireshadow111/ecommerce-store-javascript.git"
+        
+                  },
+        
+        
+                {
+        
+                    "projImage": "https://cdn-images.imagevenue.com/89/9f/2c/ME17GDQ1_o.png",
+                    "projCardTitle": "RGB to HEX Converter",
+                    "projCardInfo": "The primary function of the project involves receiving input in the form of RGB (Red, Green, Blue) color values and outputs the HEX colour equivalent",
+                    "liveLink": "https://chipper-biscotti-6718f0.netlify.app/",
+                    "gitHub": "https://github.com/Fireshadow111/rgb-to-hex.git"
+        
+                  },
+        
+               {
+        
+                    "projImage": "https://cdn-images.imagevenue.com/61/c0/1c/ME17GDPZ_o.png",
+                    "projCardTitle": "Temperature Converter",
+                    "projCardInfo": "This project users JavaScript and converts fahrenheit to celsius.",
+                    "liveLink": "https://chipper-sundae-f73811.netlify.app/",
+                    "gitHub": "https://github.com/Fireshadow111/tempConverter-project.git"
+        
+                  },
+        
+        
+                  {
+        
+                     
+                    "projImage": "https://cdn-images.imagevenue.com/54/6f/57/ME17GDQ5_o.png",
+                    "projCardTitle": "Razer Store",
+                    "projCardInfo": "This is a store created with HTML/CSS, it has no real functionality.",
+                    "liveLink": "https://musical-dodol-21bd7b.netlify.app/",
+                    "gitHub": "https://github.com/Fireshadow111/razer-project-personal.git"
+        
+                  },
+        
+             {
+                    "projImage": "https://cdn-images.imagevenue.com/20/e1/23/ME17GDQ2_o.png",
+                    "projCardTitle": "Calculator",
+                    "projCardInfo": "This calculator accepts the numbers and operations clicked by the user and outputs the answer.",
+                    "liveLink": "https://effulgent-banoffee-8f84bc.netlify.app/",
+                    "gitHub": "https://github.com/Fireshadow111/fancy-calculator.git"
+                  }
       
-        
-        
 
-        
+        ],
  
-  
+
+   
+           
+          
+          
+        "testimonials":[
+
+         {
+
+            "testImage": "https://cdn-images.imagevenue.com/46/b0/a9/ME17GECZ_o.jpg",
+            "testHead": "Joel Mukanya",
+            "testText": "Muhammad is a creative, and well-behaved individual who always prioritizes his work. He excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub.",
+            "testfooter": "-Coding Lecturer"
+
+            },
 
 
-<footer class = "footer2 fixed-bottom">محمد - @Copyright&copy  - 2023</footer>
-</body>
+            {
 
-</template>
-<script>
-export default {
-    methods: {
-    fetchDataTestimonials() {
-      this.$store.dispatch('fetchDataTestimonials');
-    }
-  },
+              "testImage": "https://cdn-images.imagevenue.com/93/11/7c/ME17GED0_o.jpg",
+              "testHead": "Damon Raffels",
+              "testText": "Muhammad Rajah is a strong willed, hard-working man with a healthy competitive spirit when it comes to projects, always taking inspiration from others to better his knowledge and skills. He has a great understanding of the workings of the world and incredible religious values that is tuly humbling to be in the presence of.",
+              "testFooter": "-Colleague"
 
-  computed:{
-
-raja()  {return this.$store.state.projects}
-},
-
-  mounted() {
-    this.fetchDataTestimonials();
-  },
-}
-</script>
-<style scoped>
-
-#background{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    font-family: sans-serif;
-    min-height: 165vh;
-}
-
-.test-head{
-    background-color: black;
-    color: white;
-    border: 5px solid #44d62c;
-    border-radius: 50px;
-    font-family: "DM Serif Display";
-    font-size: 55px;
-  
-  }
-
-.container{
-    max-width: 950px;
-}
-.card{
-    border-radius: 1rem;
-    box-shadow: 0px -10px 0px #44d62c;
-    height: 450px;
-    background-color: black;
-}
-
-.card-text{
-    font-size: 30px;
-}
-
-p{
-    font-size: 16px;
-}
+            },
 
 
+            {
 
-@media(max-width:767px){
-    .card{
-        margin: 1rem 0.7rem 1rem;
-        max-width: 80vw;
-    }
-}
-img{
-    width: 6.2rem;
-    border-radius: 20px;
-    margin: 1.3rem auto 1rem auto;
-    height: 100px;
-}
-.col-md-4{
-    padding:0  0.5rem;
-}
-.card-title{
-    font-size: 20px;
-    margin-bottom: 0;
-    font-weight: bold;
-    font-family: 'IM Fell French Canon SC';
-    color: #44d62c;
-    border-bottom: 1px solid white;
-}
-.card-text{
-    text-align: center;
-    padding: 1rem 2rem;
-    font-size: 14px;
-    color: #44d62c;
-    line-height: 1.4rem;
-}
-.footer{
-    border-top: none;
-    text-align: center;
-    line-height: 1.2rem;
-    padding: 2rem 0 1.4rem 0;
-    font-family: 'Varela Round';
-}
-#name{
-    font-size: 0.8rem;
-    font-weight: bold;
-}
-#position{
-    font-size: 0.7rem;
-}
+              "testImage": "https://cdn-images.imagevenue.com/18/d4/1c/ME17GED4_o.jpg",
+              "testHead": "Khwezilomso Mbobo",
+              "testText": "Muhammad Rajah is someone of great integrity; spirit and determination, who reflects every aspect of this in his work. Anyone would be lucky to work with him, but proud to know him.",
+              "testFooter": "-Colleague"
+
+            },
 
 
-#name{
-    font-weight: bold;
-    font-size: 15px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    color: #44d62c;
-    
-}
+           {
 
-.card{
-    transition: transform 0.3s;
-}
-.card:hover{
-    transform:scale(105%)
-}
+              "testImage": "https://cdn-images.imagevenue.com/86/c5/e8/ME17GED3_o.jpg",
+              "testHead": "Haanim Pietersen",
+              "testText": "Muhammad Rajah is an amazing person with an amazing personality. He is someone that can present themselves in a manner that will get everyone's attention. I would recommend Muhammad Rajah as someone who can explain and grasp things well, as well as someone who is good at doing the frontend",
+              "testFooter": "-Colleague"
+
+            },
 
 
-.footer2 {
- font-size: 15px;
-  color: black;
-  font-weight: bolder;
-  text-align: center;
-  background-color: #44d62c;
-}
+            {
 
+            "testImage": "https://cdn-images.imagevenue.com/ee/62/24/ME17GED2_o.jpg",
+            "testHead": "Tauha Hoosain Shaik",
+            "testText": "Muhammad Rajah is a very charismatic individual with high energy and an output to match. He excels in bringing positivity and his optimism is a driving force in achieving results above the expectation. With Muhammad, impossible is nothing.",
+            "testFooter": "-Colleague"
 
+            },
+           
+           {
+            "testImage": "https://cdn-images.imagevenue.com/9f/8a/47/ME17GED1_o.png",
+            "testHead": "Naeema Omar",
+            "testText": "Rajah is a well-spoken and energetic guy. His competitive nature pushes him to constantly strive for growth and development which makes him a dependable colleague",
+            "testFooter": "-Colleague"
 
-@media (max-width: 300px) {
-  #background {
-    min-height: 100vh; 
-  }
-
-  .test-head {
-    font-size: 30px; 
-  }
-
-  .card {
-    height: auto;
-  }
-
-  img {
-    width: 100%; 
-  }
-
-  .col-md-4 {
-    padding: 0 0.2rem; 
-  }
-
-  .card-text {
-    padding: 1rem 1rem; 
-  }
-
-  .footer2 {
-    font-size: 12px; 
-  }
-}
-
-
-    
-</style>
+           }
+          ]
+        }
