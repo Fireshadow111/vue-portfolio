@@ -2,23 +2,16 @@
     <body id = "background">
 
 
-     
-
-     
-        
-        <div class="container">
-
             
-<div class="row">
-    <div class="container text-center mt-3">
-<div class="row align-items-center">
+
+    <div  class="container text-center">
 <div class = "test-head-div">
 <h1 class = "test-head">Testimonials</h1>
 </div>
 </div>
-</div>
-    <div class="col my-5">
-        <div v-for ="testimonials in raja" :key = "testimonials" style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card d-flex mx-auto">
+
+    <div id = "grid" class="col my-5 mx-5">
+        <div v-for ="testimonials in raja" :key = "testimonials" style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card my-4 mx-5">
             <div class="card-image">
                 <img class="img-fluid d-flex mx-auto" :src="testimonials.testImage">
             </div>
@@ -31,8 +24,8 @@
             </div>
         </div>
     </div>
-</div>
-        </div>
+
+  
         
         <!-- <div class="container">
 
@@ -173,9 +166,6 @@ raja()  {return this.$store.state.testimonials}
 <style scoped>
 
 #background{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: black;
     font-family: sans-serif;
     min-height: 165vh;
@@ -199,6 +189,13 @@ raja()  {return this.$store.state.testimonials}
     box-shadow: 0px -10px 0px #44d62c;
     height: 450px;
     background-color: black;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 20px;
+    margin: 100px;
 }
 
 .card-text{
@@ -267,12 +264,12 @@ img{
     
 }
 
-/* .card{
+.card{
     transition: transform 0.3s;
 }
 .card:hover{
     transform:scale(105%)
-} */
+}
 
 
 .footer2 {
