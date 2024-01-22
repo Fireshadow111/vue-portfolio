@@ -1,12 +1,16 @@
 <template>
     <body id = "background">
 
-       <div id = "proj-con" class="container text-center">
-            <div class="row">
-                <div>
-                   
+       <div  class="container text-center">
+
+        <div class = "project-head-div pt-3">
+        <h1 class = "project-head">Project</h1>
+          </div>
+          
+          
                         
-                        <div v-for = "projects in raja" :key = "projects" style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card">
+                        <div id = "grid">
+                        <div  v-for = "projects in raja" :key = "projects" style="box-shadow: 0px 0px 15px 4px #44d62c;" class="card mx-5 my-5">
                             <div class="cardImage">
                             <img   style = "border-radius: 20px;" class="img-fluid d-flex mx-auto" :src="projects.projImage">
                         </div>
@@ -14,7 +18,7 @@
                             <div class="card-title my-1">{{projects.projCardTitle}}</div>
                             <p>{{projects.projCardInfo}}</p>
                         </div>
-                        <div class="footer">
+                        <div class="footer" style="border-radius: 20px;">
                           <a target = _blank href="https://fancy-begonia-21b598.netlify.app/" style = "color: black; font-weight: bold;" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a>
                         <a target = _blank href="https://github.com/Fireshadow111/interest-amount.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a>
                             
@@ -22,12 +26,13 @@
                     </div>
                         
                 </div>
+            </div>
 
-            </div> 
-       </div>
+    
+   
       
-<!-- 
-       <div class="container text-center">
+
+       <!-- <div class="container text-center">
       <div class="row align-items-center">
 
       <div class = "project-head-div mt-3">
@@ -133,12 +138,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         
 
 
- -->
+
 
   
 
@@ -165,11 +170,16 @@ raja()  {return this.$store.state.projects}
 </script>
 <style scoped>
 
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 20px;
+}
 
 #background{
     background-color: black;
     color: #44d62c;
-    min-height: 120vh;
+    min-height: 140vh;
   
 }
 
@@ -181,10 +191,12 @@ raja()  {return this.$store.state.projects}
       font-family: "DM Serif Display";
       font-size: 55px;
      
+  
     }
 
 .card{
   background-color: #44d62c;
+  border-radius: 20px;
 }
 
 .card-title{
@@ -199,12 +211,12 @@ p{
   
 }
 
-/* .card{
+.card{
     transition: transform 0.3s;
 }
 .card:hover{
     transform:scale(105%)
-} */
+}
 
 .btn i.fas.fa-link,
 .btn i.fab.fa-github {
