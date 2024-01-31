@@ -86,6 +86,10 @@ export default {
 }
 </script>
 <style scoped>
+
+#contact{
+  padding-top: 80px;
+}
     
     #background{
       background-color: black;

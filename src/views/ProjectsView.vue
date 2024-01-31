@@ -170,6 +170,9 @@ raja()  {return this.$store.state.projects}
 </script>
 <style scoped>
 
+#projects{
+    padding-top: 70px;
+}
 #grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

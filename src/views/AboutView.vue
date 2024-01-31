@@ -63,6 +63,10 @@ export default {
 </script>
 <style scoped>
 
+#about{
+padding-top: 40px;
+}
+
 #background{
   background-color: black;
   color: #44d62c;
