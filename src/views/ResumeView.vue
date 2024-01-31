@@ -2,7 +2,7 @@
    <body id = "background">
 
 	
-	<div class="container text-center">
+	<div id = "resume" class="container text-center">
      <div class="row align-items-center">
      <div class = "resume-head-div mt-3">
        <h1 class = "resume-head">Resume</h1>

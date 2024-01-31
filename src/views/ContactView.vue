@@ -3,7 +3,7 @@
   <body id = "background">
     
  
-     <div class="container text-center">
+     <div id = "contact" class="container text-center">
       <div class="row align-items-center">
         <div id="contact-div">
 

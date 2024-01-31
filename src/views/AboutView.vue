@@ -2,10 +2,10 @@
       <body id = "background">
         
         
-        <div class="container text-center">
+        <div id = "about" class="container text-center">
       <div class="row align-items-center">
 
-        <div id = "about-head-div" class = "mt-2">
+        <div id = "about-head-div" class = "mt-5">
           <h1 id = "about-me-head">About me</h1>
     
         </div>

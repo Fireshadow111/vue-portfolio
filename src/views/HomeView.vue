@@ -112,7 +112,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 70vh;
+  min-height: 100vh;
 
 }
 
@@ -127,7 +127,6 @@ export default {
   background-color: black;
   border-radius: 70px;
   border: 3.5px solid #44d62c ;
-
   background-color: none;
   animation-name: welcome;
   animation-duration: 26s;
