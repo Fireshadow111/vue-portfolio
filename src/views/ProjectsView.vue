@@ -4,7 +4,7 @@
        <div id = "projects" class="container text-center">
 
         <div class = "project-head-div pt-3">
-        <h1 class = "project-head">Project</h1>
+        <h1 class = "project-head">Projects</h1>
           </div>
           
           
