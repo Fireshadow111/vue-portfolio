@@ -165,10 +165,13 @@ raja()  {return this.$store.state.testimonials}
 </script>
 <style scoped>
 
+#testimonials{
+    padding-top: 90px;
+}
 #background{
     background-color: black;
     font-family: sans-serif;
-    min-height: 165vh;
+    min-height: 170vh;
  
 }
 

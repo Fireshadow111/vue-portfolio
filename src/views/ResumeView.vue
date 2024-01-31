@@ -211,6 +211,9 @@ raja()  {return this.$store.state.resume}
 </script>
 <style scoped>
 
+#resume{
+	padding-top: 70px;
+}
 
 #background{
     background-color: black;
