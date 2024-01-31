@@ -96,7 +96,7 @@
         
                     "projImage": "https://cdn-images.imagevenue.com/61/c0/1c/ME17GDPZ_o.png",
                     "projCardTitle": "Temperature Converter",
-                    "projCardInfo": "This project users JavaScript and converts fahrenheit to celsius.",
+                    "projCardInfo": "This project users JavaScript, accepts numeric inputs and converts fahrenheit to celsius.",
                     "liveLink": "https://chipper-sundae-f73811.netlify.app/",
                     "gitHub": "https://github.com/Fireshadow111/tempConverter-project.git"
         
@@ -108,7 +108,7 @@
                      
                     "projImage": "https://cdn-images.imagevenue.com/54/6f/57/ME17GDQ5_o.png",
                     "projCardTitle": "Razer Store",
-                    "projCardInfo": "This is a store created with HTML/CSS, it has no real functionality.",
+                    "projCardInfo": "This is a store created with HTML/CSS, it has no real functionality, very basic forms of interaction",
                     "liveLink": "https://musical-dodol-21bd7b.netlify.app/",
                     "gitHub": "https://github.com/Fireshadow111/razer-project-personal.git"
         
