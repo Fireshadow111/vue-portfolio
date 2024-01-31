@@ -2,7 +2,7 @@
     <div id="navbarContainer" class="bg-black">
 
 
-      <nav class="navbar navbar-expand-lg  navbar-dark">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: black;">
   <div class="container-fluid justify-content-center">
 
   
@@ -13,12 +13,12 @@
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <router-link id = "links" class = "mx-3" aria-current="page" to= "/">Home</router-link> 
-        <router-link id = "links" class = "mx-3" to ="/about">About</router-link>
-        <router-link id = "links" class = "mx-3" to ="/resume">Resume</router-link>
-        <router-link id = "links" class = "mx-3" to ="/projects">Projects</router-link>
-        <router-link id = "links" class = "mx-3" to ="/testimonials">Testimonials</router-link>
-        <router-link id = "links" class = "mx-3" to ="/contact">Contact</router-link>
+        <a id = "links" class = "mx-3" aria-current="page" href= "#home-con">Home</a> 
+        <a id = "links" class = "mx-3" href ="#about">About</a>
+        <a id = "links" class = "mx-3" href ="#resume">Resume</a>
+        <a id = "links" class = "mx-3" href ="#projects">Projects</a>
+        <a id = "links" class = "mx-3" href ="#testimonials">Testimonials</a>
+        <a id = "links" class = "mx-3" href ="#contact">Contact</a>
       </div>
     </div>
   </div>

@@ -4,7 +4,7 @@
 
             
 
-    <div  class="container text-center">
+    <div id = "testimonials" class="container text-center">
 <div class = "test-head-div">
 <h1 class = "test-head">Testimonials</h1>
 </div>
@@ -169,6 +169,7 @@ raja()  {return this.$store.state.testimonials}
     background-color: black;
     font-family: sans-serif;
     min-height: 165vh;
+ 
 }
 
 .test-head{
