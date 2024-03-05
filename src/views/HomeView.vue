@@ -55,16 +55,16 @@
 
 <div class = "d-flex justify-content-center mt-3">
 
-  <router-link to = "/about">
+  <a href = "#about">
     <button id = "button1" type="button" class="btn-lg mx-2">Who am I?</button>
 
-  </router-link>
+  </a>
 
-  <router-link to = "/contact">
+  <a href = "#contact">
 
     <button id = "button2" type="button" class="btn-lg mx-2">Contact Me</button>
 
-  </router-link>
+  </a>
   
 </div>
 
