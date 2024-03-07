@@ -3,7 +3,7 @@
   <body id = "background">
     
  
-     <div id = "contact" class="container text-center">
+     <div id = "contact" class="container text-center" data-aos="fade-up">
       <div class="row align-items-center">
         <div id="contact-div">
 
@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <div id="contactForm-div">
+    <div id="contactForm-div" data-aos="fade-up">
 
 
       <form action="https://formspree.io/f/myyqoarq" method="POST" target = "_blank">
@@ -29,7 +29,7 @@
       </form>
 
 
-      <div id = "icons" class = "d-flex justify-content-center mt-4">
+      <div id = "icons" class = "d-flex justify-content-center mt-4" data-aos="fade-up">
 
 <div id = "linkedin-div">
   <a href="https://www.linkedin.com/in/muhammad-rajah-a1a00421a/" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
@@ -64,7 +64,7 @@
       </div>
 
 
-      <div class = "d-flex justify-content-center mt-4" id = "map">
+      <div class = "d-flex justify-content-center mt-4" id = "map" data-aos="fade-up">
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13236.235373779607!2d18.543614656051087!3d-33.96532702103352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc44ce607184e1%3A0xc2c79ab7ca9c30f4!2sHeideveld%2C%20Cape%20Town%2C%207764!5e0!3m2!1sen!2sza!4v1705067887599!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
@@ -77,12 +77,18 @@
     </body>
 </template>
 <script>
-
+import aos from 'aos'
 
 export default {
     components:{
      
-    }
+    },
+    mounted() {
+    aos.init({
+      duration: 800,
+      once: false,
+    });
+  }
 }
 </script>
 <style scoped>
