@@ -31,7 +31,7 @@
       </div>
     </div>
 
-    <footer class="footer fixed-bottom" data-aos="fade-up">محمد - @Copyright&copy; - 2023</footer>
+    
   </body>
 </template>
 
@@ -118,19 +118,5 @@ export default {
   text-decoration-color: #44d62c;
 }
 
-.footer {
-  font-size: 15px;
-  color: black;
-  font-weight: bolder;
-  text-align: center;
-  background-color: #44d62c;
-}
 
-@media (max-width: 300px) {
-  .footer {
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 </style>

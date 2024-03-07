@@ -135,7 +135,6 @@
   
 
 
-<footer class = "footer2 fixed-bottom">محمد - @Copyright&copy  - 2023</footer>
 </body>
 
 </template>
@@ -281,13 +280,7 @@ img{
 
 
 
-.footer2 {
- font-size: 15px;
-  color: black;
-  font-weight: bolder;
-  text-align: center;
-  background-color: #44d62c;
-}
+
 
 
 @media (max-width: 300px) {
@@ -315,15 +308,7 @@ img{
     padding: 1rem 1rem;
   }
 
-  .footer2 {
-    font-size: 12px;
-    width: 100%; 
-    bottom: 0;
-    text-align: center;
-    background-color: #44d62c;
-    color: black;
-    font-weight: bolder;
-  }
+
 }
 
 
