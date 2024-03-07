@@ -73,7 +73,7 @@
 
      
 
-<footer class = "footer fixed-bottom">محمد - @Copyright&copy  - 2023</footer>
+
     </body>
 </template>
 <script>
@@ -171,13 +171,6 @@ input[type=submit]:active {
   transform: translatex(4px);
 }
 
-.footer {
-  font-size: 15px;
-  color: black;
-  font-weight: bolder;
-  text-align: center;
-  background-color: #44d62c;
-}
 
 
 
@@ -191,7 +184,7 @@ body {
 
 
 
-#ontact-head {
+#contact-head {
   font-size: 30px;
 }
 
@@ -234,12 +227,8 @@ input[type=submit] {
     width: 100%;
     height: 300px;
 }
-.footer {
-    font-size: 12px; 
-    padding: 5px;
-  }
-}
 
+}
 
 @media (max-width: 720px) {
 
@@ -317,13 +306,7 @@ input[type=submit] {
 #map iframe {
     width: 100%;
   }
-.footer {
-  font-size: 15px;
-  color: black;
-  font-weight: bolder;
-  text-align: center;
-  background-color: #44d62c;
-}
+
 
 
 
