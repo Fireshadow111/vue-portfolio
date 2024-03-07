@@ -6,7 +6,7 @@
   <div class="container-fluid justify-content-center">
 
   
-    <a class="navbar-brand" href="#home-con"><img id ="nav-image" src="https://cdn-images.imagevenue.com/94/d5/66/ME17GIVB_o.jpg" alt=""></a>
+    <a class="navbar-brand" href="#home-con"><img id ="nav-image" src="https://cdn-images.imagevenue.com/f2/e2/8a/ME17QREJ_o.png" alt=""></a>
   
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

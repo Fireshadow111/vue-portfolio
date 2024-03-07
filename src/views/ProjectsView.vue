@@ -1,7 +1,7 @@
 <template>
     <body id = "background">
 
-       <div id = "projects" class="container text-center">
+       <div id = "projects" class="container text-center" data-aos="fade-up">
 
         <div class = "project-head-div pt-3">
         <h1 class = "project-head">Projects</h1>
@@ -9,14 +9,14 @@
           
           
                         
-                        <div id = "grid">
-                        <div  v-for = "projects in raja" :key = "projects" style="box-shadow: 0px 0px 15px 4px #44d62c;" class="card mx-5 my-5">
+                        <div id = "grid" data-aos="fade-up">
+                        <div  v-for = "projects in rajah" :key = "projects" class="card mx-5 my-5">
                             <div class="cardImage">
                             <img   style = "border-radius: 20px;" class="img-fluid d-flex mx-auto" :src="projects.projImage">
                         </div>
                         <div class="card-text">
                             <div class="card-title my-1">{{projects.projCardTitle}}</div>
-                            <p>{{projects.projCardInfo}}</p>
+                            <p style = "color: black">{{projects.projCardInfo}}</p>
                         </div>
                         <div class="footer" style="border-radius: 20px;">
                           <a target = _blank href="https://fancy-begonia-21b598.netlify.app/" style = "color: black; font-weight: bold;" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a>
@@ -152,6 +152,8 @@
     </body>
 </template>
 <script>
+import aos from 'aos'
+
 export default {
     methods: {
     fetchDataProjects() {
@@ -161,10 +163,14 @@ export default {
 
   computed:{
 
-raja()  {return this.$store.state.projects}
+rajah()  {return this.$store.state.projects}
 },
   mounted() {
     this.fetchDataProjects();
+    aos.init({
+      duration: 800,
+      once: false,
+    });
   },
 }
 </script>
@@ -198,13 +204,21 @@ raja()  {return this.$store.state.projects}
     }
 
 .card{
-  background-color: #44d62c;
+  background-color: white;
   border-radius: 20px;
+  box-shadow: 0 0 28px #44d62c;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card:hover{
+    transform:scale(105%);
+    box-shadow: 0 0 45px #44d62c;
 }
 
 .card-title{
   background-color: black;
-  color: white;
+  color: #44d62c;
   font-weight: bold;
   font-size: 18px;
 }
@@ -214,12 +228,6 @@ p{
   
 }
 
-.card{
-    transition: transform 0.3s;
-}
-.card:hover{
-    transform:scale(105%)
-}
 
 .btn i.fas.fa-link,
 .btn i.fab.fa-github {
@@ -231,6 +239,13 @@ p{
     transform: scale(115%);
 }
 
+a{
+    transition: transform 0.3s ease;
+}
+
+a:hover{
+    transform: scale(115%);
+}
 
 .footer {
     font-size: 15px;

@@ -2,7 +2,7 @@
    <body id = "background">
 
 	
-	<div id = "resume" class="container text-center">
+	<div id = "resume" class="container text-center" data-aos="fade-up">
      <div class="row align-items-center">
      <div class = "resume-head-div mt-3">
        <h1 class = "resume-head">Resume</h1>
@@ -12,7 +12,7 @@
 	 </div>
 	</div>
 
-    <div class="wrapper mt-3">
+    <div class="wrapper mt-3" data-aos="fade-up">
 
 		
   <div class="intro">
@@ -179,12 +179,14 @@
   
 
 
-<footer class = "footer fixed-bottom">محمد - @Copyright&copy  - 2023</footer>
+<footer class = "footer fixed-bottom" data-aos="fade-up">محمد - @Copyright&copy  - 2023</footer>
    </body>
         
     
 </template>
 <script>	
+import aos from 'aos';
+import 'aos/dist/aos.css';
 
 export default {
 
@@ -204,6 +206,10 @@ raja()  {return this.$store.state.resume}
 
   mounted() {
     this.fetchDataResume();
+	aos.init({
+      duration: 800,
+      once: false,
+    });
   },
 }
     

@@ -4,20 +4,20 @@
 
             
 
-    <div id = "testimonials" class="container text-center">
+    <div id = "testimonials" class="container text-center" data-aos="fade-up">
 <div class = "test-head-div">
 <h1 class = "test-head">Testimonials</h1>
 </div>
 </div>
 
-    <div id = "grid" class="col my-5 mx-5">
-        <div v-for ="testimonials in raja" :key = "testimonials" style="box-shadow: 0px 0px 15px 4px #44d62c;border-radius: 20px;" class="card my-4 mx-5">
+    <div id = "grid" class="col my-5 mx-5" data-aos="fade-up">
+        <div v-for ="testimonials in rajah" :key = "testimonials" style="border-radius: 20px;" class="card my-4 mx-5">
             <div class="card-image">
                 <img class="img-fluid d-flex mx-auto" :src="testimonials.testImage">
             </div>
             <div class="card-text">
                 <div class="card-title my-1">{{testimonials.testHead}}</div>
-                <p>{{testimonials.testText}}</p>
+                <p><i>{{testimonials.testText}}</i></p>
             </div>
             <div class="footer">
                 <span id="name">{{testimonials.testFooter}}</span>
@@ -140,7 +140,7 @@
 
 </template>
 <script>
-
+import aos from 'aos'
 
 export default {
 
@@ -155,11 +155,15 @@ export default {
 
   computed:{
 
-raja()  {return this.$store.state.testimonials}
+rajah()  {return this.$store.state.testimonials}
 },
 
   mounted() {
     this.fetchDataTestimonials();
+    aos.init({
+      duration: 800,
+      once: false,
+    });
   },
 }
 </script>
@@ -190,9 +194,16 @@ raja()  {return this.$store.state.testimonials}
 }
 .card{
     border-radius: 1rem;
-    box-shadow: 0px -10px 0px #44d62c;
     height: 450px;
     background-color: black;
+    box-shadow: 0 0 20px #44d62c;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.card:hover{
+    transform:scale(105%);
+    box-shadow: 0 0 35px #44d62c;
 }
 
 #grid{
@@ -268,12 +279,6 @@ img{
     
 }
 
-.card{
-    transition: transform 0.3s;
-}
-.card:hover{
-    transform:scale(105%)
-}
 
 
 .footer2 {
