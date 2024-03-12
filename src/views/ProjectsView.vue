@@ -12,7 +12,7 @@
                         <div id = "grid" data-aos="fade-up">
                         <div  v-for = "projects in rajah" :key = "projects" class="card mx-5 my-5">
                             <div class="cardImage">
-                            <img   style = "border-radius: 20px;" class="img-fluid d-flex mx-auto" :src="projects.projImage">
+                            <img   style = "border-radius: 20px; height: 200px;" class="img-fluid d-flex mx-auto" :src="projects.projImage">
                         </div>
                         <div class="card-text">
                             <div class="card-title my-1">{{projects.projCardTitle}}</div>
