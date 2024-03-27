@@ -112,8 +112,8 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
 
+  padding-top: 250px;
 }
 
 #background{
