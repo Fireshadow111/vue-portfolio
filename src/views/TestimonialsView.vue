@@ -10,10 +10,11 @@
           <h1 id="projectsDrag">Testimonials</h1>
       
     </div>
-        </div>
+     
+      </div>
     </div>
 
-    <div id = "grid" class="col my-5 mx-5" data-aos="fade-up">
+    <!-- <div id = "grid" class="col mx-5" data-aos="fade-up">
         <div v-for ="testimonials in rajah" :key = "testimonials" style="border-radius: 20px;" class="card my-4 mx-5">
             <div class="card-image">
                 <img class="img-fluid d-flex mx-auto" :src="testimonials.testImage">
@@ -26,7 +27,8 @@
                 <span id="name">{{testimonials.testFooter}}</span>
             </div>
         </div>
-    </div>
+    </div> -->
+
 
   
 
@@ -85,11 +87,12 @@ font-size: 60px;
 
 #testimonials{
   max-width: 1500px;
+  padding-top: 110px;
 }
 #background{
     background-color: black;
     font-family: sans-serif;
-    min-height: 170vh;
+
  
 }
 
@@ -105,7 +108,7 @@ font-size: 60px;
 
 
 .card{
-    border-radius: 1rem;
+    border-radius: 80px;
     height: 450px;
     background-color: black;
     box-shadow: 0 0 20px #44d62c;
@@ -124,7 +127,7 @@ font-size: 60px;
 #grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border-radius: 20px;
+    border-radius: 80px;
    
 }
 

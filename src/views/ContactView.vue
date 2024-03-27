@@ -3,7 +3,7 @@
  
     <div id = "contact" class="container" data-aos="fade-up">
       <div class="row align-items-center">
-        <div id="contact-head" class="mb-5" data-aos="fade-up">
+        <div id="contact-head" class="mb-5 mt-5" data-aos="fade-up">
           <h1 id="contactDrag">Contact</h1>
       
     </div>
@@ -120,6 +120,7 @@ i:hover{
 
 
  #contact{
+  padding-top: 50px;
   max-width: 1500px;
  }
    

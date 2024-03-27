@@ -9,9 +9,9 @@
       
     </div>
         </div>
+       </div>
           
-          
-                        
+<!--                         
                         <div id = "grid" data-aos="fade-up">
                         <div  v-for = "projects in rajah" :key = "projects" class="card mx-5 my-5">
                             <div class="cardImage">
@@ -29,9 +29,10 @@
                     </div>
                         
                 </div>
-            </div>
+            </div>-->
+          
 
-
+            
 
     
     </body>
@@ -81,7 +82,7 @@ font-size: 60px;
 }
 
 #projects{
-    padding-top: 70px;
+    padding-top: 110px;
     max-width: 1500px;
 }
 #grid{
@@ -93,7 +94,7 @@ font-size: 60px;
 #background{
     background-color: black;
     color: #44d62c;
-    min-height: 140vh;
+
   
 }
 

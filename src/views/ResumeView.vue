@@ -23,7 +23,7 @@
       </div>
       <div class="bio">
         <h1 id = "resume-name"  class="name">Muhammad Rajah</h1>
-        <p id = "resume-title" class="profession"> Aspiring Frontend Devveloper</p>
+        <p id = "resume-title" class="profession"> Aspiring Frontend Developer</p>
       </div>
     </div>
    
@@ -51,36 +51,36 @@
        
 
 <div id = "linkedin-div">
-  <a href="https://www.linkedin.com/in/muhammad-rajah-a1a00421a/" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
-  <span class="mx-2" style="color: black; font-weight: bold; font-size: 15px;">Linkdin</span>
+  <a href="https://www.linkedin.com/in/muhammad-rajah-a1a00421a/" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #44d62c; cursor: pointer;"></i>
+  <span class="mx-2" style="color: black; font-weight: bold; font-size: 15px;">Linkdin</span></a>
   
 </div>
 
 <div id = "github-div">
 
-  <a href="https://github.com/Fireshadow111" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #40d62c; cursor: pointer;"></i></a>
-  <span class="mx-2" style="color: black; font-weight: bold; font-size: 15px;">Github</span>
+  <a href="https://github.com/Fireshadow111" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #40d62c; cursor: pointer;"></i>
+  <span class="mx-2" style="color: black; font-weight: bold; font-size: 15px;">Github</span></a>
 
 </div>
 
 <div id = "whatsapp-div">
 
-  <a href="https://wa.me/+277741883" target="_blank"><i class="fa-brands fa-whatsapp fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
+  <a href="https://wa.me/+277741883" target="_blank"><i class="fa-brands fa-whatsapp fa-xl" style="color: #44d62c; cursor: pointer;"></i>
 
-  <span class="mx-2" style=" color: black; font-weight: bold; font-size: 15px;">Whatsapp</span>
+  <span class="mx-2" style=" color: black; font-weight: bold; font-size: 15px;">Whatsapp</span></a>
 </div>
 
 <div id = "instagram-div">
 
-  <a href="https://www.instagram.com/muhammadrajah111/" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #40d62c; cursor: pointer;"></i></a>
+  <a href="https://www.instagram.com/muhammadrajah111/" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #40d62c; cursor: pointer;"></i>
 
-  <span class="mx-2" style="color: black; font-weight: bold; font-size: 15px;">Instagram</span>
+  <span class="mx-2" style="color: black; font-weight: bold; font-size: 15px;">Instagram</span></a>
 </div>
 
 <div id= "facebook-div">
 
-  <a href="https://www.facebook.com/muhammad.rajah.716/" target="_blank"><i class="fa-brands fa-square-facebook fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
-  <span class="mx-2" style="color: black; font-weight: bold; font-size: 15px;">Facebook</span>
+  <a href="https://www.facebook.com/muhammad.rajah.716/" target="_blank"><i class="fa-brands fa-square-facebook fa-xl" style="color: #44d62c; cursor: pointer;"></i>
+  <span class="mx-2" style="color: black; font-weight: bold; font-size: 15px;">Facebook</span></a>
   
 
       </div>
@@ -128,19 +128,19 @@
           <li>
             <span>HTML</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 60%"></div>
+              <div class="skillbar" style="--pgbar-length: 85%"></div>
             </div>
           </li>
           <li>
             <span>CSS</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 55%"></div>
+              <div class="skillbar" style="--pgbar-length: 90%"></div>
             </div>
           </li>
           <li>
             <span>Javascript</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 20%"></div>
+              <div class="skillbar" style="--pgbar-length: 35%"></div>
             </div>
           </li>
           <li>
@@ -152,19 +152,19 @@
           <li>
             <span>VueJS</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 15%"></div>
+              <div class="skillbar" style="--pgbar-length: 65%"></div>
             </div>
           </li>
           <li>
             <span>NodeJS</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 0%"></div>
+              <div class="skillbar" style="--pgbar-length: 60%"></div>
             </div>
           </li>
           <li>
             <span>MYSQL</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 0%"></div>
+              <div class="skillbar" style="--pgbar-length: 70%"></div>
             </div>
           </li>
         </ul>
@@ -238,14 +238,13 @@ font-size: 60px;
 
 }
 #resume{
-	padding-top: 70px;
+	padding-top: 110px;
 	max-width: 1500px;
 }
 
 #background{
     background-color: black;
-    color: #44d62c;
-	min-height: 140vh;
+
 		
 }
 

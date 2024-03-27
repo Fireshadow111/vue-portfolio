@@ -71,14 +71,14 @@ font-size: 60px;
 
 }
 #about {
-  padding-top: 40px;
+  padding-top: 90px;
   max-width: 1500px;
 }
 
 #background {
   background-color: black;
   color: #44d62c;
-  min-height: 100vh;
+
 }
 
 #about-img {
