@@ -126,7 +126,7 @@ export default {
 #heading-div{
   background-color: black;
   border-radius: 70px;
-  border: 3.5px solid #44d62c ;
+  border: 5px solid #44d62c ;
   background-color: none;
   animation-name: welcome;
   animation-duration: 26s;

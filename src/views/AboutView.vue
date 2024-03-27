@@ -1,11 +1,11 @@
 <template>
   <body id="background">
     <div id="about" class="container text-center" data-aos="fade-up">
-      <div class="row align-items-center">
-        <div id="about-head-div" class="mt-5">
-          <h1 id="about-me-head">About me</h1>
-        </div>
-
+       <div class="row align-items-center">
+        <div id="about-head" class="mb-5" data-aos="fade-up">
+          <h1 id="aboutDrag">About</h1>
+      
+    </div>
         <div class="col-md-8 col-sm-8 mt-4" data-aos="fade-up">
           <div id="info-con">
             <h2 id="about-me-title" class="mt-">Who am I?</h2>
@@ -51,8 +51,28 @@ export default {
 </script>
 
 <style scoped>
+
+#aboutDrag{
+
+color: white;
+font-family: "DM Serif Display";
+font-size: 60px;
+
+}
+
+#about-head {
+  background-color: black;
+  color: white;
+  border: 5px solid #44d62c;
+  border-radius: 50px;
+  font-family: "Roboto";
+  font-size: 50px;
+  text-align: center;
+
+}
 #about {
   padding-top: 40px;
+  max-width: 1500px;
 }
 
 #background {
@@ -72,13 +92,7 @@ export default {
   transform: scale(105%);
 }
 
-#about-me-head {
-  color: white;
-  border: 4px solid #44d62c;
-  border-radius: 50px;
-  font-family: "DM Serif Display";
-  font-size: 55px;
-}
+
 
 #about-me-title {
   color: white;

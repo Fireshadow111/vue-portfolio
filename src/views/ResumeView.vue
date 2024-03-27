@@ -3,14 +3,15 @@
 
 	
 	<div id = "resume" class="container text-center" data-aos="fade-up">
-     <div class="row align-items-center">
-     <div class = "resume-head-div mt-3">
-       <h1 class = "resume-head">Resume</h1>
+		<div class="row align-items-center">
+        <div id="resume-head" class="mb-5" data-aos="fade-up">
+          <h1 id="resumeDrag">Resume</h1>
+      
+    </div>
+        </div>
 
 	 </div>
 
-	 </div>
-	</div>
 
     <div class="wrapper mt-3" data-aos="fade-up">
 
@@ -217,8 +218,28 @@ raja()  {return this.$store.state.resume}
 </script>
 <style scoped>
 
+
+#resumeDrag{
+font-weight: normal !important;
+color: white !important;
+font-family: "DM Serif Display";
+font-size: 60px;
+
+}
+
+#resume-head {
+  background-color: black;
+  color: white;
+  border: 5px solid #44d62c;
+  border-radius: 50px;
+  font-family: "Roboto";
+  font-size: 50px;
+  text-align: center;
+
+}
 #resume{
 	padding-top: 70px;
+	max-width: 1500px;
 }
 
 #background{
