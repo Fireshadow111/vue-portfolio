@@ -29,7 +29,8 @@
 </template>
 <script>
 export default {
-    
+ 
+ 
 }
 </script>
 <style scoped>
@@ -41,9 +42,8 @@ export default {
 }
 #links {
   font-size: 35px;
-  color: #44d62c;
+  color: white;
   font-family: "DM Serif Display";
-  font-style: italic;
   font-weight: bold;
 
   transition: text-decoration 0.5s;

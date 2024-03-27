@@ -3,9 +3,12 @@
 
        <div id = "projects" class="container text-center" data-aos="fade-up">
 
-        <div class = "project-head-div pt-3">
-        <h1 class = "project-head">Projects</h1>
-          </div>
+        <div class="row align-items-center">
+        <div id="projects-head" class="mb-5" data-aos="fade-up">
+          <h1 id="projectsDrag">Projects</h1>
+      
+    </div>
+        </div>
           
           
                         
@@ -58,8 +61,28 @@ rajah()  {return this.$store.state.projects}
 </script>
 <style scoped>
 
+#projectsDrag{
+
+color: white;
+font-family: "DM Serif Display";
+font-size: 60px;
+
+}
+
+#projects-head {
+  background-color: black;
+  color: white;
+  border: 5px solid #44d62c;
+  border-radius: 50px;
+  font-family: "Roboto";
+  font-size: 50px;
+  text-align: center;
+
+}
+
 #projects{
     padding-top: 70px;
+    max-width: 1500px;
 }
 #grid{
     display: grid;
@@ -74,16 +97,7 @@ rajah()  {return this.$store.state.projects}
   
 }
 
-.project-head{
-      background-color: black;
-      color: white;
-      border: 5px solid #44d62c;
-      border-radius: 50px;
-      font-family: "DM Serif Display";
-      font-size: 55px;
-     
-  
-    }
+
 
 .card{
   background-color: white;

@@ -5,10 +5,13 @@
             
 
     <div id = "testimonials" class="container text-center" data-aos="fade-up">
-<div class = "test-head-div">
-<h1 class = "test-head">Testimonials</h1>
-</div>
-</div>
+      <div class="row align-items-center">
+        <div id="projects-head" class="mb-5" data-aos="fade-up">
+          <h1 id="projectsDrag">Testimonials</h1>
+      
+    </div>
+        </div>
+    </div>
 
     <div id = "grid" class="col my-5 mx-5" data-aos="fade-up">
         <div v-for ="testimonials in rajah" :key = "testimonials" style="border-radius: 20px;" class="card my-4 mx-5">
@@ -61,8 +64,27 @@ rajah()  {return this.$store.state.testimonials}
 </script>
 <style scoped>
 
+#projectsDrag{
+
+color: white;
+font-family: "DM Serif Display";
+font-size: 60px;
+
+}
+
+#projects-head {
+  background-color: black;
+  color: white;
+  border: 5px solid #44d62c;
+  border-radius: 50px;
+  font-family: "Roboto";
+  font-size: 50px;
+  text-align: center;
+
+}
+
 #testimonials{
-    padding-top: 90px;
+  max-width: 1500px;
 }
 #background{
     background-color: black;
@@ -81,17 +103,18 @@ rajah()  {return this.$store.state.testimonials}
   
   }
 
-.container{
-    max-width: 950px;
-}
+
 .card{
     border-radius: 1rem;
     height: 450px;
     background-color: black;
     box-shadow: 0 0 20px #44d62c;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+ 
 
 }
+
+
 
 .card:hover{
     transform:scale(105%);
@@ -102,7 +125,7 @@ rajah()  {return this.$store.state.testimonials}
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 20px;
-    margin: 100px;
+   
 }
 
 .card-text{
