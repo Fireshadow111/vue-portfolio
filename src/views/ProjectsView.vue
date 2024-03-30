@@ -11,8 +11,8 @@
         </div>
        </div>
           
-<!--                         
-                        <div id = "grid" data-aos="fade-up">
+                        
+                        <!-- <div id = "grid" data-aos="fade-up">
                         <div  v-for = "projects in rajah" :key = "projects" class="card mx-5 my-5">
                             <div class="cardImage">
                             <img   style = "border-radius: 20px; height: 200px;" class="img-fluid d-flex mx-auto" :src="projects.projImage">
@@ -29,10 +29,140 @@
                     </div>
                         
                 </div>
-            </div>-->
-          
+          -->
+          <div class="container">
 
-            
+  <div class="row">
+
+    <div class="col my-5 mx-4">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="card_front">
+            <div class="card_front_top_background"></div>
+            <div class="center">
+              <p>React</p>
+              <p>CSS3</p>
+              <p>Node | Express</p>
+              <p>JWT | MongoDB</p>
+            </div>
+          </div>
+          <div class="card_back">
+            <p>CRUD web application to manage invitations, data stored in a MongoDB for each authentication.</p>
+            <button><a href="https://github.com/octaviandd/invite-Me">Source Code</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col my-5">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="card_front">
+            <div class="card_front_top_background"></div>
+            <div class="center">
+              <p>React</p>
+              <p>CSS3</p>
+              <p>Node | Express</p>
+              <p>JWT | MongoDB</p>
+            </div>
+          </div>
+          <div class="card_back">
+            <p>CRUD web application to manage invitations, data stored in a MongoDB for each authentication.</p>
+            <button><a href="https://github.com/octaviandd/invite-Me">Source Code</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col my-5">
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="card_front">
+            <div class="card_front_top_background"></div>
+            <div class="center">
+              <p>React</p>
+              <p>CSS3</p>
+              <p>Node | Express</p>
+              <p>JWT | MongoDB</p>
+            </div>
+          </div>
+          <div class="card_back">
+            <p>CRUD web application to manage invitations, data stored in a MongoDB for each authentication.</p>
+            <button><a href="https://github.com/octaviandd/invite-Me">Source Code</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<div class="row">
+
+  <div class="col my-5 mx-4">
+    <div class="flip-container">
+      <div class="flipper">
+        <div class="card_front">
+          <div class="card_front_top_background"></div>
+          <div class="center">
+            <p>React</p>
+            <p>CSS3</p>
+            <p>Node | Express</p>
+            <p>JWT | MongoDB</p>
+          </div>
+        </div>
+        <div class="card_back">
+          <p>CRUD web application to manage invitations, data stored in a MongoDB for each authentication.</p>
+          <button><a href="https://github.com/octaviandd/invite-Me">Source Code</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col my-5">
+    <div class="flip-container">
+      <div class="flipper">
+        <div class="card_front">
+          <div class="card_front_top_background"></div>
+          <div class="center">
+            <p>React</p>
+            <p>CSS3</p>
+            <p>Node | Express</p>
+            <p>JWT | MongoDB</p>
+          </div>
+        </div>
+        <div class="card_back">
+          <p>CRUD web application to manage invitations, data stored in a MongoDB for each authentication.</p>
+          <button><a href="https://github.com/octaviandd/invite-Me">Source Code</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col my-5">
+    <div class="flip-container">
+      <div class="flipper">
+        <div class="card_front">
+          <div class="card_front_top_background"></div>
+          <div class="center">
+            <p>React</p>
+            <p>CSS3</p>
+            <p>Node | Express</p>
+            <p>JWT | MongoDB</p>
+          </div>
+        </div>
+        <div class="card_back">
+          <p>CRUD web application to manage invitations, data stored in a MongoDB for each authentication.</p>
+          <button><a href="https://github.com/octaviandd/invite-Me">Source Code</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
 
     
     </body>
@@ -61,6 +191,10 @@ rajah()  {return this.$store.state.projects}
 }
 </script>
 <style scoped>
+
+.container{
+  display: block;
+}
 
 #projectsDrag{
 
@@ -93,37 +227,130 @@ font-size: 60px;
 
 #background{
     background-color: black;
-    color: #44d62c;
+   
+   
 
   
 }
 
+.flip-container {
+  position: relative;
+  perspective: 1000px;
+}
 
-
-.card{
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 0 0 28px #44d62c;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.flip-container:hover .flipper {
+  transform: rotateY(180deg);
+}
+.flip-container{
+  width: 320px;
+  height: 480px;
+  box-shadow: 0 0 25px #44d62c;
+  border-radius: 8px;
 }
 
 
-.card:hover{
-    transform:scale(105%);
-    box-shadow: 0 0 45px #44d62c;
+.card_front,
+.card_back {
+  width: 320px;
+  height: 480px;
+ 
+  border-radius: 8px;
 }
 
-.card-title{
+.flipper {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.card_front,
+.card_back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  color: white;
   background-color: black;
-  color: #44d62c;
-  font-weight: bold;
-  font-size: 18px;
 }
 
-p{
-  font-weight: bold;
-  
+.card_front {
+  z-index: 2;
+  transform: rotateY(0deg);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 1.3em;
 }
+
+.card_back {
+  transform: rotateY(180deg);
+  background-color: #44d62c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Sen", sans-serif;
+}
+
+.card_back p {
+  padding: 10px 30px;
+  text-align: center;
+  line-height: 1.68;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.card_back button {
+  padding: 20px 50px;
+  border: 0;
+  box-shadow: 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.card_back button:hover {
+  transform: scale(1.1);
+}
+
+.card_back button a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+}
+
+.card_front_top_background {
+  position: relative;
+  height: 30%;
+  top: 0;
+  left: 0;
+  right: 0;
+ background-color: white;
+  width: 100%;
+  transform: skewY(-6deg);
+  transform-origin: top left;
+}
+
+.center {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.center p {
+  width: 200px;
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  padding-bottom: 10px;
+}
+
+
 
 
 .btn i.fas.fa-link,
