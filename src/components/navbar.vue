@@ -64,7 +64,7 @@ export default {
 
   #nav-image{
     max-width: 160px;
-  
+  max-height: 50px;
     
   }
 </style>
