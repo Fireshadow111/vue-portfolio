@@ -405,32 +405,6 @@ a:hover{
 
 
 
-@media only screen and (max-width: 768px) {
- 
-  .container {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  
-  .col-lg-4 {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  
-  #projectsDrag {
-    font-size: 40px;
-  }
-  
-  .card_front,
-  .card_back {
-    width: 280px;
-    height: 420px;
-  }
-}
-
 
 
 
