@@ -179,13 +179,13 @@ h1{
 h2{
   color: white;
   font-size: 45px;
-  font-family: "Roboto";
+  font-family: "Raleway";
   font-weight: bold;
   font-style: italic;
 }
 
 #button1{
-  font-family: "Roboto";
+  font-family: "Raleway";
   font-size: 22px;
   background-color: #44d62c;
   border-color: black;
@@ -198,7 +198,7 @@ h2{
 }
 
 #button2{
-  font-family: "Roboto";
+  font-family: "Raleway";
   font-size: 22px;
   background-color: #44d62c;
   border-color: black;
@@ -239,9 +239,9 @@ h2{
   transform: scale(110%);
 }
 
-@media(max-width: 300px) {
-  #heading-div {
-    border-radius: 20px; 
+@media screen and (max-width: 300px) {
+  #home-con {
+    padding-top: 100px; 
   }
 
   h1 {
@@ -249,20 +249,14 @@ h2{
   }
 
   h2 {
-    font-size: 20px; 
+    font-size: 25px;
   }
 
-  #button1, #button2 {
-    font-size: 16px; 
-    margin-top: 10px; 
-  }
-
-  .footer {
-    font-size: 12px; 
-      margin-top: 20px;
+  #button1,
+  #button2 {
+    font-size: 18px; 
   }
 }
-
 
 
 </style>

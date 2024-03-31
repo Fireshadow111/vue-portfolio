@@ -11,13 +11,13 @@
       <div id="contactForm-div" data-aos="fade-up">
         <form @submit.prevent="submitForm" action="https://formspree.io/f/myyqoarq" method="POST" target="_blank">
           <label for="firstName">First Name:</label>
-          <input type="text" id="firstName" name="firstName" v-model="formData.firstName" placeholder="Enter your name..">
+          <input type="text" id="firstName" name="firstName" v-model="formData.firstName" placeholder="Enter your name...">
           <label for="lastName">Last Name:</label>
-          <input type="text" id="lastName" name="lastName" v-model="formData.lastName" placeholder="Enter your last name..">
+          <input type="text" id="lastName" name="lastName" v-model="formData.lastName" placeholder="Enter your last name...">
           <label for="email">Email:</label>
-          <input type="text" id="email" name="email" v-model="formData.email" placeholder="Enter your email..">
+          <input type="text" id="email" name="email" v-model="formData.email" placeholder="Enter your email...">
           <label for="messege">Messege:</label>
-          <textarea id="messege" name="messege" v-model="formData.message" placeholder="Enter a messege.." style="height:170px"></textarea>
+          <textarea id="messege" name="messege" v-model="formData.message" placeholder="Enter a messege..." style="height:170px"></textarea>
           <input id="contactButton" type="submit" value="Submit">
         </form>
       </div>
@@ -180,7 +180,7 @@ font-size: 60px;
   color: white;
   border: 5px solid #44d62c;
   border-radius: 50px;
-  font-family: "Roboto";
+  font-family: "Raleway";
   font-size: 50px;
   text-align: center;
 
@@ -199,7 +199,7 @@ font-size: 60px;
 
 
 label {
-  font-family: "Roboto";
+  font-family: "Raleway";
   font-size: 23px;
   color:white;
   font-weight: bold;
@@ -225,7 +225,7 @@ textarea {
 #contactButton {
   min-width: 100%;
   height: 45px;
-  font-family: "Roboto";
+  font-family: "Raleway";
   font-size: 26px;
   font-weight: bold;
   background-color: #44d62c;
@@ -254,33 +254,22 @@ color: #e10800;
 }
 
 
-@media screen and (max-width: 1080px) {
-  #contactForm-div {
-    width: 90%;
-    max-width: 500px;
-  }
-
-  #contactButton {
-    min-width: 100%;
-    max-width: 500px;
-  }
-}
-
-
-
-@media screen and (max-width: 720px) {
-  #contactForm-div {
-    width: 100%;
-    max-width: 400px;
-  }
-
-  #contactButton {
-    min-width: 100%;
-    max-width: 400px;
+@media only screen and (max-width: 1080px) {
+  #contact {
+    padding-top: 30px;
   }
 
   #contactDrag {
     font-size: 40px;
+  }
+
+  #contact-head {
+    font-size: 40px;
+    border-width: 3px;
+  }
+
+  #contactForm-div {
+    width: 80%;
   }
 
   label {
@@ -289,29 +278,69 @@ color: #e10800;
 
   input[type=text],
   textarea {
+    padding: 10px;
     font-size: 16px;
   }
 
-  #footer {
-    font-size: 14px;
+  #contactButton {
+    height: 40px;
+    font-size: 20px;
   }
 }
 
 
-@media screen and (max-width: 300px) {
-  #contactForm-div {
-    width: 90%;
-    max-width: 250px;
-  }
-
-  #contactButton {
-    min-width: 100%;
-    max-width: 250px;
-    font-size: 14px;
+@media only screen and (max-width: 720px) {
+  #contact {
+    padding-top: 20px;
   }
 
   #contactDrag {
     font-size: 30px;
+  }
+
+  #contact-head {
+    font-size: 30px;
+    border-width: 2px;
+  }
+
+  #contactForm-div {
+    width: 90%;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  input[type=text],
+  textarea {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  #contactButton {
+    height: 35px;
+    font-size: 18px;
+  }
+}
+
+
+
+@media only screen and (max-width: 300px) {
+  #contact {
+    padding-top: 10px;
+  }
+
+  #contactDrag {
+    font-size: 20px;
+  }
+
+  #contact-head {
+    font-size: 20px;
+    border-width: 1px;
+  }
+
+  #contactForm-div {
+    width: 90%;
   }
 
   label {
@@ -320,11 +349,13 @@ color: #e10800;
 
   input[type=text],
   textarea {
+    padding: 6px;
     font-size: 12px;
   }
 
-  #footer {
-    font-size: 12px;
+  #contactButton {
+    height: 30px;
+    font-size: 14px;
   }
 }
 
