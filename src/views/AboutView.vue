@@ -65,7 +65,7 @@ font-size: 60px;
   color: white;
   border: 5px solid #44d62c;
   border-radius: 50px;
-  font-family: "Roboto";
+  font-family: "Raleway";
   font-size: 50px;
   text-align: center;
 
@@ -103,6 +103,8 @@ font-size: 60px;
   border-radius: 50px;
   transition: transform 0.3s;
   box-shadow: 0px 0px 15px 4px;
+  font-family: "Raleway";
+  font-weight: bolder;
 }
 
 
@@ -111,6 +113,8 @@ font-size: 60px;
   border-radius: 50px;
   transition: transform 0.3s;
   box-shadow: 0px 0px 15px 4px;
+  font-family: "Raleway";
+  font-weight: bolder;
 }
 
 
@@ -120,7 +124,79 @@ font-size: 60px;
   font-size: 41px;
   text-decoration: underline;
   text-decoration-color: #44d62c;
+  font-family: "Raleway";
 }
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1080px) {
+  #about {
+    padding-top: 50px;
+    max-width: 100%;
+  }
+
+  #about-head {
+    font-size: 30px; 
+  }
+
+  #about-img {
+    max-width: 100%; 
+  }
+
+  #info-con,
+  #about-pi-con {
+    font-size: 14px; 
+  }
+}
+
+
+@media screen and (max-width: 720px) {
+  #about {
+    padding-top: 30px;
+    max-width: 100%; 
+  }
+
+  #about-head {
+    font-size: 24px;
+  }
+
+  #about-img {
+    max-width: 100%; 
+  }
+
+  #info-con,
+  #about-pi-con {
+    font-size: 12px; 
+  }
+}
+
+
+@media screen and (max-width: 300px) {
+  #about {
+    padding-top: 20px; 
+    max-width: 100%; 
+  }
+
+  #about-head {
+    font-size: 18px; 
+  }
+
+  #about-img {
+    max-width: 100%; 
+  }
+
+  #info-con,
+  #about-pi-con {
+    font-size: 10px; 
+  }
+}
+
+
 
 
 </style>

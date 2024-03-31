@@ -232,7 +232,7 @@ font-size: 60px;
   color: white;
   border: 5px solid #44d62c;
   border-radius: 50px;
-  font-family: "Roboto";
+  font-family: "Raleway";
   font-size: 50px;
   text-align: center;
 
@@ -278,9 +278,10 @@ font-size: 60px;
 }
 
 #resume-title{
-    font-family: "Roboto";
+    font-family: "Raleway";
     font-size: 23px;
     font-weight: bold;
+		font-style: italic;
 }
 
 
@@ -290,6 +291,7 @@ font-size: 60px;
 	background-color: #e9e9e9;
 	display: flex;
 	box-shadow: 0px 0px 15px 4px #44d62c;
+	font-family: "Raleway";
 }
 
 .intro {
@@ -594,97 +596,118 @@ h1{
   }
 }
 
-@media (max-width: 1024px) {
-	html {
-		font-size: 90%;
-	}
-	.wrapper {
-		flex-direction: column;
-	}
-	.intro, .detail {
-		flex: 0 0 100%;
-		box-shadow: none;
-	}
-	.intro-section {
-		padding: 0 2rem;
-	}
-	.profile {
-		margin-bottom: 1rem;
-	}
-	.profile::after {
-		display: none;
-	}
-	.photo img {
-		width: 100px;
-		height: 100px;
-	}
-}
 
-@media (max-width: 768px) {
-	html {
-		font-size: 80%;
-	}
-	.tool-list {
-		flex-wrap: wrap;
-	}
-	.tool-list > li {
-		flex: 0 0 33.33%;
-	}
-	.favor-list > li {
-		flex: 0 0 33.3333%;
-	}
-}
-@media (max-width: 500px) {
-	html {
-		font-size: 70%;
-	}
-} 
-
-
-
-
-
-
-
-@media (max-width: 300px) {
-  #background {
-    min-height: auto;
-  }
-
+@media screen and (max-width: 1080px) {
   .wrapper {
     flex-direction: column;
-    max-width: 100%;
   }
 
-  .intro, .detail {
-    flex: 0 0 100%;
-    box-shadow: none;
-  }
-
-  .photo img {
+  .intro,
+  .detail {
     width: 100%;
-    height: auto;
+    max-width: none;
+    padding: 1rem;
+  }
+
+  .detail {
+    margin-top: 1rem;
+  }
+
+  .profile {
+    margin-bottom: 2rem;
+  }
+
+  .timeline-block {
+    padding-left: 20px;
+  }
+}
+
+
+
+@media screen and (max-width: 720px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .intro,
+  .detail {
+    width: 100%;
+    max-width: none;
+    padding: 1rem;
+  }
+
+  .detail {
+    margin-top: 1rem;
+  }
+
+  .profile {
+    margin-bottom: 2rem;
   }
 
   .timeline-block {
     padding-left: 15px;
   }
 
-  .sb-skeleton {
-    height: 1px;
+  .photo img {
+    width: 60%; 
   }
 
-  .tool-list > li {
-    flex: 0 0 100%;
+  .bio .name {
+    font-size: 1.2rem; 
+  }
+
+  .bio .profession {
+    font-size: 1rem; 
+  }
+}
+
+
+@media screen and (max-width: 300px) {
+  .wrapper,
+  .intro,
+  .detail,
+  .profile {
+    width: 100%;
+    max-width: none;
+    padding: 0.5rem;
+    margin: 0;
+    text-align: center;
+  }
+
+  .detail {
+    margin-top: 1rem;
+  }
+
+  .profile {
     margin-bottom: 1rem;
   }
 
-  .tool-list > li > svg {
-    width: 100%;
+  .photo img {
+    width: 50%; 
   }
 
-  
+  .bio .name {
+    font-size: 1rem; 
+  }
+
+  .bio .profession {
+    font-size: 0.8rem; 
+  }
+
+  .timeline-block {
+    padding-left: 10px;
+  }
+
+  .detail-section > .detail-content {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .title-icon {
+    display: none; 
+  }
 }
+
 
     
 </style>

@@ -224,7 +224,7 @@ font-size: 60px;
   color: white;
   border: 5px solid #44d62c;
   border-radius: 50px;
-  font-family: "Roboto";
+  font-family: "Raleway";
   font-size: 50px;
   text-align: center;
 
@@ -243,6 +243,8 @@ font-size: 60px;
 
   
 }
+
+
 
 .flip-container {
   position: relative;
@@ -264,7 +266,8 @@ font-size: 60px;
 .card_back {
   width: 320px;
   height: 480px;
- 
+ font-family: "Raleway";
+ font-weight: bolder;
   border-radius: 8px;
 }
 
@@ -281,8 +284,15 @@ font-size: 60px;
   left: 0;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   border-radius: 10px;
-  color: white;
-  background-color: black;
+ 
+
+  z-index: 2;
+  transform: rotateY(0deg);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 1.3em;
 }
 .card_back {
   backface-visibility: hidden;
@@ -292,28 +302,18 @@ font-size: 60px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   color: black;
-  background-color: black;
-}
+ 
 
-.card_front {
-  z-index: 2;
-  transform: rotateY(0deg);
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  overflow: hidden;
-  font-size: 1.3em;
-}
-
-.card_back {
   transform: rotateY(180deg);
   background-color: #44d62c;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: "Sen", sans-serif;
+  font-family: "Raleway";
 }
+
+
 
 .card_back p {
   padding: 10px 30px;
@@ -321,10 +321,15 @@ font-size: 60px;
   line-height: 1.68;
   font-size: 18px;
   margin-bottom: 30px;
+ font-weight: bolder;
+ background-color: black;
+ color: #44d62c;
+
+  
 }
 
 .card_back button {
-  font-family: "Roboto";
+  font-family: "Raleway";
   font-size: 22px;
   background-color: #44d62c;
   border-color: black;
@@ -366,6 +371,7 @@ font-size: 60px;
   text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   padding-bottom: 10px;
+  
 }
 
 #card-head{
@@ -382,7 +388,7 @@ font-size: 60px;
 
 .btn:hover i.fas.fa-link,
 .btn:hover i.fab.fa-github {
-    transform: scale(115%);
+    transform: scale(110%);
 }
 
 a{
@@ -394,6 +400,116 @@ a:hover{
     transform: scale(115%);
     color: #44d62c!important;
 }
+
+
+
+@media screen and (max-width: 1080px) {
+
+  .container {
+    max-width: 100%;
+    padding: 0 20px; 
+  }
+
+
+  .col-lg-4 {
+    flex: 0 0 calc(33.33% - 40px); 
+    margin-right: 20px; 
+  }
+
+
+  #projects-head {
+    background-color: transparent;
+    border: none;
+  }
+
+ 
+  #card-head {
+    font-size: 24px;
+  }
+
+ 
+  .flip-container {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px; 
+  }
+}
+
+
+
+@media screen and (max-width: 720px) {
+ 
+  .container {
+    max-width: 100%;
+    padding: 0 15px; 
+  }
+
+ 
+  .col-lg-4 {
+    flex: 0 0 calc(50% - 30px);
+    margin-right: 15px; 
+    margin-bottom: 20px; 
+  }
+
+  
+  #card-head {
+    font-size: 20px;
+  }
+
+ 
+  .flip-container {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .card_back button {
+    text-align: center;
+  }
+
+ 
+  #projects-head {
+    padding: 20px;
+  }
+}
+
+
+
+@media screen and (max-width: 300px) {
+ 
+  .container {
+    max-width: 100%;
+    padding: 0 10px; 
+  }
+
+
+  .col-lg-4 {
+    flex: 0 0 100%;
+    margin-bottom: 20px; 
+  }
+
+  
+  #card-head {
+    font-size: 16px;
+  }
+
+  
+  .flip-container {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .card_back button {
+    text-align: center;
+  }
+
+ 
+  #projects-head {
+    padding: 10px;
+  }
+}
+
 
 
 

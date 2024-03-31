@@ -38,21 +38,21 @@
     <h5>Khwezilomso Mbobo<span>-Colleague</span></h5>
   </div>
 </figure>
-<figure class="snip1192 col-lg-4 col-md-6 col-sm-12 my-3">
+<figure class="snip1192 col-lg-4 col-md-6 col-sm-12">
   <blockquote>"Muhammad Rajah is an amazing person with an amazing personality. He is someone that can present themselves in a manner that will get everyone's attention. I would recommend Muhammad Rajah as someone who can explain and grasp things well, as well as someone who is good at doing the frontend"</blockquote>
   <div class="author">
     <img src="https://cdn-images.imagevenue.com/86/c5/e8/ME17GED3_o.jpg" alt="sq-sample29"/>
     <h5>Haanim Pietersen<span>-Colleague</span></h5>
   </div>
 </figure>
-<figure class="snip1192 col-lg-4 col-md-6 col-sm-12 my-3">
+<figure class="snip1192 col-lg-4 col-md-6 col-sm-12">
   <blockquote>"Muhammad Rajah is a very charismatic individual with high energy and an output to match. He excels in bringing positivity and his optimism is a driving force in achieving results above the expectation. With Muhammad, impossible is nothing."</blockquote>
   <div class="author">
     <img src="https://cdn-images.imagevenue.com/ee/62/24/ME17GED2_o.jpg" alt="sq-sample29"/>
     <h5>Tauha Hoosain Shaik<span>-Colleague</span></h5>
   </div>
 </figure>
-<figure class="snip1192 col-lg-4 col-md-6 col-sm-12 my-3">
+<figure class="snip1192 col-lg-4 col-md-6 col-sm-12">
   <blockquote>Rajah is a well-spoken and energetic guy. His competitive nature pushes him to constantly strive for growth and development which makes him a dependable colleague.</blockquote>
   <div class="author">
     <img src="https://cdn-images.imagevenue.com/9f/8a/47/ME17GED1_o.png" alt="sq-sample29"/>
@@ -213,96 +213,48 @@ font-size: 60px;
  
 }
 
+@media only screen and (max-width: 1080px) {
+  figure.snip1192 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
 
 
-@media(max-width:767px){
-    .card{
-        margin: 1rem 0.7rem 1rem;
-        max-width: 80vw;
-    }
+@media only screen and (max-width: 720px) {
+  figure.snip1192 {
+    width: 100%;
+    margin-bottom: 30px;
+  }
 }
-img{
-    width: 6.2rem;
-    border-radius: 20px;
-    margin: 1.3rem auto 1rem auto;
-    height: 100px;
-}
-.col-md-4{
-    padding:0  0.5rem;
-}
-.card-title{
-    font-size: 20px;
-    margin-bottom: 0;
-    font-weight: bold;
-    font-family: 'IM Fell French Canon SC';
-    color: #44d62c;
-    border-bottom: 1px solid white;
-}
-.card-text{
-    text-align: center;
-    padding: 1rem 2rem;
+
+
+@media only screen and (max-width: 300px) {
+  figure.snip1192 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  figure.snip1192 blockquote {
+    padding: 20px;
     font-size: 14px;
-    color: #44d62c;
-    line-height: 1.4rem;
-}
-.footer{
-    border-top: none;
-    text-align: center;
-    line-height: 1.2rem;
-    padding: 2rem 0 1.4rem 0;
-    font-family: 'Varela Round';
-}
-#name{
-    font-size: 0.8rem;
-    font-weight: bold;
-}
-#position{
-    font-size: 0.7rem;
-}
-
-
-#name{
-    font-weight: bold;
-    font-size: 15px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    color: #44d62c;
-    
-}
-
-
-
-
-
-
-@media (max-width: 300px) {
-  #background {
-    min-height: 100vh;
-  }
-
-  .test-head {
-    font-size: 30px;
-  }
-
-  .card {
     height: auto;
   }
-
-  img {
-    width: 100%;
+  figure.snip1192 img {
+    height: 80px;
+    width: 80px;
   }
-
-  .col-md-4 {
-    padding: 0 0.2rem;
+  figure.snip1192 .author h5 {
+    font-size: 14px;
   }
-
-  .card-text {
-    padding: 1rem 1rem;
+  #testDrag {
+    font-size: 40px;
   }
-
-
+  #test-head {
+    font-size: 30px;
+  }
 }
+
+
 
 
 
