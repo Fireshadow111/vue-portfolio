@@ -9,7 +9,7 @@
     </div>
     <div id="con-background" data-aos="fade-up">
       <div id="contactForm-div" data-aos="fade-up">
-        <form @submit.prevent="submitForm" action="https://formspree.io/f/xqkrdpya" method="POST" target="_blank">
+        <form @submit.prevent="submitForm" action="https://formspree.io/f/myyqoarq" method="POST" target="_blank">
           <label for="firstName">First Name:</label>
           <input type="text" id="firstName" name="firstName" v-model="formData.firstName" placeholder="Enter your name..">
           <label for="lastName">Last Name:</label>
@@ -23,27 +23,36 @@
       </div>
     </div>
     
-<div id = "icons" class = "d-flex justify-content-center mt-4 mb-5">
+    <div id = "icons" class = "d-flex justify-content-center mt-4 mb-5">
 
 <div id = "linkedin-div">
-<a href="https://www.linkedin.com/in/muhammad-rajah-a1a00421a/" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
+  <a href="https://www.linkedin.com/in/muhammad-rajah-a1a00421a/" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
+  
+</div>
+
+<div id = "github-div" class = "mx-3">
+
+  <a href="https://github.com/Fireshadow111" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #40d62c; cursor: pointer;"></i></a>
 
 </div>
 
+<div id = "whatsapp-div">
+
+  <a href="https://wa.me/+277741883" target="_blank"><i class="fa-brands fa-whatsapp fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
+
+</div>
 
 <div id = "instagram-div" class = "mx-3">
 
-<a href="https://www.instagram.com/muhammadrajah111/" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
+  <a href="https://www.instagram.com/muhammadrajah111/" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #40d62c; cursor: pointer;"></i></a>
 
 </div>
 
 <div id= "facebook-div">
 
-<a href="https://www.facebook.com/muhammad.rajah.716/" target="_blank"><i class="fa-brands fa-square-facebook fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
-
+  <a href="https://www.facebook.com/muhammad.rajah.716/" target="_blank"><i class="fa-brands fa-square-facebook fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
+  
 </div>
-
-
 </div>
 </div>
 </div>
@@ -82,17 +91,51 @@ export default {
         });
         return; 
       }
-      await Swal.fire({
-        icon: 'success',
-        title: 'Message Sent Successfully',
-        text: 'Thank you for contacting us!',
-        confirmButtonText: 'OK'
-      });
+      
+  
+      if (!this.formData.email.includes('@')) {
+        await Swal.fire({
+          icon: 'warning',
+          title: 'Invalid email address',
+          text: 'Please enter a valid email address.',
+          confirmButtonText: 'OK'
+        });
+        return;
+      }
+      
+      try {
+    
+        await fetch('https://formspree.io/f/myyqoarq', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(this.formData)
+        });
 
-      this.formData.firstName = '';
-      this.formData.lastName = '';
-      this.formData.email = '';
-      this.formData.message = '';
+      
+        await Swal.fire({
+          icon: 'success',
+          title: 'Message Sent Successfully',
+          text: 'Thank you for contacting us!',
+          confirmButtonText: 'OK'
+        });
+
+      
+        this.formData.firstName = '';
+        this.formData.lastName = '';
+        this.formData.email = '';
+        this.formData.message = '';
+      } catch (error) {
+       
+        console.error('Error sending message:', error);
+        await Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Something went wrong. Please try again later.',
+          confirmButtonText: 'OK'
+        });
+      }
     }
  },
  mounted() {
