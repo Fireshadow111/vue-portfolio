@@ -403,112 +403,34 @@ a:hover{
 
 
 
-@media screen and (max-width: 1080px) {
-
-  .container {
-    max-width: 100%;
-    padding: 0 20px; 
-  }
 
 
-  .col-lg-4 {
-    flex: 0 0 calc(33.33% - 40px); 
-    margin-right: 20px; 
-  }
-
-
-  #projects-head {
-    background-color: transparent;
-    border: none;
-  }
-
- 
-  #card-head {
-    font-size: 24px;
-  }
-
- 
-  .flip-container {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px; 
-  }
-}
-
-
-
-@media screen and (max-width: 720px) {
+@media only screen and (max-width: 768px) {
  
   .container {
-    max-width: 100%;
-    padding: 0 15px; 
+    padding-left: 15px;
+    padding-right: 15px;
   }
-
- 
-  .col-lg-4 {
-    flex: 0 0 calc(50% - 30px);
-    margin-right: 15px; 
-    margin-bottom: 20px; 
-  }
-
   
-  #card-head {
-    font-size: 20px;
-  }
-
- 
-  .flip-container {
-    width: 100%;
-    height: auto;
-  }
-
-  
-  .card_back button {
-    text-align: center;
-  }
-
- 
-  #projects-head {
-    padding: 20px;
-  }
-}
-
-
-
-@media screen and (max-width: 300px) {
- 
-  .container {
-    max-width: 100%;
-    padding: 0 10px; 
-  }
-
-
   .col-lg-4 {
     flex: 0 0 100%;
-    margin-bottom: 20px; 
-  }
-
-  
-  #card-head {
-    font-size: 16px;
-  }
-
-  
-  .flip-container {
-    width: 100%;
-    height: auto;
-  }
-
-  
-  .card_back button {
-    text-align: center;
-  }
-
- 
-  #projects-head {
-    padding: 10px;
+    max-width: 100%;
   }
 }
+
+@media only screen and (max-width: 576px) {
+  
+  #projectsDrag {
+    font-size: 40px;
+  }
+  
+  .card_front,
+  .card_back {
+    width: 280px;
+    height: 420px;
+  }
+}
+
 
 
 
