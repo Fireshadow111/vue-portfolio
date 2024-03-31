@@ -12,85 +12,87 @@
        </div>
           
                         
-                        <!-- <div id = "grid" data-aos="fade-up">
-                        <div  v-for = "projects in rajah" :key = "projects" class="card mx-5 my-5">
-                            <div class="cardImage">
-                            <img   style = "border-radius: 20px; height: 200px;" class="img-fluid d-flex mx-auto" :src="projects.projImage">
-                        </div>
-                        <div class="card-text">
-                            <div class="card-title my-1">{{projects.projCardTitle}}</div>
-                            <p style = "color: black">{{projects.projCardInfo}}</p>
-                        </div>
-                        <div class="footer" style="border-radius: 20px;">
-                          <a target = _blank href="https://fancy-begonia-21b598.netlify.app/" style = "color: black; font-weight: bold;" class="btn mr-2"><i class="fas fa-link"></i> Visit Site</a>
-                        <a target = _blank href="https://github.com/Fireshadow111/interest-amount.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a>
-                            
-                        </div>
-                    </div>
-                        
-                </div>
-          -->
-          <div class="container">
+              
+          <center>
+          <div class="container"  data-aos="fade-up">
 
   <div class="row">
 
-    <div class="col my-5 mx-4">
+    <div class="col-lg-4 col-md-6 col-sm-12 my-5">
       <div class="flip-container">
         <div class="flipper">
           <div class="card_front">
             <div class="card_front_top_background"></div>
+          
             <div class="center">
-              <p>React</p>
-              <p>CSS3</p>
-              <p>Node | Express</p>
-              <p>JWT | MongoDB</p>
+              <h1 id = "card-head">Temperature Converter</h1>
+               <img src="	https://cdn-images.imagevenue.com/d4/f5/d8/ME17XP0Y_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
             </div>
           </div>
           <div class="card_back">
-            <p>CRUD web application to manage invitations, data stored in a MongoDB for each authentication.</p>
-            <button><a href="https://github.com/octaviandd/invite-Me">Source Code</a></button>
+            <p>This project users JavaScript and converts fahrenheit to celsius.</p>
+              <div id = "button-div">
+                
+                <button> <a target = _blank href="https://chipper-sundae-f73811.netlify.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
+                <button>  <a target = _blank href="https://github.com/Fireshadow111/tempConverter-project.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
+              
+              
+              </div>
+             
           </div>
         </div>
       </div>
     </div>
 
 
-    <div class="col my-5">
+    <div class="col-lg-4 col-md-6 col-sm-12 my-5">
       <div class="flip-container">
         <div class="flipper">
           <div class="card_front">
             <div class="card_front_top_background"></div>
             <div class="center">
-              <p>React</p>
-              <p>CSS3</p>
-              <p>Node | Express</p>
-              <p>JWT | MongoDB</p>
+              <h1 id = "card-head">E-commerce Store</h1>
+            
+              <img src="	https://cdn-images.imagevenue.com/db/db/24/ME17VN65_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
             </div>
+            
           </div>
+          
           <div class="card_back">
-            <p>CRUD web application to manage invitations, data stored in a MongoDB for each authentication.</p>
-            <button><a href="https://github.com/octaviandd/invite-Me">Source Code</a></button>
+            <p>This site requires users to sign up and login before adding products to cart and checking out</p>
+            <div id = "button-div">
+                
+                <button> <a target = _blank href="https://capstone-project-4ee89.firebaseapp.com" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
+                <button>  <a target = _blank href="https://github.com/Fireshadow111/capstone-project.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
+              
+              
+              </div>
           </div>
         </div>
       </div>
     </div>
 
 
-    <div class="col my-5">
+    <div class="col-lg-4 col-md-6 col-sm-12 my-5">
       <div class="flip-container">
         <div class="flipper">
           <div class="card_front">
             <div class="card_front_top_background"></div>
             <div class="center">
-              <p>React</p>
-              <p>CSS3</p>
-              <p>Node | Express</p>
-              <p>JWT | MongoDB</p>
+              <h1 id = "card-head">RGB to HEX Converter</h1>
+              <img src="	https://cdn-images.imagevenue.com/23/65/0a/ME17XP3L_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
+              
             </div>
           </div>
           <div class="card_back">
-            <p>CRUD web application to manage invitations, data stored in a MongoDB for each authentication.</p>
-            <button><a href="https://github.com/octaviandd/invite-Me">Source Code</a></button>
+            <p>The primary function of the project involves receiving input in the form of RGB (Red, Green, Blue) color values and outputs the HEX colour equivalent.</p>
+            <div id = "button-div">
+                
+                <button> <a target = _blank href="https://chipper-biscotti-6718f0.netlify.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
+                <button>  <a target = _blank href="https://github.com/Fireshadow111/rgb-to-hex.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
+              
+              
+              </div>
           </div>
         </div>
       </div>
@@ -100,62 +102,75 @@
 
 <div class="row">
 
-  <div class="col my-5 mx-4">
+  <div class="col-lg-4 col-md-6 col-sm-12 my-5">
     <div class="flip-container">
       <div class="flipper">
         <div class="card_front">
           <div class="card_front_top_background"></div>
           <div class="center">
-            <p>React</p>
-            <p>CSS3</p>
-            <p>Node | Express</p>
-            <p>JWT | MongoDB</p>
+            <h1 id = "card-head">Interest Calculator</h1>
+            <img src="https://cdn-images.imagevenue.com/5f/bd/aa/ME17XOS5_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
           </div>
         </div>
         <div class="card_back">
-          <p>CRUD web application to manage invitations, data stored in a MongoDB for each authentication.</p>
-          <button><a href="https://github.com/octaviandd/invite-Me">Source Code</a></button>
+          <p>This project uses JavaScript and accepts numeric inputs and outputs the amount of interest accumulated
+                            over the duration given.</p>
+          <div id = "button-div">
+                
+                <button> <a target = _blank href="https://fancy-begonia-21b598.netlify.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
+                <button>  <a target = _blank href="https://github.com/Fireshadow111/interest-amount.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
+              
+              
+              </div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="col my-5">
+  <div class="col-lg-4 col-md-6 col-sm-12 my-5">
     <div class="flip-container">
       <div class="flipper">
         <div class="card_front">
           <div class="card_front_top_background"></div>
           <div class="center">
-            <p>React</p>
-            <p>CSS3</p>
-            <p>Node | Express</p>
-            <p>JWT | MongoDB</p>
+            <h1 id = "card-head">Regular Calculator</h1>
+            <img src="	https://cdn-images.imagevenue.com/85/96/14/ME17XP3J_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
           </div>
         </div>
         <div class="card_back">
-          <p>CRUD web application to manage invitations, data stored in a MongoDB for each authentication.</p>
-          <button><a href="https://github.com/octaviandd/invite-Me">Source Code</a></button>
+          <p>This calculator accepts the numbers and operations clicked by the user and outputs the answer.</p>
+          <div id = "button-div">
+                
+                <button> <a target = _blank href="https://effulgent-banoffee-8f84bc.netlify.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
+                <button>  <a target = _blank href="https://github.com/Fireshadow111/fancy-calculator.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
+              
+              
+              </div>
         </div>
       </div>
     </div>
   </div>
 
 
-  <div class="col my-5">
+  <div class="col-lg-4 col-md-6 col-sm-12 my-5">
     <div class="flip-container">
       <div class="flipper">
         <div class="card_front">
           <div class="card_front_top_background"></div>
           <div class="center">
-            <p>React</p>
-            <p>CSS3</p>
-            <p>Node | Express</p>
-            <p>JWT | MongoDB</p>
+            <h1 id = "card-head">Area of a triangle Calculator </h1>
+            <img src="	https://cdn-images.imagevenue.com/ba/a5/61/ME17XOPX_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
           </div>
         </div>
         <div class="card_back">
-          <p>CRUD web application to manage invitations, data stored in a MongoDB for each authentication.</p>
-          <button><a href="https://github.com/octaviandd/invite-Me">Source Code</a></button>
+          <p>This project takes the variables of a triangle and calculates the area.</p>
+          <div id = "button-div">
+                
+                <button> <a target = _blank href="https://stirring-madeleine-61f2b2.netlify.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
+                <button>  <a target = _blank href="https://github.com/Fireshadow111/area-of-triangle.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
+              
+              
+              </div>
         </div>
       </div>
     </div>
@@ -164,7 +179,7 @@
 
           </div>
 
-    
+        </center>
     </body>
 </template>
 <script>
@@ -219,11 +234,7 @@ font-size: 60px;
     padding-top: 110px;
     max-width: 1500px;
 }
-#grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    border-radius: 20px;
-}
+
 
 #background{
     background-color: black;
@@ -258,13 +269,12 @@ font-size: 60px;
 }
 
 .flipper {
-  transition: transform 0.6s;
+  transition: transform 0.7s ease;
   transform-style: preserve-3d;
   position: relative;
 }
 
-.card_front,
-.card_back {
+.card_front{
   backface-visibility: hidden;
   position: absolute;
   top: 0;
@@ -272,6 +282,16 @@ font-size: 60px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   color: white;
+  background-color: black;
+}
+.card_back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  color: black;
   background-color: black;
 }
 
@@ -304,23 +324,21 @@ font-size: 60px;
 }
 
 .card_back button {
-  padding: 20px 50px;
-  border: 0;
-  box-shadow: 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
-  background: rgba(0, 0, 0, 0.05);
-  border-radius: 10px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
+  font-family: "Roboto";
+  font-size: 22px;
+  background-color: #44d62c;
+  border-color: black;
+  border-radius: 50px;
+  margin-top: 20px;
+  color: black;
+  transition: border-color 0.5s, background-color 0.5s, color 0.5s;
+  font-weight: bold;
 }
 
 .card_back button:hover {
-  transform: scale(1.1);
-}
+  background-color: black;
 
-.card_back button a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.3em;
+  border-color: white;
 }
 
 .card_front_top_background {
@@ -350,7 +368,11 @@ font-size: 60px;
   padding-bottom: 10px;
 }
 
+#card-head{
+  background-color: white;
+  color: black
 
+}
 
 
 .btn i.fas.fa-link,
@@ -365,19 +387,16 @@ font-size: 60px;
 
 a{
     transition: transform 0.3s ease;
+    
 }
 
 a:hover{
     transform: scale(115%);
+    color: #44d62c!important;
 }
 
 
 
-@media (max-width: 300px) {
-  .card {
-    margin: 0 auto 10px;
-  }
-}
 
 </style>
 

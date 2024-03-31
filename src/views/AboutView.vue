@@ -88,10 +88,6 @@ font-size: 60px;
   box-shadow: 0px 0px 15px 4px;
 }
 
-#about-img:hover {
-  transform: scale(105%);
-}
-
 
 
 #about-me-title {
@@ -109,9 +105,6 @@ font-size: 60px;
   box-shadow: 0px 0px 15px 4px;
 }
 
-#info-con:hover {
-  transform: scale(105%);
-}
 
 #about-pi-con {
   border: 2px solid #44d62c;
@@ -120,9 +113,6 @@ font-size: 60px;
   box-shadow: 0px 0px 15px 4px;
 }
 
-#about-pi-con:hover {
-  transform: scale(105%);
-}
 
 #about-me-pi {
   color: white;

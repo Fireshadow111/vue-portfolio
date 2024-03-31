@@ -24,31 +24,31 @@
 <div id = "icons" class = "d-flex justify-content-center mt-4">
 
 <div id = "linkedin-div">
-  <a href="https://www.linkedin.com/in/muhammad-rajah-a1a00421a/" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
+  <a  href="https://www.linkedin.com/in/muhammad-rajah-a1a00421a/" target="_blank"><i id = "sol-icons" class="fa-brands fa-linkedin fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
   
 </div>
 
 <div id = "github-div" class = "mx-3">
 
-  <a href="https://github.com/Fireshadow111" target="_blank"><i class="fa-brands fa-github fa-xl" style="color: #40d62c; cursor: pointer;"></i></a>
+  <a  href="https://github.com/Fireshadow111" target="_blank"><i id = "sol-icons" class="fa-brands fa-github fa-xl" style="color: #40d62c; cursor: pointer;"></i></a>
 
 </div>
 
 <div id = "whatsapp-div">
 
-  <a href="https://wa.me/+277741883" target="_blank"><i class="fa-brands fa-whatsapp fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
+  <a  href="https://wa.me/+277741883" target="_blank"><i id = "sol-icons" class="fa-brands fa-whatsapp fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
 
 </div>
 
 <div id = "instagram-div" class = "mx-3">
 
-  <a href="https://www.instagram.com/muhammadrajah111/" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #40d62c; cursor: pointer;"></i></a>
+  <a  href="https://www.instagram.com/muhammadrajah111/" target="_blank"><i id = "sol-icons" class="fa-brands fa-instagram fa-xl" style="color: #40d62c; cursor: pointer;"></i></a>
 
 </div>
 
 <div id= "facebook-div">
 
-  <a href="https://www.facebook.com/muhammad.rajah.716/" target="_blank"><i class="fa-brands fa-square-facebook fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
+  <a  href="https://www.facebook.com/muhammad.rajah.716/" target="_blank"><i id = "sol-icons" class="fa-brands fa-square-facebook fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
   
 </div>
 </div>
@@ -211,7 +211,7 @@ h2{
 
 #button1:hover{
   background-color: black;
-  color: #44d62c;
+  color: #44d62c!important;
   border-color: white;
 }
 
@@ -228,6 +228,15 @@ h2{
   font-weight: bolder;
   text-align: center;
   background-color: #44d62c;
+}
+
+
+#sol-icons{
+  transition: transform 0.3s ease;
+}
+
+#sol-icons:hover{
+  transform: scale(110%);
 }
 
 @media(max-width: 300px) {

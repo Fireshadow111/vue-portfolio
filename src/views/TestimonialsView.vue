@@ -6,8 +6,8 @@
 
     <div id = "testimonials" class="container text-center" data-aos="fade-up">
       <div class="row align-items-center">
-        <div id="projects-head" class="mb-5" data-aos="fade-up">
-          <h1 id="projectsDrag">Testimonials</h1>
+        <div id="test-head" class="mb-5" data-aos="fade-up">
+          <h1 id="testDrag">Testimonials</h1>
       
     </div>
      
@@ -17,42 +17,42 @@
     <div class = "container text-center"  data-aos="fade-up">
     <div class="row align-items-center">
       
-    <figure class="snip1192 col-md-4">
+    <figure class="snip1192 col-lg-4 col-md-6 col-sm-12 my-5">
   <blockquote>"Muhammad is a creative, and well-behaved individual who always prioritizes his work. He excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub."</blockquote>
   <div class="author">
     <img src="https://cdn-images.imagevenue.com/46/b0/a9/ME17GECZ_o.jpg" alt="sq-sample1"/>
     <h5>Joel Mukanya <span>-Coding Lecturer</span></h5>
   </div>
 </figure>
-<figure class="snip1192 col-md-4">
+<figure class="snip1192 col-lg-4 col-md-6 col-sm-12 my-5">
   <blockquote>"Muhammad Rajah is a strong willed, hard-working man with a healthy competitive spirit when it comes to projects, always taking inspiration from others to better his knowledge and skills. He has a great understanding of the workings of the world and incredible religious values that is tuly humbling to be in the presence of."</blockquote>
   <div class="author">
     <img src="https://cdn-images.imagevenue.com/93/11/7c/ME17GED0_o.jpg" alt="sq-sample24"/>
     <h5>Damon Raffels<span>-Colleague</span></h5>
   </div>
 </figure>
-<figure class="snip1192 col-md-4">
+<figure class="snip1192 col-lg-4 col-md-6 col-sm-12 my-5">
   <blockquote>"Muhammad Rajah is someone of great integrity; spirit and determination, who reflects every aspect of this in his work. Anyone would be lucky to work with him, but proud to know him."</blockquote>
   <div class="author">
     <img src="https://cdn-images.imagevenue.com/18/d4/1c/ME17GED4_o.jpg" alt="sq-sample29"/>
     <h5>Khwezilomso Mbobo<span>-Colleague</span></h5>
   </div>
 </figure>
-<figure class="snip1192 col-md-4 my-3">
+<figure class="snip1192 col-lg-4 col-md-6 col-sm-12 my-3">
   <blockquote>"Muhammad Rajah is an amazing person with an amazing personality. He is someone that can present themselves in a manner that will get everyone's attention. I would recommend Muhammad Rajah as someone who can explain and grasp things well, as well as someone who is good at doing the frontend"</blockquote>
   <div class="author">
     <img src="https://cdn-images.imagevenue.com/86/c5/e8/ME17GED3_o.jpg" alt="sq-sample29"/>
     <h5>Haanim Pietersen<span>-Colleague</span></h5>
   </div>
 </figure>
-<figure class="snip1192 col-md-4 my-3">
+<figure class="snip1192 col-lg-4 col-md-6 col-sm-12 my-3">
   <blockquote>"Muhammad Rajah is a very charismatic individual with high energy and an output to match. He excels in bringing positivity and his optimism is a driving force in achieving results above the expectation. With Muhammad, impossible is nothing."</blockquote>
   <div class="author">
     <img src="https://cdn-images.imagevenue.com/ee/62/24/ME17GED2_o.jpg" alt="sq-sample29"/>
     <h5>Tauha Hoosain Shaik<span>-Colleague</span></h5>
   </div>
 </figure>
-<figure class="snip1192 col-md-4 my-3">
+<figure class="snip1192 col-lg-4 col-md-6 col-sm-12 my-3">
   <blockquote>Rajah is a well-spoken and energetic guy. His competitive nature pushes him to constantly strive for growth and development which makes him a dependable colleague.</blockquote>
   <div class="author">
     <img src="https://cdn-images.imagevenue.com/9f/8a/47/ME17GED1_o.png" alt="sq-sample29"/>
@@ -182,7 +182,7 @@ figure.snip1192 .author h5 span {
 }
 
 
-#projectsDrag{
+#testDrag{
 
 color: white;
 font-family: "DM Serif Display";
@@ -190,7 +190,7 @@ font-size: 60px;
 
 }
 
-#projects-head {
+#test-head {
   background-color: black;
   color: white;
   border: 5px solid #44d62c;
