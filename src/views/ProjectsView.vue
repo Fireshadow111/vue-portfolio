@@ -403,6 +403,34 @@ a:hover{
 
 
 
+@media (max-width: 1199px) {
+  .flip-container {
+    max-width: 100%;
+    margin-right: 15px; 
+    margin-bottom: 30px; 
+  }
+
+  .card_front_top_background {
+    max-width: 100%;
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 100%; 
+  }
+
+  .card-img-top {
+    max-width: 100%; 
+  }
+
+  img {
+    max-width: 100%; 
+  }
+}
+
+
+
+
 
 @media (max-width: 340px) {
   .flip-container {
