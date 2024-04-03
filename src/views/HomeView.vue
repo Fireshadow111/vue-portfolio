@@ -84,7 +84,7 @@ components : {
 #body{
 font-family: Kaisei HarunoUmi;
 overflow: hidden;
-
+min-height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -93,7 +93,7 @@ padding-bottom: 70px;
 }
 #ic{
 animation-name: fadeBeat;
-animation-duration: 1s;
+animation-duration: 6s;
 }
 #ic:hover{
 scale: 115%;
@@ -119,27 +119,30 @@ transition: all 0.5s ease-in-out;
 
 
 background-position: center;
-background-image: url("https://cdn-images.imagevenue.com/07/dd/8a/ME17Z49I_o.png");
+background-image: url("https://cdn-images.imagevenue.com/2f/8b/35/ME17Z5HP_o.png");
 background-repeat: no-repeat;
 background-size: cover;
 border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.104), rgba(0, 0, 0, 0.175));
 }
+
+
+
 #box {
 white-space: nowrap;
 position: relative;
 overflow: hidden;
 width: 540px;
-animation: typewriter 4s steps(50) alternate;
+animation: typewriter 10s alternate;
 }
 #introText {
-/* font-size: 35px; */
+
 font-weight: 700;
 background: linear-gradient(to right,#44d62c, #44d62c);
 -webkit-background-clip: text;
 background-clip: text;
 -webkit-text-fill-color: transparent;
-overflow: hidden; /* Hides any content that overflows the container */
-text-overflow: ellipsis; /* Displays an ellipsis (...) to indicate truncated text */
+overflow: hidden; 
+text-overflow: ellipsis; 
 white-space: nowrap;
 }
 #text-L, #text-S{
@@ -172,7 +175,7 @@ color: #d9d9d9
 [data-btn] {
 width: 9em;
 height: 3em;
-color: rgb(255, 119, 0);
+color: #44d62c;
 font-weight: bold;
 border-radius: 30em;
 font-size: 15px;
@@ -180,7 +183,7 @@ font-family: inherit;
 position: relative;
 overflow: hidden;
 z-index: 1;
-border: 1px solid orangered;
+border: 1px solid #44d62c;
 }
 [data-btn]::before {
 content: '';
@@ -190,7 +193,7 @@ border-radius: 30em;
 position: absolute;
 top: 0;
 left: 0;
-background-image: linear-gradient(to right, #FF9100 10%, #F9B847 100%);
+background-image: linear-gradient(to right, #44d62c, 10%, #44d62c, 100%);
 transition: .5s ease;
 display: block;
 z-index: -1;
@@ -198,14 +201,8 @@ z-index: -1;
 [data-btn]:hover::before {
 width: 9em;
 }
-@keyframes typewriter {
-0% {
-  width: 0px;
-}
-100% {
-  width: 540px;
-}
-}
+
+
 @media (max-width: 998px) {
 #boxable{
   height: 250px;
@@ -279,7 +276,7 @@ width: 9em;
 [data-btn] {
   width: 9em;
   height: 2em;
-  color: rgb(255, 119, 0);
+  color: #44d62c;
   font-weight: bold;
   border-radius: 20em;
   font-family: inherit;
@@ -296,7 +293,7 @@ width: 9em;
   position: absolute;
   top: 0;
   left: 0;
-  background-image: linear-gradient(to right, #D80F0F 10%, #FF8000 100%);
+  background-image: linear-gradient(to right, #44d62c, 10%, #44d62c, 100%);
   transition: .5s ease;
   display: block;
   z-index: -1;
@@ -304,63 +301,229 @@ width: 9em;
 }
 
 
-
-
-
-
-@media (max-width: 540px) {
-#introText{
-  font-size: 20px;
-}
-#box {
-  white-space: nowrap;
-  position: relative;
-  overflow: hidden;
-  width: 250px;
-  animation: typewriter 4s steps(50) alternate;
-}
-#text-L{
-  font-size: 15px;
-}
-#text-S{
-  font-size: 11px;
-}
 @keyframes typewriter {
   0% {
-    width: 0px;
+    width: 0;
   }
   100% {
+    width: 100%;
+  }
+}
+
+
+
+
+
+@media (max-width: 500px) {
+  #body {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  #boxable {
+    height: 200px;
+    width: 120px;
+    margin: 20px;
+    left: 60%;
+    top: 5%;
+  }
+
+  #moveableTxt {
+    width: 120px;
+    font-size: 8px;
+  }
+
+  #box {
     width: 300px;
   }
-}
-}
-@media (max-width: 380px) {
-#introText{
-  font-size: 20px;
-}
-#box {
-  white-space: nowrap;
-  position: relative;
-  overflow: hidden;
-  width: 250px;
-  animation: typewriter 4s steps(50) alternate;
-}
-#text-L{
-  font-size: 15px;
-}
-#text-S{
-  font-size: 11px;
-}
-[data-btn]{
-  font-size: 13px;
-}
-@keyframes typewriter {
-  0% {
-    width: 0px;
+
+  #introText {
+    font-size: 25px;
   }
-  100% {
-    width: 300px;
+
+  #text-L {
+    font-size: 18px;
+  }
+
+  #text-S {
+    font-size: 12px;
+  }
+
+  [data-btn] {
+    width: 7em;
+    height: 1.5em;
+    border-radius: 15px;
+  }
+
+  [data-btn]::before {
+    height: 1.5em;
+    border-radius: 15px;
   }
 }
+
+
+
+@media (max-width: 400px) {
+  #body {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  #boxable {
+    height: 180px;
+    width: 100px;
+    margin: 15px;
+    left: 50%;
+    top: 5%;
+  }
+
+  #moveableTxt {
+    width: 100px;
+    font-size: 6px;
+  }
+
+  #box {
+    width: 250px;
+  }
+
+  #introText {
+    font-size: 22px;
+  }
+
+  #text-L {
+    font-size: 15px;
+  }
+
+  #text-S {
+    font-size: 10px;
+  }
+
+  [data-btn] {
+    width: 6em;
+    height: 1.2em;
+    border-radius: 10px;
+  }
+
+  [data-btn]::before {
+    height: 1.2em;
+    border-radius: 10px;
+  }
 }
+
+
+
+@media (max-width: 300px) {
+  #body {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  #boxable {
+    height: 150px;
+    width: 80px;
+    margin: 10px;
+    left: 45%;
+    top: 5%;
+  }
+
+  #moveableTxt {
+    width: 80px;
+    font-size: 5px;
+  }
+
+  #box {
+    width: 200px;
+  }
+
+  #introText {
+    font-size: 20px;
+  }
+
+  #text-L {
+    font-size: 18px;
+  }
+
+  #text-S {
+    font-size: 8px;
+  }
+
+  [data-btn] {
+    width: 5em;
+    height: 1em;
+    border-radius: 8px;
+  }
+
+  [data-btn]::before {
+    height: 1em;
+    border-radius: 8px;
+  }
+
+ 
+}
+
+
+
+
+
+
+@media (max-width: 358px) {
+  #body {
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
+
+  #boxable {
+    height: 150px;
+    width: 80px;
+    margin: 10px;
+    left: 45%;
+    top: 5%;
+  }
+
+  #moveableTxt {
+    width: 80px;
+    font-size: 5px;
+  }
+
+  #box {
+    width: 200px;
+  }
+
+  #introText {
+    font-size: 18px;
+  }
+
+  #text-L {
+    font-size: 15px;
+  }
+
+  #text-S {
+    font-size: 8px;
+  }
+
+  [data-btn] {
+    width: 5em;
+    height: 1em;
+    border-radius: 8px;
+  }
+
+  [data-btn]::before {
+    height: 1em;
+    border-radius: 8px;
+  }
+
+  #button1{
+    width: 130px;
+  
+  }
+
+  #button2{
+    width: 130px;
+  }
+}
+
+
+
+
+
 </style>
