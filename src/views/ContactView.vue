@@ -23,7 +23,7 @@
       </div>
     </div>
     
-    <div id = "icons" class = "d-flex justify-content-center mt-4 mb-5">
+    <div id = "icons" class = "d-flex justify-content-center mt-4 mb-3">
 
 <div id = "linkedin-div">
   <a href="https://www.linkedin.com/in/muhammad-rajah-a1a00421a/" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
@@ -56,7 +56,8 @@
 </div>
 </div>
 </div>
-   
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13236.238143267135!2d18.543614641888894!3d-33.96530922442367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc44ce607184e1%3A0xc2c79ab7ca9c30f4!2sHeideveld%2C%20Cape%20Town%2C%207764!5e0!3m2!1sen!2sza!4v1712153169913!5m2!1sen!2sza" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<footer class = "footer">محمد - @Copyright&copy  - 2024</footer>
  </body>
 </template>
 
@@ -245,13 +246,15 @@ input[type=submit]:active {
   transform: translatex(4px);
 }
 
-#footer-con{
-  border-top: 2px solid #e10800;
+
+
+.footer {
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  background-color: #44d62c;
 }
 
-#footer{
-color: #e10800;
-}
 
 
 @media only screen and (max-width: 1080px) {

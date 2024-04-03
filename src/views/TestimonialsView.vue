@@ -255,6 +255,34 @@ font-size: 60px;
 }
 
 
+@media only screen and (max-width: 355px) {
+  figure.snip1192 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  figure.snip1192 blockquote {
+    padding: 20px;
+    font-size: 14px;
+    height: auto;
+  }
+  figure.snip1192 img {
+    height: 80px;
+    width: 80px;
+  }
+  figure.snip1192 .author h5 {
+    font-size: 14px;
+  }
+  #testDrag {
+    font-size: 40px;
+  }
+  #test-head {
+    font-size: 30px;
+  }
+
+  .about-head{
+    max-width: 355px;
+  }
+}
 
 
 

@@ -19,7 +19,7 @@
             <h5 id="about-me-pi-bod1">Date of birth: 11 April 2001</h5>
             <h5 id="about-me-pi-bod2">Location: Heideveld </h5>
             <h5 id="about-me-pi-bod3">Cell No: 067 774 1883 </h5>
-            <h5 id="about-me-pi-bod4">Email: muhammadrajah22@gmail.com</h5>
+         
           </div>
         </div>
 
@@ -192,7 +192,7 @@ font-size: 60px;
 
   #info-con,
   #about-pi-con {
-    font-size: 10px; 
+    font-size: 5px; 
   }
 }
 

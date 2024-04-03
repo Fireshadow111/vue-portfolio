@@ -3,7 +3,7 @@
 
 
       <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: black;">
-  <div class="container-fluid justify-content-center">
+  <div class="container justify-content-center">
 
   
     <a class="navbar-brand" href="#home-con"><img id ="nav-image" src="https://cdn-images.imagevenue.com/f2/e2/8a/ME17QREJ_o.png" alt=""></a>
@@ -56,15 +56,61 @@ export default {
   text-decoration-thickness: 3px;
 }
 
-#navbarNavAltMarkup{
-  border-bottom: 2px solid #44d62c;
-  text-decoration-thickness: 3px;
-}
+
     
 
   #nav-image{
-    max-width: 160px;
-  max-height: 50px;
+    max-width: 200px;
+  max-height: 40px;
     
   }
+
+
+
+
+  @media only screen and (max-width: 398px) {
+
+  #navbarContainer {
+    flex-direction: column;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-nav a {
+    margin: 10px 0;
+  }
+
+  nav{
+    width: 390px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+ 
+  #navbarContainer {
+    padding: 10px; 
+  }
+
+  #nav-image {
+    max-width: 130px; 
+  }
+
+  .navbar-nav a {
+    font-size: 20px; 
+  }
+
+  nav{
+    max-width: 305px;
+  }
+}
+
+
+
 </style>

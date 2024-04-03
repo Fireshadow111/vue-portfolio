@@ -404,10 +404,373 @@ a:hover{
 
 
 
+@media (max-width: 340px) {
+  .flip-container {
+    max-width: 330px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 330px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 330px; 
+  }
+
+  .card-img-top{
+    max-width: 330px;
+  }
+
+  img{
+    max-width: 330px;
+  }
+}
+
+
+@media (max-width: 335px) {
+  .flip-container {
+    max-width: 320px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 320px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 320px; 
+  }
+
+  .card-img-top{
+    max-width: 320px;
+  }
+
+  img{
+    max-width: 320px;
+  }
+}
 
 
 
 
+@media (max-width: 333px) {
+  .flip-container {
+    max-width: 310px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 310px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 310px; 
+  }
+
+  .card-img-top{
+    max-width: 310px;
+  }
+
+  img{
+    max-width: 310px;
+  }
+}
+
+
+
+
+
+@media (max-width: 328px) {
+  .flip-container {
+    max-width: 310px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 310px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 310px; 
+  }
+
+  .card-img-top{
+    max-width: 310px;
+  }
+
+  img{
+    max-width: 310px;
+  }
+}
+
+
+
+
+@media (max-width: 326px) {
+  .flip-container {
+    max-width: 305px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 305px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 305px; 
+  }
+
+  .card-img-top{
+    max-width: 305px;
+  }
+
+  img{
+    max-width: 305px;
+  }
+}
+
+
+
+
+
+@media (max-width: 322px) {
+  .flip-container {
+    max-width: 300px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 300px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 300px; 
+  }
+
+  .card-img-top{
+    max-width: 300px;
+  }
+
+  img{
+    max-width: 300px;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 319px) {
+  .flip-container {
+    max-width: 300px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 300px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 300px; 
+  }
+
+  .card-img-top{
+    max-width: 300px;
+  }
+
+  img{
+    max-width: 300px;
+  }
+}
+
+
+
+
+@media (max-width: 317px) {
+  .flip-container {
+    max-width: 300px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 300px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 300px; 
+  }
+
+  .card-img-top{
+    max-width: 300px;
+  }
+
+  img{
+    max-width: 300px;
+  }
+}
+
+
+
+
+@media (max-width: 314px) {
+  .flip-container {
+    max-width: 290px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 290px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 290px; 
+  }
+
+  .card-img-top{
+    max-width: 290px;
+  }
+
+  img{
+    max-width: 290px;
+  }
+}
+
+
+
+
+
+@media (max-width: 311px) {
+  .flip-container {
+    max-width: 290px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 290px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 290px; 
+  }
+
+  .card-img-top{
+    max-width: 290px;
+  }
+
+  img{
+    max-width: 290px;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 307px) {
+  .flip-container {
+    max-width: 285px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 285px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 285px; 
+  }
+
+  .card-img-top{
+    max-width: 285px;
+  }
+
+  img{
+    max-width: 285px;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 304px) {
+  .flip-container {
+    max-width: 285px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 285px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 285px; 
+  }
+
+  .card-img-top{
+    max-width: 285px;
+  }
+
+  img{
+    max-width: 285px;
+  }
+}
+
+
+
+@media (max-width: 302px) {
+  .flip-container {
+    max-width: 280px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 280px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 280px; 
+  }
+
+  .card-img-top{
+    max-width: 280px;
+  }
+
+  img{
+    max-width: 280px;
+  }
+}
+
+
+
+
+
+@media (max-width: 300px) {
+  .flip-container {
+    max-width: 280px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 280px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 280px; 
+  }
+
+  .card-img-top{
+    max-width: 280px;
+  }
+
+  img{
+    max-width: 280px;
+  }
+}
 
 
 </style>
