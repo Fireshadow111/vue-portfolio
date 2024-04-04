@@ -23,7 +23,7 @@
       </div>
       <div class="bio">
         <h1 id = "resume-name"  class="name">Muhammad Rajah</h1>
-        <p id = "resume-title" class="profession"> Aspiring Frontend Developer</p>
+        <p id = "resume-title" class="profession">Web Developer</p>
       </div>
     </div>
    
@@ -194,10 +194,10 @@
                </div>
                <div class="detail-content">
                    <div class="timeline-block">
-                       <h1>Intern</h1>
+                       <h1>Full-Stack Developer - Intern</h1>
                        <p>Life Choices</p>
                        <p>2024 - Present</p>
-                       <p>I am responsible for creating Full-Stack websites based on the requirements of the client</p>
+                       <p>I am responsible for creating Full-Stack websites for clients based on their personal requirements.</p>
                    </div>
                   
                </div>
@@ -205,7 +205,10 @@
         
            </div>
            <center>
-           <button id="download-btn" href = "https://doc-0k-60-prod-03-apps-viewer.googleusercontent.com/viewer2/prod-03/pdf/n2gpo4k9jjqjn0fd0fra8qr8leg1vh81/8iatho7do98qlgmeq3c2cr4065enkode/1712228700000/3/103573390495604461687/APznzabeYvaKNzE2FJd7itsOcsGpnRqrkQos0aoPyCZJRsY0GPUSiF3TdpchFDqBqzGK1oHWqkC-hKo0T8E2zsC9bOUz9LOofqdo28MV108GxS4Jw16Stf2v6MQ8L8PdiBRKG7QCkPUsKICU2u9lafmt02i7MZuPQJtNGXZt0B14cOPhZTofO1CsIaDogyZiZ1addAxoPT31_IJqhVhkoatmfQ6Xn89PeADNOXEUjDZUXi9Y0Hwad-fJYKXtiNJUaxxI6cWsp4cbiqOOqnYQWGVvm5rSQGb3xn7j6LiWWRyP7GbkrJDqSZi6GfzehYI1RkewVj0lYM3oewTAt8pHerflFtjyXcVSC2R2kxGHcR45A90LmrVoLCcHhyfyEoPB5TV00Q2VmuGuI7p_IJaX5EnNW5ErA5L6T4tnPMzarJXykC1iEHu-wsE=?authuser=0&nonce=eg35fmhgcvcdm&user=103573390495604461687&hash=gr7thohetikvtedfo71hqdu8sgmkpss5" target = "_blank">Download CV</button>
+          
+    <a id="download-btn" href="https://doc-0g-3s-prod-02-apps-viewer.googleusercontent.com/viewer2/prod-02/pdf/9d7c8gitkcmavpqv8m2u2o905j224tep/5g4m98nftagcb3bccvcgq9eksa14qn5h/1712229525000/3/103573390495604461687/APznzaZ60xjVO8HJxrd3hlZE4ZfXJ8S1EQvO-bWzlYBabscMlfnh_jSi6dOWFSBKyjMDlyQpKUmVgbBI0FfZAeDoSyObVVw0a9B3_ThJFubDLtnAhbXbdFnTQKJIuKgk-58dEtik7Yx4SuhgcQabjwGMHBr09CkG1UgK5i8UmYiG1vK0bykulh67547lFVsgTlLm77NejKAVZgekIqr9Obh8SEBlEapWHpWg8l0ezPBctmEgtkcqQ6qwMSU2fJTOKfx-dTWdByKWhJs-SitnBzMGaVpN4r38HDwdcJIilau9BwIoG6UpOjIg-PFhCGnBsWVsn-LHnrXJqB_4dQAgmXfkHwNucqsXSNsMC9Ww2Iv9bjmseJtrBeiT1xi8nE8KO6MAeiiy9SoVjPO_FjswqRF760nVB9g46i61-Nnpjuf-9h85RhamWgg=?authuser=0&nonce=5phma60c6g7s0&user=103573390495604461687&hash=ppv9e8q9n974e6nurdq8fb9nc96hj5h6" target="_blank">Download CV</a>
+
+
           </center>
        </div>
        
