@@ -169,6 +169,40 @@
       </div>
     </div>
 
+    <div class="detail-section hobbies">
+    <div class="detail-title">
+        <div class="title-icon">
+            <i class="fas fa-heart"></i>
+        </div>
+        <span>Hobbies</span>
+    </div>
+    <div class="detail-content">
+        <ul>
+            <li>Working on personal projects</li>
+            <li>Learning new things</li>
+            <li>Enjoying good food with a movie</li>
+           
+        </ul>
+    </div>
+</div>
+
+<div class="detail-section languages">
+    <div class="detail-title">
+        <div class="title-icon">
+            <i class="fas fa-language"></i>
+        </div>
+        <span>Languages</span>
+    </div>
+    <div class="detail-content">
+        <ul>
+            <li>English - Fluent</li>
+            <li>Afrikaans - Intermediate</li>
+            <li>Arabic - Beginner</li>
+        </ul>
+    </div>
+</div>
+
+
            <div class="detail-section soft-skills">
                <div class="detail-title">
                    <div class="title-icon">
@@ -185,6 +219,9 @@
                       
                    </ul>
                </div>
+             
+                  
+               </div>
                <div class="detail-section experience">
                <div class="detail-title">
                    <div class="title-icon">
@@ -199,8 +236,6 @@
                        <p>2024 - Present</p>
                        <p>I am responsible for creating Full-Stack websites for clients based on their personal requirements.</p>
                    </div>
-                  
-               </div>
            </div>
         
            </div>
@@ -492,7 +527,7 @@ h1{
 }
 
 #h1{
-  margin-top: 225px;
+  margin-top: 30px;
 }
 
 .title-icon + span {

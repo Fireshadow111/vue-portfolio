@@ -18,7 +18,8 @@
             <h2 id="about-me-pi">Personal Details</h2>
             <h5 id="about-me-pi-bod1">Date of birth: 11 April 2001</h5>
             <h5 id="about-me-pi-bod2">Location: Heideveld </h5>
-            <h5 id="about-me-pi-bod3">Cell No: 067 774 1883 </h5>
+            
+            
          
           </div>
         </div>
