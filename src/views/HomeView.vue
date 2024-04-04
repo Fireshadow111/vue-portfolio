@@ -127,6 +127,8 @@ border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.104), rgba(0, 0, 0, 0.175))
 
 #button1{
   background-color: #d9d9d9;
+
+
 }
 
 #button2{
@@ -445,6 +447,16 @@ width: 9em;
   display: block;
   z-index: -1;
 }
+#button1{
+    width: 130px;
+    font-size: 15px;
+
+  }
+
+  #button2{
+    width: 130px;
+    font-size: 15px;
+  }
 }
 
 
@@ -496,6 +508,15 @@ width: 9em;
     height: 1.5em;
     border-radius: 15px;
   }
+  #button1{
+    width: 130px;
+    font-size: 15px;
+  }
+
+  #button2{
+    width: 130px;
+    font-size: 15px;
+  }
 }
 
 
@@ -545,6 +566,15 @@ width: 9em;
     height: 1.2em;
     border-radius: 10px;
   }
+  #button1{
+    width: 130px;
+    font-size: 12px;
+  }
+
+  #button2{
+    width: 130px;
+    font-size: 12px;
+  }
 }
 
 
@@ -593,6 +623,16 @@ width: 9em;
   [data-btn]::before {
     height: 1em;
     border-radius: 8px;
+  }
+
+  #button1{
+    width: 130px;
+    font-size: 12px;
+  }
+
+  #button2{
+    width: 130px;
+    font-size: 12px;
   }
 
  
@@ -651,11 +691,12 @@ width: 9em;
 
   #button1{
     width: 130px;
-  
+    font-size: 12px;
   }
 
   #button2{
     width: 130px;
+    font-size: 12px;
   }
 }
 
