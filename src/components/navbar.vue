@@ -6,14 +6,14 @@
   <div class="container justify-content-center">
 
   
-    <a class="navbar-brand" href="#home-con"><img id ="nav-image" src="https://cdn-images.imagevenue.com/f2/e2/8a/ME17QREJ_o.png" alt=""></a>
+    <a class="navbar-brand" href="#landingBody"><img id ="nav-image" src="https://cdn-images.imagevenue.com/f2/e2/8a/ME17QREJ_o.png" alt=""></a>
   
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a id = "links" class = "mx-3" aria-current="page" href= "#home-con">Home</a> 
+        <a id = "links" class = "mx-3" aria-current="page" href= "#landingBody">Home</a> 
         <a id = "links" class = "mx-3" href ="#about">About</a>
         <a id = "links" class = "mx-3" href ="#resume">Resume</a>
         <a id = "links" class = "mx-3" href ="#projects">Projects</a>
