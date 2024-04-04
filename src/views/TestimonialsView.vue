@@ -39,7 +39,7 @@
   </div>
 </figure>
 <figure class="snip1192 col-lg-4 col-md-6 col-sm-12">
-  <blockquote>"Muhammad Rajah is an amazing person with an amazing personality. He is someone that can present themselves in a manner that will get everyone's attention. I would recommend Muhammad Rajah as someone who can explain and grasp things well, as well as someone who is good at doing the frontend"</blockquote>
+  <blockquote>"Muhammad Rajah is an amazing person with an amazing personality. He is someone that can present themselves in a manner that will get everyone's attention. I would recommend Muhammad Rajah as someone who can explain and grasp things well, as well as someone who is good at doing the frontend."</blockquote>
   <div class="author">
     <img src="https://cdn-images.imagevenue.com/86/c5/e8/ME17GED3_o.jpg" alt="sq-sample29"/>
     <h5>Haanim Pietersen<span>-Colleague</span></h5>
@@ -53,7 +53,7 @@
   </div>
 </figure>
 <figure class="snip1192 col-lg-4 col-md-6 col-sm-12">
-  <blockquote>Rajah is a well-spoken and energetic guy. His competitive nature pushes him to constantly strive for growth and development which makes him a dependable colleague.</blockquote>
+  <blockquote>"Rajah is a well-spoken and energetic guy. His competitive nature pushes him to constantly strive for growth and development which makes him a dependable colleague."</blockquote>
   <div class="author">
     <img src="https://cdn-images.imagevenue.com/9f/8a/47/ME17GED1_o.png" alt="sq-sample29"/>
     <h5>Naeema Omar<span>-Colleague</span></h5>
@@ -110,7 +110,7 @@ figure.snip1192 {
 
   
 
-  color: #333;
+  color: black;
  
  
 }
@@ -130,7 +130,7 @@ figure.snip1192 blockquote {
   display: block;
   border-radius: 8px;
   position: relative;
-  background-color: #fafafa;
+  background-color: #d9d9d9;
   padding: 30px 50px 65px 50px;
   font-size: 16px;
   font-weight: bold;
@@ -141,7 +141,7 @@ figure.snip1192 blockquote {
 }
 
 
-
+/* 
 figure.snip1192 blockquote:before,
 figure.snip1192 blockquote:after {
   font-family: 'FontAwesome';
@@ -160,12 +160,12 @@ figure.snip1192 blockquote:after {
   content: "\201D";
   right: 20px;
   bottom: 30px;
-}
+} */
 figure.snip1192 .author {
   margin: 0;
   text-transform: uppercase;
   text-align: center;
-  color: #ffffff;
+  color: #d9d9d9;
   
 }
 figure.snip1192 .author h5 {
@@ -184,7 +184,7 @@ figure.snip1192 .author h5 span {
 
 #testDrag{
 
-color: white;
+color: #d9d9d9;
 font-family: "DM Serif Display";
 font-size: 60px;
 
@@ -192,7 +192,7 @@ font-size: 60px;
 
 #test-head {
   background-color: black;
-  color: white;
+  color: #d9d9d9;
   border: 5px solid #44d62c;
   border-radius: 50px;
   font-family: "Roboto";
@@ -220,6 +220,8 @@ font-size: 60px;
   }
 }
 
+
+
 @media only screen and (max-width: 720px) {
   figure.snip1192 {
     width: 100%;
@@ -235,7 +237,7 @@ font-size: 60px;
   figure.snip1192 blockquote {
     padding: 20px;
     font-size: 14px;
-    height: auto;
+    height: 1000px;
   }
   figure.snip1192 img {
     height: 80px;
@@ -258,14 +260,66 @@ font-size: 60px;
     width: 100%;
     margin-bottom: 30px;
   }
+
+  figure.snip1192 blockquote {
+    padding: 20px;
+    font-size: 14px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+
+
+  figure.snip1192 blockquote {
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+
+
+  figure.snip1192 blockquote {
+    height: 180px;
+  }
 }
 
 
-@media only screen and (max-width: 720px) {
-  figure.snip1192 {
-    width: 100%;
-    margin-bottom: 30px;
-  }
+
+@media only screen and (max-width: 500px) {
+
+
+figure.snip1192 blockquote {
+  height: 200px;
+}
+}
+
+@media only screen and (max-width: 439px) {
+
+
+figure.snip1192 blockquote {
+  height: 220px;
+}
+}
+
+
+@media only screen and (max-width: 398px) {
+
+
+figure.snip1192 blockquote {
+  height: 250px;
+}
+}
+
+
+
+@media only screen and (max-width: 354px) {
+
+
+
+img{
+  margin-top: 30px
+}
 }
 
 
@@ -277,7 +331,7 @@ font-size: 60px;
   figure.snip1192 blockquote {
     padding: 20px;
     font-size: 14px;
-    height: auto;
+   
   }
   figure.snip1192 img {
     height: 80px;
@@ -291,6 +345,10 @@ font-size: 60px;
   }
   #test-head {
     font-size: 30px;
+  }
+
+  img{
+    margin-top: 30px
   }
 }
 

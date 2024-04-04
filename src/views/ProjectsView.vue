@@ -213,7 +213,7 @@ rajah()  {return this.$store.state.projects}
 
 #projectsDrag{
 
-color: white;
+color: #d9d9d9;
 font-family: "DM Serif Display";
 font-size: 60px;
 
@@ -221,7 +221,7 @@ font-size: 60px;
 
 #projects-head {
   background-color: black;
-  color: white;
+  color: #d9d9d9;
   border: 5px solid #44d62c;
   border-radius: 50px;
   font-family: "Raleway";
@@ -343,7 +343,7 @@ font-size: 60px;
 .card_back button:hover {
   background-color: black;
 
-  border-color: white;
+  border-color: #d9d9d9;
 }
 
 .card_front_top_background {
@@ -352,7 +352,7 @@ font-size: 60px;
   top: 0;
   left: 0;
   right: 0;
- background-color: white;
+ background-color: #d9d9d9;
   width: 100%;
   transform: skewY(-6deg);
   transform-origin: top left;
@@ -375,7 +375,7 @@ font-size: 60px;
 }
 
 #card-head{
-  background-color: white;
+  background-color: #d9d9d9;
   color: black
 
 }

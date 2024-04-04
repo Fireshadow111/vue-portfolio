@@ -56,7 +56,7 @@
 </div>
 </div>
 </div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13236.238143267135!2d18.543614641888894!3d-33.96530922442367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc44ce607184e1%3A0xc2c79ab7ca9c30f4!2sHeideveld%2C%20Cape%20Town%2C%207764!5e0!3m2!1sen!2sza!4v1712153169913!5m2!1sen!2sza" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 <footer class = "footer">محمد - @Copyright&copy  - 2024</footer>
  </body>
 </template>
@@ -170,7 +170,7 @@ i:hover{
    
 #contactDrag{
 
-color: white;
+color: #d9d9d9;
 font-family: "DM Serif Display";
 font-size: 60px;
 
@@ -178,7 +178,7 @@ font-size: 60px;
 
 #contact-head {
   background-color: black;
-  color: white;
+  color: #d9d9d9;
   border: 5px solid #44d62c;
   border-radius: 50px;
   font-family: "Raleway";
@@ -202,7 +202,7 @@ font-size: 60px;
 label {
   font-family: "Raleway";
   font-size: 23px;
-  color:white;
+  color:#d9d9d9;
   font-weight: bold;
   
   
@@ -219,7 +219,7 @@ textarea {
   border-radius: 15px;
   font-weight: bold;
   background:transparent;
-  color:white;
+  color:#d9d9d9;
 
 }
 
@@ -238,7 +238,7 @@ textarea {
 }
 
 input[type=submit]:hover {
-  border-color: white !important;
+  border-color: #d9d9d9 !important;
 }
 
 input[type=submit]:active {

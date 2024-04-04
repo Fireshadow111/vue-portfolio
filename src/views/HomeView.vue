@@ -5,10 +5,10 @@
     <div class="px-4 py-5 my-5 text-center">
       <div class="display-5 fw-bold text-body-emphasis">
         <div class="container mt-5 mb-0" id="box">
-          <span id="introText">Hi I am Muhammad</span>
+          <span id="introText">Hi, I am Muhammad</span>
         </div>
       </div>
-      <p class="lead mb-1" id="text-L">Web Developer</p>
+      <p class="lead mb-1 style fade-in" id="text-L">Web Developer</p>
       <div class="col-lg-6 mx-auto">
       
         
@@ -125,7 +125,13 @@ background-size: cover;
 border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.104), rgba(0, 0, 0, 0.175));
 }
 
+#button1{
+  background-color: #d9d9d9;
+}
 
+#button2{
+  background-color: #d9d9d9;
+}
 
 #box {
 white-space: nowrap;
@@ -133,6 +139,11 @@ position: relative;
 overflow: hidden;
 width: 540px;
 animation: typewriter 10s alternate;
+/* animation-name: name;
+  animation-duration: 20s;
+  animation-delay: 0s;
+  position: relative;
+  animation-direction: alternate; */
 }
 #introText {
 
@@ -153,8 +164,132 @@ transition: all 1s ease-in-out;
 #text-L{
 font-size: 30px;
 
-color: #d9d9d9
+color: white;
+
+/* animation-name: webdev;
+  animation-duration: 20s;
+  animation-delay: 0s;
+  position: relative;
+  animation-direction: alternate; */
 }
+
+@keyframes webdev{
+  0%{
+      left: 800px;
+      top: 0px;
+  }
+
+  25%{
+      left: 0px;
+      top: 0px;
+
+  }
+
+  50%{
+      left: 0px;
+     top:0px;
+
+  }
+
+  75%{
+      top: 0px;
+      left: 0px 
+   }
+
+   100%{
+      left: 0px;
+      top: 0px;
+  }
+}  
+
+@keyframes name{
+  0%{
+      left: -800px;
+      top: 0px;
+  }
+
+  25%{
+      left: 0px;
+      top: 0px;
+
+  }
+
+  50%{
+      left: 0px;
+     top:0px;
+
+  }
+
+  75%{
+      top: 0px;
+      left: 0px 
+   }
+
+   100%{
+      left: 0px;
+      top: 0px;
+  }
+}  
+
+
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+
+
+
 @keyframes fadeBeat {
 0%{
   filter: blur(90px);
@@ -201,6 +336,18 @@ z-index: -1;
 [data-btn]:hover::before {
 width: 9em;
 }
+
+
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+
 
 
 @media (max-width: 998px) {
@@ -298,16 +445,6 @@ width: 9em;
   display: block;
   z-index: -1;
 }
-}
-
-
-@keyframes typewriter {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 100%;
-  }
 }
 
 
