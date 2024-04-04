@@ -222,10 +222,15 @@ font-size: 60px;
 
 
 
+
+
 @media only screen and (max-width: 720px) {
-  figure.snip1192 {
-    width: 100%;
-    margin-bottom: 30px;
+  figure.snip1192 blockquote {
+    height: 180px;
+  }
+
+  #testDrag {
+    font-size: 30px;
   }
 }
 
@@ -247,10 +252,10 @@ font-size: 60px;
     font-size: 14px;
   }
   #testDrag {
-    font-size: 40px;
+    font-size: 20px;
   }
   #test-head {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
@@ -266,6 +271,13 @@ font-size: 60px;
     font-size: 14px;
     height: 150px;
   }
+
+ 
+  #testDrag {
+    font-size: 40px;
+  }
+
+  
 }
 
 @media only screen and (max-width: 780px) {
@@ -276,13 +288,6 @@ font-size: 60px;
   }
 }
 
-@media only screen and (max-width: 720px) {
-
-
-  figure.snip1192 blockquote {
-    height: 180px;
-  }
-}
 
 
 
@@ -323,34 +328,7 @@ img{
 }
 
 
-@media only screen and (max-width: 300px) {
-  figure.snip1192 {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  figure.snip1192 blockquote {
-    padding: 20px;
-    font-size: 14px;
-   
-  }
-  figure.snip1192 img {
-    height: 80px;
-    width: 80px;
-  }
-  figure.snip1192 .author h5 {
-    font-size: 14px;
-  }
-  #testDrag {
-    font-size: 40px;
-  }
-  #test-head {
-    font-size: 30px;
-  }
 
-  img{
-    margin-top: 30px
-  }
-}
 
 
 @media only screen and (max-width: 355px) {
