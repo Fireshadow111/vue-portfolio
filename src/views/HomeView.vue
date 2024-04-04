@@ -2,7 +2,7 @@
 <div id="body">
   <div class="container" id="landingBody">
    
-    <div class="px-4 py-5 my-5 text-center">
+    <div  class="px-4 py-5 my-5 text-center">
       <div class="display-5 fw-bold text-body-emphasis">
         <div class="container mt-5 mb-0" id="box">
           <span id="introText">Hi, I am Muhammad</span>

@@ -5,7 +5,7 @@
 	<div id = "resume" class="container text-center" data-aos="fade-up">
 		<div class="row align-items-center">
         <div id="resume-head" class="mb-5" data-aos="fade-up">
-          <h1 id="resumeDrag">Resume</h1>
+          <h1 id="resumeDrag">Education & Experience</h1>
       
     </div>
         </div>
