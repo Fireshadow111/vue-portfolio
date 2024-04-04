@@ -46,7 +46,7 @@
       </div>
     </div>
     <div class="intro-section follow">
-      <h1 class="title">Socials</h1>
+      <h1 id = "h1" class="title">Socials</h1>
       <div class="info-section link">
        
 
@@ -101,7 +101,8 @@
       <div class="detail-content">
         <div class="timeline-block">
           <h1>Life Choices Coding Academy</h1>
-          <p>Web Development</p>
+          <p>Full-Stack Web Development Certification of Excellence
+</p>
           <p>2023 - Present</p>
         </div>
         <div class="timeline-block">
@@ -109,11 +110,11 @@
           <p>NCV IT - level 4</p>
           <p>2019 - 2021</p>
         </div>
-        <div class="timeline-block">
+        <!-- <div class="timeline-block">
           <h1>International Peace College</h1>
           <p>Bachloars Degree in Arabic and Islamic Studies</p>
           <p>2023 - 2024</p>
-        </div>
+        </div> -->
       </div>
     </div>
     <div class="detail-section pg-skill">
@@ -121,59 +122,98 @@
         <div class="title-icon">
           <i class="fas fa-laptop-code"></i>
         </div>
-        <span>Programming skills</span>
+        <span>Programming Skills</span>
       </div>
       <div class="detail-content">
         <ul class="pg-list">
           <li>
-            <span>HTML</span>
-            <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 85%"></div>
-            </div>
+           HTML
           </li>
           <li>
             <span>CSS</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 90%"></div>
+              <div class="skillbar"></div>
             </div>
           </li>
           <li>
             <span>Javascript</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 35%"></div>
+              <div class="skillbar"></div>
             </div>
           </li>
           <li>
             <span>Wordpress</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 30%"></div>
+              <div class="skillbar"></div>
             </div>
           </li>
           <li>
             <span>VueJS</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 65%"></div>
+              <div class="skillbar"></div>
             </div>
           </li>
           <li>
             <span>NodeJS</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 60%"></div>
+              <div class="skillbar"></div>
             </div>
           </li>
           <li>
             <span>MYSQL</span>
             <div class="sb-skeleton">
-              <div class="skillbar" style="--pgbar-length: 70%"></div>
+              <div class="skillbar"></div>
             </div>
           </li>
         </ul>
       </div>
     </div>
- 
+
+           <div class="detail-section soft-skills">
+               <div class="detail-title">
+                   <div class="title-icon">
+                       <i class="fas fa-heart"></i>
+                   </div>
+                   <span>Soft Skills</span>
+               </div>
+               <div class="detail-content">
+                   <ul>
+                       <li>Communication</li>
+                       <li>Teamwork</li>
+                       <li>Problem-solving</li>
+                       <li>Cultural Awareness</li>
+                      
+                   </ul>
+               </div>
+               <div class="detail-section experience">
+               <div class="detail-title">
+                   <div class="title-icon">
+                       <i class="fas fa-briefcase"></i>
+                   </div>
+                   <span>Experience</span>
+               </div>
+               <div class="detail-content">
+                   <div class="timeline-block">
+                       <h1>Intern</h1>
+                       <p>Life Choices</p>
+                       <p>2024 - Present</p>
+                       <p>I am responsible for creating Full-Stack websites based on the requirements of the client</p>
+                   </div>
+                  
+               </div>
+           </div>
+        
+           </div>
+           <!-- <center>
+           <button id="download-btn" @click="downloadCV">Download CV</button>
+          </center> -->
+       </div>
+       
 
 </div>
-</div>
+
+
+
 
 
 
@@ -197,8 +237,30 @@ export default {
 	methods: {
     fetchDataResume() {
       this.$store.dispatch('fetchDataResume');
+    },
+
+    downloadCV() {
+       
+        const cvUrl = '../cv/Muhammad_Rajah_CV.pdf';
+
+    
+        const link = document.createElement('a');
+        link.href = cvUrl;
+
+       
+        link.download = './cv/Muhammad_Rajah_CV.pdf';
+
+     
+        document.body.appendChild(link);
+        link.click();
+
+      
+        document.body.removeChild(link);
     }
   },
+
+
+
 
   computed:{
 
@@ -229,7 +291,7 @@ font-size: 60px;
 
 #resume-head {
   background-color: black;
-  color: white;
+  color: #d9d9d9;
   border: 5px solid #44d62c;
   border-radius: 50px;
   font-family: "Raleway";
@@ -248,6 +310,23 @@ font-size: 60px;
 		
 }
 
+#download-btn {
+    background-color: #44d62c;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+  
+}
+
+#download-btn:hover {
+    background-color: black;
+    color:#44d62c;
+}
 
 
 :root {
@@ -288,16 +367,19 @@ font-size: 60px;
 .wrapper {
 	margin: 0 auto;
 	max-width: 70rem;
-	background-color: #e9e9e9;
+	background-color: #d9d9d9;
 	display: flex;
 	box-shadow: 0px 0px 15px 4px #44d62c;
+  border: 5px solid black;
 	font-family: "Raleway";
 }
 
 .intro {
 	flex: 0 0 250px;
-	background-color: #f8f8f8;
+	background-color: #d9d9d9;
 	box-shadow: 5px 0px 15px 0px #44d62c;
+  border: 1px solid black;
+
 	z-index: 5;
 }
 .profile {
@@ -315,7 +397,7 @@ font-size: 60px;
 	bottom: -15px;
 	width: 100%;
 	height: 30px;
-	background-color: white;
+	background-color: #d9d9d9;
 	transform: skewY(-5deg);
 }
 .photo img {
@@ -389,7 +471,7 @@ font-size: 60px;
 
 .detail {
 	flex: 1 0 0;
-	background-color: white;
+	background-color: #d9d9d9;
 	padding: 2rem;
 }
 .detail:hover > .detail-section:not(:hover) {
@@ -420,6 +502,11 @@ font-size: 60px;
 h1{
     color: black  !important;
     font-weight: bold !important;
+   
+}
+
+#h1{
+  margin-top: 225px;
 }
 
 .title-icon + span {
@@ -512,13 +599,22 @@ h1{
 	align-items: center;
     color: black;
     font-weight: bold;
+    position: relative;
 }
-.sb-skeleton {
+
+.pg-list > li::before { 
+    content: '\2022'; 
+    color:black;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+/* .sb-skeleton {
 	position: relative;
 	flex: 1 0 auto;
 	height: 2px;
 	background-color: #9a9a9a;;
-}
+} */
 .pg-list > li > span {
 	flex: 0 0 100px;
 }
@@ -596,35 +692,7 @@ h1{
   }
 }
 
-
-@media screen and (max-width: 1080px) {
-  .wrapper {
-    flex-direction: column;
-  }
-
-  .intro,
-  .detail {
-    width: 100%;
-    max-width: none;
-    padding: 1rem;
-  }
-
-  .detail {
-    margin-top: 1rem;
-  }
-
-  .profile {
-    margin-bottom: 2rem;
-  }
-
-  .timeline-block {
-    padding-left: 20px;
-  }
-}
-
-
-
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 546px) {
   .wrapper {
     flex-direction: column;
   }
@@ -659,19 +727,25 @@ h1{
   .bio .profession {
     font-size: 1rem; 
   }
+
+  #h1{
+    margin-top: 50px;
+  }
 }
 
 
-@media screen and (max-width: 300px) {
-  .wrapper,
+
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
   .intro,
-  .detail,
-  .profile {
+  .detail {
     width: 100%;
     max-width: none;
-    padding: 0.5rem;
-    margin: 0;
-    text-align: center;
+    padding: 1rem;
   }
 
   .detail {
@@ -679,34 +753,30 @@ h1{
   }
 
   .profile {
-    margin-bottom: 1rem;
-  }
-
-  .photo img {
-    width: 50%; 
-  }
-
-  .bio .name {
-    font-size: 1rem; 
-  }
-
-  .bio .profession {
-    font-size: 0.8rem; 
+    margin-bottom: 2rem;
   }
 
   .timeline-block {
-    padding-left: 10px;
+    padding-left: 15px;
   }
 
-  .detail-section > .detail-content {
-    padding: 0.5rem;
-    font-size: 0.8rem;
+  .photo img {
+    width: 60%; 
   }
 
-  .title-icon {
-    display: none; 
+  .bio .name {
+    font-size: 1.2rem; 
+  }
+
+  .bio .profession {
+    font-size: 1rem; 
+  }
+
+  #h1{
+    margin-top: 50px;
   }
 }
+
 
 
     

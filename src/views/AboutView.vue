@@ -62,7 +62,7 @@ font-size: 60px;
 
 #about-head {
   background-color: black;
-  color: white;
+  color: #d9d9d9;
   border: 5px solid #44d62c;
   border-radius: 50px;
   font-family: "Raleway";
@@ -91,7 +91,7 @@ font-size: 60px;
 
 
 #about-me-title {
-  color: white;
+  color: #d9d9d9;
   border-radius: 20px;
   font-size: 41px;
   text-decoration: underline;
@@ -119,7 +119,7 @@ font-size: 60px;
 
 
 #about-me-pi {
-  color: white;
+  color: #d9d9d9;
   border-radius: 20px;
   font-size: 41px;
   text-decoration: underline;

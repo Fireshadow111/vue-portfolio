@@ -42,7 +42,7 @@ export default {
 }
 #links {
   font-size: 35px;
-  color: white;
+  color: #d9d9d9;
   font-family: "DM Serif Display";
   font-weight: bold;
 
@@ -92,7 +92,7 @@ export default {
   }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 301px) {
  
   #navbarContainer {
     padding: 10px; 
@@ -103,11 +103,11 @@ export default {
   }
 
   .navbar-nav a {
-    font-size: 20px; 
+    font-size: 10px; 
   }
 
   nav{
-    max-width: 305px;
+    max-width: 290px;
   }
 }
 
