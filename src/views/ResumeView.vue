@@ -204,9 +204,9 @@
            </div>
         
            </div>
-           <!-- <center>
-           <button id="download-btn" @click="downloadCV">Download CV</button>
-          </center> -->
+           <center>
+           <button id="download-btn" href = "https://doc-0k-60-prod-03-apps-viewer.googleusercontent.com/viewer2/prod-03/pdf/n2gpo4k9jjqjn0fd0fra8qr8leg1vh81/8iatho7do98qlgmeq3c2cr4065enkode/1712228700000/3/103573390495604461687/APznzabeYvaKNzE2FJd7itsOcsGpnRqrkQos0aoPyCZJRsY0GPUSiF3TdpchFDqBqzGK1oHWqkC-hKo0T8E2zsC9bOUz9LOofqdo28MV108GxS4Jw16Stf2v6MQ8L8PdiBRKG7QCkPUsKICU2u9lafmt02i7MZuPQJtNGXZt0B14cOPhZTofO1CsIaDogyZiZ1addAxoPT31_IJqhVhkoatmfQ6Xn89PeADNOXEUjDZUXi9Y0Hwad-fJYKXtiNJUaxxI6cWsp4cbiqOOqnYQWGVvm5rSQGb3xn7j6LiWWRyP7GbkrJDqSZi6GfzehYI1RkewVj0lYM3oewTAt8pHerflFtjyXcVSC2R2kxGHcR45A90LmrVoLCcHhyfyEoPB5TV00Q2VmuGuI7p_IJaX5EnNW5ErA5L6T4tnPMzarJXykC1iEHu-wsE=?authuser=0&nonce=eg35fmhgcvcdm&user=103573390495604461687&hash=gr7thohetikvtedfo71hqdu8sgmkpss5" target = "_blank">Download CV</button>
+          </center>
        </div>
        
 
@@ -239,24 +239,7 @@ export default {
       this.$store.dispatch('fetchDataResume');
     },
 
-    downloadCV() {
-       
-        const cvUrl = '../cv/Muhammad_Rajah_CV.pdf';
-
-    
-        const link = document.createElement('a');
-        link.href = cvUrl;
-
-       
-        link.download = './cv/Muhammad_Rajah_CV.pdf';
-
-     
-        document.body.appendChild(link);
-        link.click();
-
-      
-        document.body.removeChild(link);
-    }
+   
   },
 
 

@@ -29,8 +29,35 @@
 </template>
 <script>
 export default {
- 
- 
+  mounted() {
+    
+    document.querySelectorAll('.navbar-nav a').forEach((elem) => {
+      elem.addEventListener('click', () => {
+        document.querySelector('.navbar-collapse').classList.remove('show');
+      });
+    });
+
+    
+    const toggleButton = document.querySelector('.navbar-toggler');
+    toggleButton.addEventListener('click', () => {
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      if (navbarCollapse.classList.contains('show')) {
+        navbarCollapse.classList.remove('show');
+      } else {
+        navbarCollapse.classList.add('show');
+      }
+    });
+
+
+    document.addEventListener('click', (event) => {
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      if (!navbarCollapse.contains(event.target) && !toggleButton.contains(event.target)) {
+        navbarCollapse.classList.remove('show');
+      }
+    });
+  }
+  
+   
 }
 </script>
 <style scoped>
@@ -66,6 +93,30 @@ export default {
   }
 
 
+  @media only screen and (max-width: 1080px) {
+
+#navbarContainer {
+  flex-direction: column;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav {
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-nav a {
+  margin: 10px 0;
+}
+
+
+}
+
+
+
 
 
   @media only screen and (max-width: 398px) {
@@ -92,23 +143,125 @@ export default {
   }
 }
 
-@media only screen and (max-width: 301px) {
+@media only screen and (max-width: 300px) {
+
+#navbarContainer {
+  padding: 10px; 
+}
+
+#nav-image {
+  max-width: 130px; 
+}
+
+.navbar-nav a {
+  font-size: 10px; 
+}
+
+nav{
+  max-width: 290px;
+}
+}
+
+@media only screen and (max-width: 992px) {
+
+#links {
+  font-size: 28px;
  
-  #navbarContainer {
-    padding: 10px; 
-  }
+}
+}
 
-  #nav-image {
-    max-width: 130px; 
-  }
 
-  .navbar-nav a {
-    font-size: 10px; 
-  }
+@media only screen and (max-width: 621px) {
 
-  nav{
-    max-width: 290px;
-  }
+#links {
+ font-size: 22px;
+
+}
+}
+
+
+@media only screen and (max-width: 383px) {
+
+#navbarContainer {
+ padding: 10px; 
+}
+
+#nav-image {
+ max-width: 130px; 
+}
+
+.navbar-nav a {
+ font-size: 10px; 
+}
+
+nav{
+ max-width: 380px;
+}
+}
+
+
+
+@media only screen and (max-width: 357px) {
+
+#navbarContainer {
+ padding: 10px; 
+}
+
+#nav-image {
+ max-width: 130px; 
+}
+
+.navbar-nav a {
+ font-size: 10px; 
+}
+
+nav{
+ max-width: 350px;
+}
+}
+
+
+
+@media only screen and (max-width: 341px) {
+
+#navbarContainer {
+ padding: 10px; 
+}
+
+#nav-image {
+ max-width: 130px; 
+}
+
+.navbar-nav a {
+ font-size: 10px; 
+}
+
+nav{
+ max-width: 340px;
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 325px) {
+
+#navbarContainer {
+ padding: 10px; 
+}
+
+#nav-image {
+ max-width: 130px; 
+}
+
+.navbar-nav a {
+ font-size: 10px; 
+}
+
+nav{
+ max-width: 320px;
+}
 }
 
 
