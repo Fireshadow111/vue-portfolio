@@ -264,6 +264,25 @@ nav{
 }
 }
 
+@media only screen and (max-width: 291px) {
+
+#navbarContainer {
+ padding: 10px; 
+}
+
+#nav-image {
+ max-width: 130px; 
+}
+
+.navbar-nav a {
+ font-size: 10px; 
+}
+
+nav{
+ max-width: 290px;
+}
+}
+
 
 
 

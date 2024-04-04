@@ -429,8 +429,20 @@ a:hover{
 }
 
 
+@media screen and (max-width: 1080px) {
+  #projectsDrag {
+    font-size: 40px;
+  }
+
+  }
 
 
+  @media screen and (max-width: 720px) {
+  #projectsDrag {
+    font-size: 30px;
+  }
+
+  }
 
 @media (max-width: 340px) {
   .flip-container {
@@ -798,7 +810,36 @@ a:hover{
   img{
     max-width: 280px;
   }
+  #projectsDrag {
+    font-size: 20px;
+  }
 }
+
+
+
+@media (max-width: 296px) {
+  .flip-container {
+    max-width: 260px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 260px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 260px; 
+  }
+
+  .card-img-top{
+    max-width: 260px;
+  }
+
+  img{
+    max-width: 260px;
+  }
+}
+
 
 
 </style>

@@ -140,6 +140,10 @@ font-size: 60px;
     max-width: 100%;
   }
 
+  #aboutDrag {
+    font-size: 40px;
+  }
+
   #about-head {
     font-size: 30px; 
   }
@@ -161,8 +165,11 @@ font-size: 60px;
     max-width: 100%; 
   }
 
+  #aboutDrag {
+    font-size: 30px;
+  }
   #about-head {
-    font-size: 24px;
+    font-size: 30px;
   }
 
   #about-img {
@@ -182,8 +189,11 @@ font-size: 60px;
     max-width: 100%; 
   }
 
+  #aboutDrag {
+    font-size: 20px;
+  }
   #about-head {
-    font-size: 18px; 
+    font-size: 20px; 
   }
 
   #about-img {

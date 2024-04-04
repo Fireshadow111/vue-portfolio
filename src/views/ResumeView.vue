@@ -719,14 +719,25 @@ h1{
   }
 }
 
+@media screen and (max-width: 1080px) {
+  #resumeDrag {
+    font-size: 40px;
+  }
 
+  }
 
+  @media screen and (max-width: 720px) {
+  #resumeDrag {
+    font-size: 30px;
+  }
+
+  }
 
 @media screen and (max-width: 500px) {
   .wrapper {
     flex-direction: column;
   }
-
+ 
   .intro,
   .detail {
     width: 100%;
@@ -763,7 +774,12 @@ h1{
   }
 }
 
+@media screen and (max-width: 300px) {
+  #resumeDrag {
+    font-size: 20px;
+  }
 
+  }
 
     
 </style>
