@@ -82,7 +82,7 @@ components : {
 </script>
 <style scoped>
 #body{
-font-family: Kaisei HarunoUmi;
+
 overflow: hidden;
 min-height: 100vh;
 display: flex;
@@ -127,13 +127,15 @@ border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.104), rgba(0, 0, 0, 0.175))
 
 #button1{
   background-color: #d9d9d9;
-
+  font-family: "Railway";
 
 }
 
 #button2{
   background-color: #d9d9d9;
+  font-family: "Railway";
 }
+
 
 #box {
 white-space: nowrap;
@@ -148,7 +150,7 @@ animation: typewriter 10s alternate;
   animation-direction: alternate; */
 }
 #introText {
-
+  font-family: Kaisei HarunoUmi;
 font-weight: 700;
 background: linear-gradient(to right,#44d62c, #44d62c);
 -webkit-background-clip: text;
@@ -164,6 +166,7 @@ font-weight: 800;
 transition: all 1s ease-in-out;
 }
 #text-L{
+  font-family: "Railway";
 font-size: 30px;
 
 color: white;

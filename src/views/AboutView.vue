@@ -16,8 +16,8 @@
 
           <div id="about-pi-con" class="mt-5" data-aos="fade-up">
             <h2 id="about-me-pi">Personal Details</h2>
-            <h5 id="about-me-pi-bod1">Date of birth: 11 April 2001</h5>
-            <h5 id="about-me-pi-bod2">Location: Heideveld </h5>
+            <h5 id="about-me-pi-bod">Date of birth: 11 April 2001</h5>
+            <h5 id="about-me-pi-bod">Location: Heideveld </h5>
             
             
          
@@ -177,9 +177,24 @@ font-size: 60px;
     max-width: 100%; 
   }
 
-  #info-con,
-  #about-pi-con {
-    font-size: 12px; 
+  #about-me-title{
+    font-size: 26px;
+  }
+
+  #about-me-body{
+    font-size: 15px;
+  }
+
+  #about-me-pi{
+    font-size: 26px;
+  }
+
+  #about-me-pi-bod{
+    font-size: 15px;
+  }
+
+  #blockquote{
+    font-size: 15px;
   }
 }
 
@@ -191,19 +206,32 @@ font-size: 60px;
   }
 
   #aboutDrag {
-    font-size: 20px;
+    font-size: 32px;
   }
-  #about-head {
-    font-size: 20px; 
-  }
-
+  
   #about-img {
     max-width: 100%; 
   }
 
-  #info-con,
-  #about-pi-con {
-    font-size: 5px; 
+
+  #about-me-title{
+    font-size: 26px;
+  }
+
+  #about-me-body{
+    font-size: 15px;
+  }
+
+  #about-me-pi{
+    font-size: 26px;
+  }
+
+  #about-me-pi-bod{
+    font-size: 15px;
+  }
+
+  #blockquote{
+    font-size: 15px;
   }
 }
 

@@ -252,10 +252,10 @@ font-size: 60px;
     font-size: 14px;
   }
   #testDrag {
-    font-size: 20px;
+    font-size: 25px;
   }
   #test-head {
-    font-size: 20px;
+    font-size: 32px;
   }
 }
 
