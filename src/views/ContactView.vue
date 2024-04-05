@@ -334,11 +334,11 @@ input[type=submit]:active {
   }
 
   #contactDrag {
-    font-size: 20px;
+    font-size: 32px;
   }
 
   #contact-head {
-    font-size: 20px;
+ 
     border-width: 1px;
   }
 

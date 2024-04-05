@@ -241,7 +241,7 @@
            </div>
            <center>
           
-    <a id="download-btn" href="https://doc-14-60-prod-03-apps-viewer.googleusercontent.com/viewer2/prod-03/pdf/n2gpo4k9jjqjn0fd0fra8qr8leg1vh81/qcpdro76pvedkm1igc5sev07sa0i3dbr/1712237475000/3/103573390495604461687/APznzaZIipV_0hgog3Eki3lioDX2HRRgmbvRakj1W0B7LiVQB5sNqoTIbNfyZe9Td3dUNVvL8URT0b_B4uULJztMxBDx0y4PRBhUBCMEBHBrhBT2F_U9E2WRXhzaEtH0tARgCbJNKsiw-XzZFKGjuTgXmIrZeyAu450ut_IqJVtfKIDRxt5BpnHL80dw_RCpYH7pv_DCxq2Nw0DaV0_tV7bZyk4nVbpQHk8PBU2qWuEO75br_bblmKFwdnZaZjpLp-KftPOLrGsUnqJPJ3PKvRtop008jE0Var6aDX16T7GMxj47EaAWOkHcYleOkDu6zmu0xGVOc62B6wjdoiBcE5WJFMxZCFiBRYUyPiJRKsYoqGEWILyLWrIDkm3w-fGOiiL-LcNCJyKayiFLrEjFZPBWm6f4ItTXHWLIB-lJ8Mgyfn4Slg8UuUo=?authuser=0&nonce=s5otaprmnjc86&user=103573390495604461687&hash=em03par6bt16ld8cp8gssi6s7t6d295i" target="_blank">Download CV</a>
+    <a id="download-btn" href="https://doc-0s-60-prod-03-apps-viewer.googleusercontent.com/viewer2/prod-03/pdf/n2gpo4k9jjqjn0fd0fra8qr8leg1vh81/v9k1djvrdf5fg3733piv5lelgn9r5c8j/1712357550000/3/103573390495604461687/APznzaZmxHayOadtnnyC3yf8qyJeGq2QlvDVl2wnxQ5R4UxsY6GzgKrg15A7mthMWP8EOv9lw_sYEN5-Ad3s1gh5jMEkcZBqNtX7KQ32CMAsz0UIbz3xyEowZiM7mTFw5JrlgZI-hSoO06xtUoVasKXb_ytuLFqUFmPxyfVBUXKPcGB6m_fXO6J6B3wZqKaTkmnKUUx5w3ggWl4XOen8UoG7YIGdgdVeqDTBQZZvY6DB5a-rXYsjGQ-2zQ4iO52MVLgjdCzPVyk3-5YMW8ndkw9fsV7bsmrgtIs4G6Sw58oqc_A48Wi4WBzP_C7eia9reKvKLasaMBtdcCoWJYTup4-ueiwFhpS5g_jvanOK7kzQ_miYXkEnSNJmeyEX8uDMu0bwVP0vtx3So0QsaJe8AvVqmwN5_unlcWP03ymA49Ocfu-iPC753ns=?authuser=0&nonce=feelbc99q346u&user=103573390495604461687&hash=h0sqkfn449c1pies9kqdmhir85rdkpq2" target="_blank">Download CV</a>
 
 
           </center>
@@ -811,7 +811,7 @@ h1{
 
 @media screen and (max-width: 300px) {
   #resumeDrag {
-    font-size: 20px;
+    font-size: 32px;
   }
 
   }

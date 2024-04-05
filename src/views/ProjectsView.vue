@@ -811,7 +811,7 @@ a:hover{
     max-width: 280px;
   }
   #projectsDrag {
-    font-size: 20px;
+    font-size: 32px;
   }
 }
 

@@ -6,7 +6,7 @@
   <div class="container justify-content-center">
 
   
-    <a class="navbar-brand" href="#landingBody"><img id ="nav-image" src="https://cdn-images.imagevenue.com/f2/e2/8a/ME17QREJ_o.png" alt=""></a>
+    <a class="navbar-brand" href="#landingBody"><img id ="nav-image"  src="	https://cdn-images.imagevenue.com/97/ea/50/ME17ZZSJ_o.png" alt=""></a>
   
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -84,13 +84,16 @@ export default {
 }
 
 
-    
+#nav-image{
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 5px solid #44d62c;
+  box-shadow: 1px 1px 10px 1px #d9d9d9;
+  
+}
 
-  #nav-image{
-    max-width: 200px;
-  max-height: 40px;
-    
-  }
+
 
 
   @media only screen and (max-width: 1080px) {
