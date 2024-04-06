@@ -840,6 +840,28 @@ a:hover{
   }
 }
 
+@media (max-width: 272px) {
+  .flip-container {
+    max-width: 245px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 245px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 245px; 
+  }
+
+  .card-img-top{
+    max-width: 245px;
+  }
+
+  img{
+    max-width: 245px;
+  }
+}
 
 
 </style>

@@ -267,6 +267,26 @@ nav{
 }
 }
 
+@media only screen and (max-width: 310px) {
+
+#navbarContainer {
+ padding: 10px; 
+}
+
+#nav-image {
+ max-width: 130px; 
+}
+
+.navbar-nav a {
+ font-size: 10px; 
+}
+
+nav{
+ max-width: 310px;
+}
+}
+
+
 
 @media only screen and (max-width: 307px) {
 
@@ -283,7 +303,7 @@ nav{
 }
 
 nav{
- max-width: 300px;
+ max-width: 295px;
 }
 }
 
@@ -310,7 +330,7 @@ nav{
 
 
 
-@media only screen and (max-width: 291px) {
+@media only screen and (max-width: 292px) {
 
 #navbarContainer {
  padding: 10px; 
@@ -325,10 +345,30 @@ nav{
 }
 
 nav{
- max-width: 290px;
+ max-width: 280px;
 }
 }
 
+
+
+@media only screen and (max-width: 275px) {
+
+#navbarContainer {
+ padding: 10px; 
+}
+
+#nav-image {
+ max-width: 130px; 
+}
+
+.navbar-nav a {
+ font-size: 10px; 
+}
+
+nav{
+ max-width: 265px;
+}
+}
 
 
 
