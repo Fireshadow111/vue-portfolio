@@ -119,7 +119,7 @@ transition: all 0.5s ease-in-out;
 
 
 background-position: center;
-background-image: url("https://cdn-images.imagevenue.com/2f/8b/35/ME17Z5HP_o.png");
+background-image: url("https://cdn-images.imagevenue.com/c2/d8/fe/ME181ART_o.png");
 background-repeat: no-repeat;
 background-size: cover;
 border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.104), rgba(0, 0, 0, 0.175));
