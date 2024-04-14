@@ -68,7 +68,7 @@ export default {
   position: fixed; */
 }
 #links {
-  font-size: 30px;
+  font-size: 35px;
   color: #d9d9d9;
   font-family: "DM Serif Display";
   font-weight: bold;
@@ -85,8 +85,8 @@ export default {
 
 
 #nav-image{
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
   border-radius: 50%;
   border: 5px solid #44d62c;
   box-shadow: 1px 1px 10px 1px #d9d9d9;
