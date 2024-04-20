@@ -1,12 +1,12 @@
 <template>
-    <div id="navbarContainer" class="bg-black">
+    <div  id="navbarContainer" >
 
 
-      <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: black;">
+      <nav  class="navbar navbar-expand-lg fixed-top mx-auto mt-3" style="background-color: #d9d9d9; border-radius: 100px; max-width: 95%;">
   <div class="container justify-content-center">
 
   
-    <a class="navbar-brand" href="#landingBody"><img id ="nav-image"  src="	https://cdn-images.imagevenue.com/97/ea/50/ME17ZZSJ_o.png" alt=""></a>
+    <a class="navbar-brand" href="#landingBody"><img id ="nav-image"  src="		https://cdn-images.imagevenue.com/f4/a4/a1/ME184HN5_o.png" alt=""></a>
   
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -64,12 +64,13 @@ export default {
 #navbarContainer{
   display: flex;
   justify-content: center;
+  max-width: 95%;
   /* width: 100%;
   position: fixed; */
 }
 #links {
   font-size: 35px;
-  color: #d9d9d9;
+  color: black;
   font-family: "DM Serif Display";
   font-weight: bold;
 
@@ -84,9 +85,11 @@ export default {
 }
 
 
+
+
 #nav-image{
-  height: 90px;
-  width: 90px;
+  height: 85px;
+  width: 85px;
   border-radius: 50%;
   border: 5px solid #44d62c;
   box-shadow: 1px 1px 10px 1px #d9d9d9;
@@ -94,850 +97,65 @@ export default {
 }
 
 
-
-
-  @media only screen and (max-width: 1080px) {
-
-#navbarContainer {
-  flex-direction: column;
-}
-
-.navbar-collapse {
-  text-align: center;
-}
-
-.navbar-nav {
-  flex-direction: column;
-  align-items: center;
-}
-
-.navbar-nav a {
-  margin: 10px 0;
-}
-
-
-}
-
-
-
-
-
-  @media only screen and (max-width: 398px) {
-
-  #navbarContainer {
-    flex-direction: column;
-  }
-
-  .navbar-collapse {
-    text-align: center;
-  }
-
+@media (max-width: 1125px) {
   .navbar-nav {
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
   }
 
-  .navbar-nav a {
-    margin: 10px 0;
+  #links {
+    font-size: 25px;
+    padding: 8px 12px;
   }
 
-  nav{
-    width: 390px;
+  #nav-image {
+    height: 80px;
+    width: 80px;
   }
 }
 
-@media only screen and (max-width: 300px) {
+@media (max-width: 1033px) {
+  .navbar-nav {
+    flex-direction: column; 
+    align-items: center;
+  }
 
-#navbarContainer {
-  padding: 10px; 
-}
-
-#nav-image {
-  max-width: 130px; 
-}
-
-.navbar-nav a {
-  font-size: 10px; 
-}
-
-nav{
-  max-width: 290px;
-}
-}
-
-@media only screen and (max-width: 992px) {
-
-#links {
-  font-size: 28px;
- 
-}
-}
-
-
-@media only screen and (max-width: 621px) {
-
-#links {
- font-size: 22px;
-
-}
-}
-
-
-@media only screen and (max-width: 398px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 398px;
-}
-}
-
-
-
-
-@media only screen and (max-width: 391px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 391px;
-}
-}
-
-
-
-@media only screen and (max-width: 388px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 388px;
-}
-}
-
-
-
-@media only screen and (max-width: 384px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 384px;
-}
-}
-
-
-
-@media only screen and (max-width: 381px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 381px;
-}
-}
-
-
-
-@media only screen and (max-width: 377px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 377px;
-}
-}
-
-
-
-@media only screen and (max-width: 375px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 375px;
-}
-}
-
-
-
-@media only screen and (max-width: 371px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 371px;
-}
-}
-
-
-
-
-
-@media only screen and (max-width: 367px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 367px;
-}
-}
-
-
-
-
-@media only screen and (max-width: 365px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 365px;
-}
-}
-
-
-
-
-@media only screen and (max-width: 363px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 363px;
-}
-}
-
-
-
-@media only screen and (max-width: 361px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 361px;
-}
-}
-
-
-
-@media only screen and (max-width: 359px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 359px;
-}
-}
-
-
-
-
-@media only screen and (max-width: 354px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 354px;
-}
-}
-
-
-
-
-@media only screen and (max-width: 348px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 348px;
-}
-}
-
-
-
-
-@media only screen and (max-width: 343px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 343px;
-}
-}
-
-
-
-@media only screen and (max-width: 337px) {
+  #links {
+    font-size: 25px;
+    padding: 8px 12px;
+  }
 
-#navbarContainer {
- padding: 10px; 
+  #nav-image {
+    height: 80px;
+    width: 80px;
+  }
 }
 
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 337px;
-}
-}
-
-
-@media only screen and (max-width: 335px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 335px;
-}
-}
-
-
-@media only screen and (max-width: 333px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 333px;
-}
-}
-
-
-
-@media only screen and (max-width: 330px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 330px;
-}
-}
-
-
-
-
-
-@media only screen and (max-width: 326px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 326px;
-}
-}
-
-
-@media only screen and (max-width: 319px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 319px;
-}
-}
-
-@media only screen and (max-width: 316px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 316px;
-}
-}
-
-
-@media only screen and (max-width: 314px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 314px;
-}
-}
-
-
-@media only screen and (max-width: 310px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 310px;
-}
-}
-
-
-
-@media only screen and (max-width: 307px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 307px;
-}
-}
-
+@media (width <= 1029px) {
+  .navbar-nav {
+    flex-direction: column; 
+    align-items: center;
+  }
 
-@media only screen and (max-width: 300px) {
+  #links {
+    font-size: 23px;
+    padding: 8px 12px;
+  }
 
-#navbarContainer {
- padding: 10px; 
+  #nav-image {
+    height: 80px;
+    width: 80px;
+  }
 }
 
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 300px;
-}
-}
-
-
-@media only screen and (max-width: 298px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 298px;
-}
-}
-
-
-
-
-@media only screen and (max-width: 294px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 294px;
-}
-}
-
-
-
-@media only screen and (max-width: 292px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 292px;
-}
-}
-
-
-
-@media only screen and (max-width: 284px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 284px;
-}
-}
-
 
 
-@media only screen and (max-width: 282px) {
 
-#navbarContainer {
- padding: 10px; 
+@media screen and (width <= 991px) {
+  #nav-image {
+    height: 60px;
+    width: 60px;
+  }
 }
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 282px;
-}
-}
-
-
-
-
-@media only screen and (max-width: 280px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 280px;
-}
-}
-
-
-@media only screen and (max-width: 277px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 277px;
-}
-}
-
-
-
-@media only screen and (max-width: 275px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 275px;
-}
-}
-
-
-@media only screen and (max-width: 270px) {
-
-#navbarContainer {
- padding: 10px; 
-}
-
-#nav-image {
- max-width: 130px; 
-}
-
-.navbar-nav a {
- font-size: 10px; 
-}
-
-nav{
- max-width: 270px;
-}
-}
-
-
 
 </style>
