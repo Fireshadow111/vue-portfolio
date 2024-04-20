@@ -218,6 +218,9 @@ font-size: 60px;
   font-size: 50px;
   text-align: center;
 
+
+  box-shadow: 0px 0px 15px 4px #44d62c ;
+
 }
 
 #projects{
@@ -247,7 +250,7 @@ font-size: 60px;
 .flip-container{
   width: 320px;
   height: 480px;
-  box-shadow: 0 0 25px #44d62c;
+  box-shadow: 0px 0px 15px 4px #44d62c ;
   border-radius: 8px;
 }
 
