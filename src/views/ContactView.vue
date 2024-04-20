@@ -57,7 +57,7 @@
 </div>
 </div>
 
-<footer class = "footer">محمد - @Copyright&copy  - 2024</footer>
+<footer class = "footer"> <span><img id = "footer-logo" src="https://cdn-images.imagevenue.com/f4/a4/a1/ME184HN5_o.png" alt=""></span>- @Copyright&copy  - 2024</footer>
  </body>
 </template>
 
@@ -253,6 +253,11 @@ input[type=submit]:active {
   font-weight: bolder;
   text-align: center;
   background-color: #44d62c;
+}
+
+#footer-logo{
+  height: 40px;
+  width: 40px;
 }
 
 
