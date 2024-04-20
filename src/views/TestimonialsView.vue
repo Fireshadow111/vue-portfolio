@@ -76,24 +76,7 @@ export default {
     components:{
     
     },
-    methods: {
-    fetchDataTestimonials() {
-      this.$store.dispatch('fetchDataTestimonials');
-    }
-  },
 
-  computed:{
-
-rajah()  {return this.$store.state.testimonials}
-},
-
-  mounted() {
-    this.fetchDataTestimonials();
-    aos.init({
-      duration: 800,
-      once: false,
-    });
-  },
 }
 </script>
 <style scoped>

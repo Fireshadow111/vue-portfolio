@@ -97,6 +97,7 @@ font-size: 60px;
   font-size: 41px;
   text-decoration: underline;
   text-decoration-color: #44d62c;
+  font-weight: bold;
 }
 
 #info-con {
@@ -105,7 +106,7 @@ font-size: 60px;
   transition: transform 0.3s;
   box-shadow: 0px 0px 15px 4px;
   font-family: "Raleway";
-  font-weight: bolder;
+ 
 }
 
 
@@ -115,7 +116,7 @@ font-size: 60px;
   transition: transform 0.3s;
   box-shadow: 0px 0px 15px 4px;
   font-family: "Raleway";
-  font-weight: bolder;
+
 }
 
 
@@ -126,11 +127,17 @@ font-size: 60px;
   text-decoration: underline;
   text-decoration-color: #44d62c;
   font-family: "Raleway";
+  font-weight: bold;
 }
 
 
+#about-me-body{
+  font-weight: bold;
+}
 
-
+#about-me-pi-bod{
+  font-weight: bold;
+}
 
 
 

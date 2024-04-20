@@ -186,18 +186,8 @@
 import aos from 'aos'
 
 export default {
-    methods: {
-    fetchDataProjects() {
-      this.$store.dispatch('fetchDataProjects');
-    }
-  },
-
-  computed:{
-
-rajah()  {return this.$store.state.projects}
-},
+ 
   mounted() {
-    this.fetchDataProjects();
     aos.init({
       duration: 800,
       once: false,
@@ -267,7 +257,7 @@ font-size: 60px;
   width: 320px;
   height: 480px;
  font-family: "Raleway";
- font-weight: bolder;
+  font-weight: bold!important;
   border-radius: 8px;
 }
 
@@ -321,9 +311,10 @@ font-size: 60px;
   line-height: 1.68;
   font-size: 18px;
   margin-bottom: 30px;
- font-weight: bolder;
+
  background-color: black;
  color: #44d62c;
+
 
   
 }
@@ -337,7 +328,7 @@ font-size: 60px;
   margin-top: 20px;
   color: black;
   transition: border-color 0.5s, background-color 0.5s, color 0.5s;
-  font-weight: bold;
+
 }
 
 .card_back button:hover {
@@ -376,8 +367,8 @@ font-size: 60px;
 
 #card-head{
   background-color: #d9d9d9;
-  color: black
-
+  color: black;
+  font-weight: bold;
 }
 
 
