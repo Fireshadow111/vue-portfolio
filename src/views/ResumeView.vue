@@ -304,6 +304,8 @@ font-size: 60px;
   font-size: 50px;
   text-align: center;
 
+    box-shadow: 0px 0px 15px 4px #44d62c ;
+
 }
 #resume{
 	padding-top: 110px;

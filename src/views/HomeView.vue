@@ -3,8 +3,12 @@
   <div class="container" id="landingBody">
    
     <div  class="px-4 py-5 my-5 text-center">
+      <h2 id = "saying" class = "fade-in">لا شيء مطلق في الواقع، كل شيء ممكن</h2>
+      <h3 id = "saying" class = "fade-in">"Nothing in reality is absolute, anything is possible."</h3>
       <div class="display-5 fw-bold text-body-emphasis">
         <div class="container mt-5 mb-0" id="box">
+
+         
           <span id="introText">Hi, I am Muhammad</span>
         </div>
       </div>
@@ -12,7 +16,7 @@
       <div class="col-lg-6 mx-auto">
       
         
-<div id = "icons" class = "d-flex justify-content-center mt-4">
+<div id = "icons" class = "d-flex justify-content-center mt-4 fade-in">
 
 <div id = "linkedin-div">
   <a  href="https://www.linkedin.com/in/muhammad-rajah-a1a00421a/" target="_blank"><i id = "sol-icons" class="fa-brands fa-linkedin fa-xl" style="color: #44d62c; cursor: pointer;"></i></a>
@@ -47,13 +51,13 @@
 <div class = "d-flex justify-content-center mt-3">
 
   <a href = "#about">
-    <button id = "button1" type="button" class="btn-lg mx-2">Who am I?</button>
+    <button id = "button1" type="button" class="btn-lg mx-2 fade-in">Who am I?</button>
 
   </a>
 
   <a href = "#contact">
 
-    <button id = "button2" type="button" class="btn-lg mx-2">Contact Me</button>
+    <button id = "button2" type="button" class="btn-lg mx-2 fade-in">Contact Me</button>
 
   </a>
   
@@ -82,6 +86,25 @@ components : {
 }
 </script>
 <style scoped>
+
+#landingBody{
+  border: 3px solid #44d62c;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 4px #44d62c ;
+  transition: transform 0.5s ease;
+}
+
+/* #landingBody:hover{
+
+  transform: scale(10%);
+} */
+
+#saying{
+  color: #d9d9d9;
+  font-family: "Railway";
+
+  font-weight: bold;
+}
 #body{
 
 overflow: hidden;
@@ -130,7 +153,7 @@ border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.104), rgba(0, 0, 0, 0.175))
 #button1{
   background-color: #d9d9d9;
   font-family: "Railway";
-
+  border-radius: 100px;
   font-weight: bold;
 }
 
@@ -138,6 +161,7 @@ border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.104), rgba(0, 0, 0, 0.175))
   background-color: #d9d9d9;
   font-family: "Railway";
   font-weight: bold;
+  border-radius: 100px;
 }
 
 
@@ -375,8 +399,13 @@ width: 9em;
   width: 150px;
   top: 0%;
   font-size: 10px;
+
 }
+#saying{
+    font-size: 18px;
+  }
 }
+
 @media (max-width: 780px) {
 #boxable{
   height: 250px;
@@ -399,7 +428,11 @@ width: 9em;
 #introText {
   font-size: 30px;
   font-weight: 700;
+
 }
+#saying{
+    font-size: 16px;
+  }
 }
 @media (max-width: 598px) {
 #boxable{
@@ -465,6 +498,10 @@ width: 9em;
     width: 130px;
     font-size: 15px;
   }
+
+  #saying{
+    font-size: 18px;
+  }
 }
 
 
@@ -525,6 +562,10 @@ width: 9em;
     width: 130px;
     font-size: 15px;
   }
+
+  #saying{
+    font-size: 16px;
+  }
 }
 
 
@@ -557,7 +598,7 @@ width: 9em;
   }
 
   #text-L {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   #text-S {
@@ -583,11 +624,16 @@ width: 9em;
     width: 130px;
     font-size: 12px;
   }
+  
+  #saying{
+    font-size: 16px;
+  }
 }
 
 
 
-@media (max-width: 300px) {
+
+@media (width <=359px) {
   #body {
     padding-top: 15px;
     padding-bottom: 20px;
@@ -643,70 +689,13 @@ width: 9em;
     font-size: 12px;
   }
 
+  #saying{
+    font-size: 16px;
+  }
+}
+
  
-}
 
-
-
-
-
-
-@media (max-width: 358px) {
-  #body {
-    padding-top: 15px;
-    padding-bottom: 20px;
-  }
-
-  #boxable {
-    height: 150px;
-    width: 80px;
-    margin: 10px;
-    left: 45%;
-    top: 5%;
-  }
-
-  #moveableTxt {
-    width: 80px;
-    font-size: 5px;
-  }
-
-  #box {
-    width: 200px;
-  }
-
-  #introText {
-    font-size: 18px;
-  }
-
-  #text-L {
-    font-size: 15px;
-  }
-
-  #text-S {
-    font-size: 8px;
-  }
-
-  [data-btn] {
-    width: 5em;
-    height: 1em;
-    border-radius: 8px;
-  }
-
-  [data-btn]::before {
-    height: 1em;
-    border-radius: 8px;
-  }
-
-  #button1{
-    width: 130px;
-    font-size: 12px;
-  }
-
-  #button2{
-    width: 130px;
-    font-size: 12px;
-  }
-}
 
 
 

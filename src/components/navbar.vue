@@ -13,7 +13,7 @@
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a id = "links" class = "mx-3" aria-current="page" href= "#landingBody">Home</a> 
+        <a  id = "links" class = "mx-3 " aria-current="page" href= "#landingBody">Home</a> 
         <a id = "links" class = "mx-3" href ="#about">About</a>
         <a id = "links" class = "mx-3" href ="#resume">Resume</a>
         <a id = "links" class = "mx-3" href ="#projects">Projects</a>
@@ -67,6 +67,7 @@ export default {
   max-width: 95%;
   /* width: 100%;
   position: fixed; */
+  
 }
 #links {
   font-size: 35px;
@@ -84,7 +85,11 @@ export default {
   text-decoration-thickness: 3px;
 }
 
-
+.navbar{
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 4px #44d62c ;
+}
 
 
 #nav-image{
@@ -93,8 +98,9 @@ export default {
   border-radius: 50%;
   border: 5px solid #44d62c;
   box-shadow: 1px 1px 10px 1px #d9d9d9;
-  
+
 }
+
 
 
 @media (max-width: 1125px) {
