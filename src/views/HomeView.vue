@@ -384,7 +384,7 @@ width: 9em;
 
 
 
-@media (max-width: 998px) {
+@media (width <=999px) {
 #boxable{
   height: 250px;
   position: fixed;
@@ -403,6 +403,12 @@ width: 9em;
 }
 #saying{
     font-size: 18px;
+  }
+  #landingBody {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    transition: none;
   }
 }
 
@@ -502,6 +508,12 @@ width: 9em;
   #saying{
     font-size: 18px;
   }
+  #landingBody {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    transition: none;
+  }
 }
 
 
@@ -566,6 +578,13 @@ width: 9em;
   #saying{
     font-size: 16px;
   }
+
+  #landingBody {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    transition: none;
+  }
 }
 
 
@@ -627,6 +646,13 @@ width: 9em;
   
   #saying{
     font-size: 16px;
+  }
+
+  #landingBody {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    transition: none;
   }
 }
 
@@ -691,6 +717,12 @@ width: 9em;
 
   #saying{
     font-size: 16px;
+  }
+  #landingBody {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    transition: none;
   }
 }
 
