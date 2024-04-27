@@ -26,7 +26,7 @@
 
         <div class="col-lg-4 col-sm-4" data-aos="fade-right">
           <div id="about-img-div">
-            <img id="about-img" class="mt-4" src="https://cdn-images.imagevenue.com/67/45/01/ME17G5I8_o.png" alt="">
+            <img id="about-img" class="mt-4" src="https://cdn-images.imagevenue.com/b9/f9/db/ME1868UJ_o.png" alt="">
           </div>
         </div>
       </div>
@@ -89,6 +89,7 @@ font-size: 60px;
   border: 3px solid #44d62c;
   transition: transform 0.3s;
   box-shadow: 0px 0px 15px 4px;
+  width: 80%;
 }
 
 

@@ -19,7 +19,7 @@
   <div class="intro">
     <div class="profile">
       <div class="photo">
-        <img src="https://cdn-images.imagevenue.com/d8/13/83/ME17GCBF_o.png">
+        <img src="	https://cdn-images.imagevenue.com/7c/df/16/ME1868UK_o.png">
       </div>
       <div class="bio">
         <h1 id = "resume-name"  class="name">Muhammad Rajah</h1>
@@ -411,6 +411,7 @@ font-size: 60px;
 .photo img {
 	width: 80%;
 	border-radius: 50%;
+  filter: grayscale(100%);
 }
 .bio .name {
 	font-size: 1.5rem;
