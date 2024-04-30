@@ -19,7 +19,7 @@
   <div class="intro">
     <div class="profile">
       <div class="photo">
-        <img src="	https://cdn-images.imagevenue.com/7c/df/16/ME1868UK_o.png">
+        <img src="https://cdn-images.imagevenue.com/b9/f9/db/ME1868UJ_o.png">
       </div>
       <div class="bio">
         <h1 id = "resume-name"  class="name">Muhammad Rajah</h1>
