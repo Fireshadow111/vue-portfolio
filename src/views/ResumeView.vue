@@ -233,7 +233,7 @@
                    <div class="timeline-block">
                        <h1>Full-Stack Developer - Intern</h1>
                        <p>Life Choices</p>
-                       <p>2024 - Present</p>
+                       <p>2023 - Present</p>
                        <p>I am responsible for creating Full-Stack websites for clients based on their personal requirements.</p>
                    </div>
            </div>
