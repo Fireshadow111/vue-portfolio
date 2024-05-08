@@ -118,56 +118,76 @@
       </div>
     </div>
     <div class="detail-section pg-skill">
-      <div class="detail-title">
-        <div class="title-icon">
-          <i class="fas fa-laptop-code"></i>
-        </div>
-        <span>Programming Skills</span>
-      </div>
-      <div class="detail-content">
-        <ul class="pg-list">
-          <li>
-           HTML
-          </li>
-          <li>
-            <span>CSS</span>
-            <div class="sb-skeleton">
-              <div class="skillbar"></div>
-            </div>
-          </li>
-          <li>
-            <span>Javascript</span>
-            <div class="sb-skeleton">
-              <div class="skillbar"></div>
-            </div>
-          </li>
-          <li>
-            <span>Wordpress</span>
-            <div class="sb-skeleton">
-              <div class="skillbar"></div>
-            </div>
-          </li>
-          <li>
-            <span>VueJS</span>
-            <div class="sb-skeleton">
-              <div class="skillbar"></div>
-            </div>
-          </li>
-          <li>
-            <span>NodeJS</span>
-            <div class="sb-skeleton">
-              <div class="skillbar"></div>
-            </div>
-          </li>
-          <li>
-            <span>MYSQL</span>
-            <div class="sb-skeleton">
-              <div class="skillbar"></div>
-            </div>
-          </li>
-        </ul>
-      </div>
+  <div class="detail-title">
+    <div class="title-icon">
+      <i class="fas fa-laptop-code"></i>
     </div>
+    <span>Programming Skills</span>
+  </div>
+  <div class="detail-content">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/d7/6c/e1/ME188IOZ_o.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/d8/50/9f/ME188IOW_o.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/b9/76/b6/ME188IOX_o.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/f5/70/47/ME188IOR_o.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/a0/62/9d/ME188IOT_o.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/07/56/b4/ME188IOU_o.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/52/17/f8/ME188IOS_o.png" alt="" class="img-fluid">
+      </div>
+     
+     
+    </div>
+  </div>
+</div>
+
+<div class="detail-section certifications">
+  <div class="detail-title">
+    <div class="title-icon">
+      <i class="fas fa-certificate"></i>
+    </div>
+    <span>Certifications</span>
+  </div>
+  <div class="detail-content">
+    <div class="row">
+      
+      <div class="col-md-4 mb-3">
+        <div class="certification-item">
+          <img src="https://cdn-images.imagevenue.com/f2/ac/c6/ME188IZ8_o.png" alt="" class="img-fluid">
+        
+        </div>
+      </div>
+     
+      <div class="col-md-4 mb-3">
+        <div class="certification-item">
+          <img src="https://cdn-images.imagevenue.com/98/c3/27/ME188IZ7_o.png" alt="" class="img-fluid">
+        
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="certification-item">
+          <img src="https://cdn-images.imagevenue.com/33/fd/3c/ME188J62_o.png" alt="" class="img-fluid">
+         
+        </div>
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+    
 
     <div class="detail-section hobbies">
     <div class="detail-title">
@@ -285,6 +305,14 @@ export default {
 
 </script>
 <style scoped>
+
+.detail-content img {
+    width: 100%; 
+    height: 200px; 
+    max-width: 100%; 
+    display: block; 
+    
+  }
 
 
 #resumeDrag{
@@ -743,11 +771,130 @@ h1{
   #h1{
     margin-top: 50px;
   }
+
+  .detail-content img {
+    width: 100%; 
+    height: 200px; 
+    max-width: 100%; 
+    display: block; 
+    
+  }
+}
+
+@media screen and (max-width: 1117px){
+  .detail-content img {
+    width: 100%; 
+    height: 200px; 
+    max-width: 100%; 
+    display: block; 
+    
+  }
 }
 
 @media screen and (max-width: 1080px) {
   #resumeDrag {
     font-size: 40px;
+  }
+  .detail-content img {
+    width: 100%; 
+    height: 200px; 
+    max-width: 100%; 
+    display: block; 
+    
+  }
+
+  }
+
+
+  @media screen and (max-width: 1059px) {
+  #resumeDrag {
+    font-size: 40px;
+  }
+  .detail-content img {
+    width: 100%; 
+    height: 200px; 
+    max-width: 100%; 
+    display: block; 
+    
+  }
+
+  }
+
+
+  @media screen and (max-width: 960px) {
+  #resumeDrag {
+    font-size: 40px;
+  }
+  .detail-content img {
+    width: 100%; 
+    height: 100%; 
+    
+    display: block; 
+    
+  }
+
+  }
+
+
+  @media screen and (max-width: 971px) {
+  #resumeDrag {
+    font-size: 40px;
+  }
+  .detail-content img {
+    width: 100%; 
+    height: 100%; 
+    
+    display: block; 
+    
+  }
+
+  }
+
+
+
+  
+  @media screen and (max-width: 765px) {
+  #resumeDrag {
+    font-size: 40px;
+  }
+  .detail-content img {
+    width: 250px; 
+    height: 200px; 
+    max-width: 100%; 
+    display: block; 
+    
+  }
+
+  }
+
+
+    
+  @media screen and (max-width: 766px) {
+  #resumeDrag {
+    font-size: 40px;
+  }
+  .detail-content img {
+    margin: auto;
+    width: 250px; 
+    height: 200px; 
+    max-width: 100%; 
+    display: block; 
+    
+  }
+
+  }
+
+  @media screen and (max-width: 767px) {
+  #resumeDrag {
+    font-size: 40px;
+  }
+  .detail-content img {
+    margin: auto;
+    width: 250px; 
+    height: 200px; 
+    max-width: 100%; 
+    display: block; 
+    
   }
 
   }
@@ -758,6 +905,29 @@ h1{
   }
 
   }
+
+
+
+  @media screen and (max-width: 600px) {
+    .wrapper {
+    flex-direction: column;
+  }
+ 
+  #resumeDrag {
+    font-size: 40px;
+  }
+  .detail-content img {
+    margin: auto;
+    width: 250px; 
+    height: 200px; 
+    max-width: 100%; 
+    display: block; 
+    
+  }
+
+  }
+
+
 
 @media screen and (max-width: 500px) {
   .wrapper {
@@ -806,6 +976,10 @@ h1{
   }
 
   }
+
+
+
+
 
     
 </style>
