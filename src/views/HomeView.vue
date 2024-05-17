@@ -1,12 +1,12 @@
 <template>
 <div id="body">
-  <div class="container" id="landingBody">
+  <div class="container my-5" id="landingBody">
    
     <div  class="px-4 py-5 my-5 text-center">
       <h2 id = "saying" class = "fade-in">لا شيء مطلق في الواقع، كل شيء ممكن</h2>
       <h3 id = "saying" class = "fade-in">"Nothing in reality is absolute, anything is possible."</h3>
       <div class="display-5 fw-bold text-body-emphasis">
-        <div class="container mt-5 mb-0" id="box">
+        <div class="container mt-4 mb-0" id="box">
 
          
           <span id="introText">Hi, I am Muhammad</span>
@@ -87,12 +87,12 @@ components : {
 </script>
 <style scoped>
 
-#landingBody{
+/* #landingBody{
   border: 3px solid #44d62c;
   border-radius: 20px;
   box-shadow: 0px 0px 15px 4px #44d62c ;
   transition: transform 0.5s ease;
-}
+} */
 
 /* #landingBody:hover{
 
@@ -104,6 +104,12 @@ components : {
   font-family: "Railway";
 
   font-weight: bold;
+
+  animation-name: fadeIn;
+  animation-duration: 5s;
+  animation-delay: 0s;
+  position: relative;
+  animation-direction: alternate;
 }
 #body{
 
@@ -113,7 +119,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding-top: 60px;
-padding-bottom: 70px;
 }
 #ic{
 animation-name: fadeBeat;
@@ -200,11 +205,11 @@ font-size: 30px;
 
 color: white;
 
-/* animation-name: webdev;
-  animation-duration: 20s;
+animation-name: fadeIn;
+  animation-duration: 5s;
   animation-delay: 0s;
   position: relative;
-  animation-direction: alternate; */
+  animation-direction: alternate;
 }
 
 @keyframes webdev{
