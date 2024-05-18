@@ -100,21 +100,22 @@
       </div>
       <div class="detail-content">
         <div class="timeline-block">
-          <h1>Life Choices Coding Academy</h1>
-          <p>Full-Stack Web Development Certification of Excellence
-</p>
-          <p>2023 - Present</p>
-        </div>
-        <div class="timeline-block">
           <h1>College of Cape Town</h1>
-          <p>NCV IT - level 4</p>
+          <p>NCV IT - level 4 Certification
+</p>
           <p>2019 - 2021</p>
         </div>
-        <!-- <div class="timeline-block">
+        <div class="timeline-block">
           <h1>International Peace College</h1>
-          <p>Bachloars Degree in Arabic and Islamic Studies</p>
+          <p>Bachloars Degree in Arabic and Islamic Studies(Incomplete)</p>
           <p>2023 - 2024</p>
-        </div> -->
+        </div>
+        <div class="timeline-block">
+          <h1>Life Choices Coding Academy</h1>
+          <p>Full-Stack Development Certification of Excellence
+</p>
+          <p>2023 - 2024</p>
+        </div>
       </div>
     </div>
     <div class="detail-section pg-skill">
@@ -176,6 +177,13 @@
         
         </div>
       </div>
+      <div class="col-md-4 mb-3">
+        <div class="certification-item">
+          <img src="	https://cdn-images.imagevenue.com/9a/ee/dd/ME18BF0L_o.png" alt="" class="img-fluid">
+         
+        </div>
+      </div>
+
       <div class="col-md-4 mb-3">
         <div class="certification-item">
           <img src="https://cdn-images.imagevenue.com/33/fd/3c/ME188J62_o.png" alt="" class="img-fluid">

@@ -205,11 +205,11 @@ font-size: 30px;
 
 color: white;
 
-animation-name: fadeIn;
+/* animation-name: fadeIn;
   animation-duration: 5s;
   animation-delay: 0s;
   position: relative;
-  animation-direction: alternate;
+  animation-direction: alternate; */
 }
 
 @keyframes webdev{
