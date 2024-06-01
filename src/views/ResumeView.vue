@@ -123,7 +123,7 @@
     <div class="title-icon">
       <i class="fas fa-laptop-code"></i>
     </div>
-    <span>Programming Skills</span>
+    <span>Technical Skills</span>
   </div>
   <div class="detail-content">
     <div class="row">
@@ -148,6 +148,12 @@
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/52/17/f8/ME188IOS_o.png" alt="" class="img-fluid">
       </div>
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/d3/d4/67/ME18EOKI_o.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/9a/44/33/ME18EOLN_o.png" alt="" class="img-fluid">
+      </div>
      
      
     </div>
@@ -159,7 +165,7 @@
     <div class="title-icon">
       <i class="fas fa-certificate"></i>
     </div>
-    <span>Certifications</span>
+    <span>Certifications/Badges</span>
   </div>
   <div class="detail-content">
     <div class="row">
@@ -187,6 +193,18 @@
       <div class="col-md-4 mb-3">
         <div class="certification-item">
           <img src="https://cdn-images.imagevenue.com/33/fd/3c/ME188J62_o.png" alt="" class="img-fluid">
+         
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="certification-item">
+          <img src="https://cdn-images.imagevenue.com/1f/26/1d/ME18EOHF_o.png" alt="" class="img-fluid">
+         
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="certification-item">
+          <img src="https://cdn-images.imagevenue.com/37/de/ab/ME18EOKK_o.png" alt="" class="img-fluid">
          
         </div>
       </div>
