@@ -93,8 +93,8 @@ export default {
 
 
 #nav-image{
-  height: 85px;
-  width: 85px;
+  height: 75px;
+  width: 75px;
   border-radius: 50%;
   border: 5px solid #44d62c;
   box-shadow: 1px 1px 10px 1px #d9d9d9;
