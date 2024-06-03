@@ -192,6 +192,14 @@
 
       <div class="col-md-4 mb-3">
         <div class="certification-item">
+          <img src="https://cdn-images.imagevenue.com/f6/4d/6b/ME18EOHG_o.png" alt="" class="img-fluid">
+         
+        </div>
+      </div>
+
+
+      <div class="col-md-4 mb-3">
+        <div class="certification-item">
           <img src="https://cdn-images.imagevenue.com/33/fd/3c/ME188J62_o.png" alt="" class="img-fluid">
          
         </div>
