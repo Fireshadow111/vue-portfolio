@@ -129,30 +129,48 @@
     <div class="row">
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/d7/6c/e1/ME188IOZ_o.png" alt="" class="img-fluid">
+       <center><p>HTML</p></center> 
       </div>
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/d8/50/9f/ME188IOW_o.png" alt="" class="img-fluid">
+        <center><p>CSS</p></center> 
       </div>
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/b9/76/b6/ME188IOX_o.png" alt="" class="img-fluid">
+        <center><p>JavaScript</p></center> 
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/55/23/a7/ME18GEF9_o.png" alt="" class="img-fluid">
+        <center><p>Visual Basic</p></center> 
       </div>
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/f5/70/47/ME188IOR_o.png" alt="" class="img-fluid">
+        <center><p>Vue.JS</p></center> 
       </div>
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/a0/62/9d/ME188IOT_o.png" alt="" class="img-fluid">
+        <center><p>Node.JS</p></center> 
       </div>
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/07/56/b4/ME188IOU_o.png" alt="" class="img-fluid">
+        <center><p>MySQL</p></center> 
       </div>
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/52/17/f8/ME188IOS_o.png" alt="" class="img-fluid">
+        <center><p>Wordpress</p></center> 
       </div>
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/d3/d4/67/ME18EOKI_o.png" alt="" class="img-fluid">
+        <center><p>Docker</p></center> 
       </div>
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/9a/44/33/ME18EOLN_o.png" alt="" class="img-fluid">
+        <center><p>Drupal</p></center> 
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/15/f8/df/ME18GEF7_o.png" alt="" class="img-fluid">
+        <center><p>Adobe Photoshop</p></center> 
       </div>
      
      
@@ -173,6 +191,7 @@
       <div class="col-md-4 mb-3">
         <div class="certification-item">
           <img src="https://cdn-images.imagevenue.com/f2/ac/c6/ME188IZ8_o.png" alt="" class="img-fluid">
+          <center><p>LC Studio - SCRUM</p></center> 
         
         </div>
       </div>
@@ -180,20 +199,20 @@
       <div class="col-md-4 mb-3">
         <div class="certification-item">
           <img src="https://cdn-images.imagevenue.com/98/c3/27/ME188IZ7_o.png" alt="" class="img-fluid">
-        
+          <center><p>LC Studio - Figma</p></center> 
         </div>
       </div>
       <div class="col-md-4 mb-3">
         <div class="certification-item">
           <img src="	https://cdn-images.imagevenue.com/9a/ee/dd/ME18BF0L_o.png" alt="" class="img-fluid">
-         
+          <center><p>LC Studio - Wordpress</p></center> 
         </div>
       </div>
 
       <div class="col-md-4 mb-3">
         <div class="certification-item">
           <img src="https://cdn-images.imagevenue.com/f6/4d/6b/ME18EOHG_o.png" alt="" class="img-fluid">
-         
+          <center><p>LC Studio - SEO</p></center> 
         </div>
       </div>
 
@@ -201,19 +220,19 @@
       <div class="col-md-4 mb-3">
         <div class="certification-item">
           <img src="https://cdn-images.imagevenue.com/33/fd/3c/ME188J62_o.png" alt="" class="img-fluid">
-         
+          <center><p>OPSWAT - ICIP Cyber Security</p></center> 
         </div>
       </div>
       <div class="col-md-4 mb-3">
         <div class="certification-item">
           <img src="https://cdn-images.imagevenue.com/1f/26/1d/ME18EOHF_o.png" alt="" class="img-fluid">
-         
+          <center><p>ISC2 - Candidate Cyber Security</p></center> 
         </div>
       </div>
       <div class="col-md-4 mb-3">
         <div class="certification-item">
           <img src="https://cdn-images.imagevenue.com/37/de/ab/ME18EOKK_o.png" alt="" class="img-fluid">
-         
+          <center><p>IBM - Docker Essentials</p></center> 
         </div>
       </div>
      
