@@ -216,6 +216,19 @@
         </div>
       </div>
 
+      <div class="col-md-4 mb-3">
+        <div class="certification-item">
+          <img src="https://cdn-images.imagevenue.com/40/76/63/ME18HM5F_o.png" alt="" class="img-fluid">
+          <center><p>LC Studio - Drupal</p></center> 
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <div class="certification-item">
+          <img src="https://cdn-images.imagevenue.com/37/de/ab/ME18EOKK_o.png" alt="" class="img-fluid">
+          <center><p>IBM - Docker Essentials</p></center> 
+        </div>
+      </div>
 
       <div class="col-md-4 mb-3">
         <div class="certification-item">
@@ -229,12 +242,7 @@
           <center><p>ISC2 - Candidate Cyber Security</p></center> 
         </div>
       </div>
-      <div class="col-md-4 mb-3">
-        <div class="certification-item">
-          <img src="https://cdn-images.imagevenue.com/37/de/ab/ME18EOKK_o.png" alt="" class="img-fluid">
-          <center><p>IBM - Docker Essentials</p></center> 
-        </div>
-      </div>
+   
      
     </div>
   </div>
