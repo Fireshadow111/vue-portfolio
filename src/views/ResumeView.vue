@@ -139,6 +139,11 @@
         <img src="https://cdn-images.imagevenue.com/b9/76/b6/ME188IOX_o.png" alt="" class="img-fluid">
         <center><p>JavaScript</p></center> 
       </div>
+
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/fb/a4/3c/ME18HVIN_o.png" alt="" class="img-fluid">
+        <center><p>JQuery</p></center> 
+      </div>
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/55/23/a7/ME18GEF9_o.png" alt="" class="img-fluid">
         <center><p>Visual Basic</p></center> 
