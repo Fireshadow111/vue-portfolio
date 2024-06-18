@@ -188,7 +188,7 @@
     <div class="title-icon">
       <i class="fas fa-certificate"></i>
     </div>
-    <span>Certifications/Badges</span>
+    <span>Certifications</span>
   </div>
   <div class="detail-content">
     <div class="row">
