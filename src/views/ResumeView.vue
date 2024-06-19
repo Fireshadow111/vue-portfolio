@@ -164,14 +164,17 @@
         <img src="https://cdn-images.imagevenue.com/52/17/f8/ME188IOS_o.png" alt="" class="img-fluid">
         <center><p>Wordpress</p></center> 
       </div>
-      <div class="col-md-4 mb-3">
-        <img src="https://cdn-images.imagevenue.com/d3/d4/67/ME18EOKI_o.png" alt="" class="img-fluid">
-        <center><p>Docker</p></center> 
-      </div>
+
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/9a/44/33/ME18EOLN_o.png" alt="" class="img-fluid">
         <center><p>Drupal</p></center> 
       </div>
+
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/d3/d4/67/ME18EOKI_o.png" alt="" class="img-fluid">
+        <center><p>Docker</p></center> 
+      </div>
+    
 
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/15/f8/df/ME18GEF7_o.png" alt="" class="img-fluid">
@@ -216,18 +219,27 @@
 
       <div class="col-md-4 mb-3">
         <div class="certification-item">
-          <img src="https://cdn-images.imagevenue.com/f6/4d/6b/ME18EOHG_o.png" alt="" class="img-fluid">
-          <center><p>LC Studio - SEO</p></center> 
-        </div>
-      </div>
-
-      <div class="col-md-4 mb-3">
-        <div class="certification-item">
           <img src="https://cdn-images.imagevenue.com/40/76/63/ME18HM5F_o.png" alt="" class="img-fluid">
           <center><p>LC Studio - Drupal</p></center> 
         </div>
       </div>
 
+      <div class="col-md-4 mb-3">
+        <div class="certification-item">
+          <img src="https://cdn-images.imagevenue.com/d6/87/74/ME18JBC1_o.png" alt="" class="img-fluid">
+          <center><p>LC Studio - API Integration</p></center> 
+        </div>
+      </div>
+
+
+      <div class="col-md-4 mb-3">
+        <div class="certification-item">
+          <img src="https://cdn-images.imagevenue.com/f6/4d/6b/ME18EOHG_o.png" alt="" class="img-fluid">
+          <center><p>LC Studio - SEO</p></center> 
+        </div>
+      </div>
+
+   
       <div class="col-md-4 mb-3">
         <div class="certification-item">
           <img src="https://cdn-images.imagevenue.com/37/de/ab/ME18EOKK_o.png" alt="" class="img-fluid">
