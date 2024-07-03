@@ -431,9 +431,32 @@ a:hover{
   }
 
 
+
+
   @media screen and (max-width: 720px) {
   #projectsDrag {
     font-size: 30px;
+  }
+
+  .flip-container {
+    max-width: 330px; 
+  }
+  
+  .card_front_top_background {
+    max-width: 330px; 
+  }
+
+  .card_front,
+  .card_back {
+    max-width: 330px; 
+  }
+
+  .card-img-top{
+    max-width: 330px;
+  }
+
+  img{
+    max-width: 330px;
   }
 
   }

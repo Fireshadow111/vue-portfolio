@@ -164,4 +164,13 @@ export default {
   }
 }
 
+
+@media screen and (width <= 600px) {
+  #nav-image {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+
 </style>
