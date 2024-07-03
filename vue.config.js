@@ -7,7 +7,6 @@ module.exports = defineConfig({
           .plugin('html')
           .tap(args => {
             args[0].title = "Portfolio"; 
-            console.log(args);
             return args;
           });
   },
