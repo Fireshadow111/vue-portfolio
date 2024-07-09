@@ -23,7 +23,7 @@
       </div>
       <div class="bio">
         <h1 id = "resume-name"  class="name">Muhammad Rajah</h1>
-        <p id = "resume-title" class="profession">Web Developer</p>
+        <p id = "resume-title" class="profession">Web Developer UI/UX Designer</p>
       </div>
     </div>
    

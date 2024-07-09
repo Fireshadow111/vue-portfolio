@@ -15,7 +15,7 @@
 
 
 <script>
-
+import { SpeedInsights } from "@vercel/speed-insights/vue"
  import navbar from './components/navbar.vue'
  import footer from './components/footer.vue'
 
@@ -39,7 +39,8 @@ export default{
     ResumeView,
     ProjectsView,
     TestimonialsView,
-    ContactView
+    ContactView,
+    SpeedInsights
    
   }
 };

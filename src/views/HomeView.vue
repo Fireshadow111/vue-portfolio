@@ -12,7 +12,7 @@
           <span id="introText">Hi, I am Muhammad</span>
         </div>
       </div>
-      <p class="lead mb-1 style fade-in" id="text-L">Web Developer</p>
+      <p class="lead mb-1 style fade-in" id="text-L">Web Developer - UI/UX Designer</p>
       <div class="col-lg-6 mx-auto">
       
         
