@@ -25,17 +25,15 @@
             <div class="card_front_top_background"></div>
           
             <div class="center">
-              <h1 id = "card-head">Temperature Converter</h1>
-               <img src="	https://cdn-images.imagevenue.com/d4/f5/d8/ME17XP0Y_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
+              <h1 id = "card-head">LC Studio Website</h1>
+               <img src="https://cdn-images.imagevenue.com/e7/d3/6c/ME18PI17_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
             </div>
           </div>
           <div class="card_back">
-            <p>This project users JavaScript and converts fahrenheit to celsius.</p>
+            <p>I played a pivotal role as a lead Web Developer in a collaborative project where we automated a process that previously took two weeks, achieving a remarkable reduction to just ten seconds</p>
               <div id = "button-div">
                 
-                <button> <a target = _blank href="https://chipper-sundae-f73811.netlify.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
-                <button>  <a target = _blank href="https://github.com/Fireshadow111/tempConverter-project.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
-              
+                <button> <a target = _blank href="https://personatest.lcstudio-incubate.co.za" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
               
               </div>
              
@@ -51,7 +49,7 @@
           <div class="card_front">
             <div class="card_front_top_background"></div>
             <div class="center">
-              <h1 id = "card-head">E-commerce Store</h1>
+              <h1 id = "card-head">Online Retail Store</h1>
             
               <img src="	https://cdn-images.imagevenue.com/db/db/24/ME17VN65_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
             </div>
@@ -59,7 +57,7 @@
           </div>
           
           <div class="card_back">
-            <p>This site requires users to sign up and login before adding products to cart and checking out</p>
+            <p>This website mandates user registration and authentication prior to adding items to the cart and completing the checkout process</p>
             <div id = "button-div">
                 
                 <button> <a target = _blank href="https://capstone-project-4ee89.firebaseapp.com" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
@@ -79,17 +77,17 @@
           <div class="card_front">
             <div class="card_front_top_background"></div>
             <div class="center">
-              <h1 id = "card-head">RGB to HEX Converter</h1>
-              <img src="	https://cdn-images.imagevenue.com/23/65/0a/ME17XP3L_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
+              <h1 id = "card-head">Virtual Drum-Kit Simulator Game</h1>
+              <img src="https://cdn-images.imagevenue.com/21/ae/03/ME18PIJ8_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
               
             </div>
           </div>
           <div class="card_back">
-            <p>The primary function of the project involves receiving input in the form of RGB (Red, Green, Blue) color values and outputs the HEX colour equivalent.</p>
+            <p>This project is a compact drum kit simulation game, created with JavaScript</p>
             <div id = "button-div">
                 
-                <button> <a target = _blank href="https://chipper-biscotti-6718f0.netlify.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
-                <button>  <a target = _blank href="https://github.com/Fireshadow111/rgb-to-hex.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
+                <button> <a target = _blank href="https://drum-kit-game-swart.vercel.app/" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
+                <button>  <a target = _blank href="https://github.com/Fireshadow111/drum-kit-game.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
               
               
               </div>
@@ -108,17 +106,16 @@
         <div class="card_front">
           <div class="card_front_top_background"></div>
           <div class="center">
-            <h1 id = "card-head">Interest Calculator</h1>
-            <img src="https://cdn-images.imagevenue.com/5f/bd/aa/ME17XOS5_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
+            <h1 id = "card-head">Ping - Pong Game</h1>
+            <img src="https://cdn-images.imagevenue.com/a1/42/84/ME18PI02_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
           </div>
         </div>
         <div class="card_back">
-          <p>This project uses JavaScript and accepts numeric inputs and outputs the amount of interest accumulated
-                            over the duration given.</p>
+          <p>This is a JavaScript-powered Ping Pong mini-game</p>
           <div id = "button-div">
                 
-                <button> <a target = _blank href="https://fancy-begonia-21b598.netlify.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
-                <button>  <a target = _blank href="https://github.com/Fireshadow111/interest-amount.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
+                <button> <a target = _blank href="https://ping-pong-theta.vercel.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
+                <button>  <a target = _blank href="https://github.com/Fireshadow111/ping-pong-javascript.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
               
               
               </div>
@@ -133,16 +130,16 @@
         <div class="card_front">
           <div class="card_front_top_background"></div>
           <div class="center">
-            <h1 id = "card-head">Regular Calculator</h1>
-            <img src="	https://cdn-images.imagevenue.com/85/96/14/ME17XP3J_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
+            <h1 id = "card-head">Integrated Action Planner</h1>
+            <img src="https://cdn-images.imagevenue.com/20/e0/c9/ME18PI03_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
           </div>
         </div>
         <div class="card_back">
-          <p>This calculator accepts the numbers and operations clicked by the user and outputs the answer.</p>
+          <p>This is a task management tool with local storage functionality, created using JavaScript</p>
           <div id = "button-div">
                 
-                <button> <a target = _blank href="https://effulgent-banoffee-8f84bc.netlify.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
-                <button>  <a target = _blank href="https://github.com/Fireshadow111/fancy-calculator.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
+                <button> <a target = _blank href="https://to-do-list-eight-ashen-73.vercel.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
+                <button>  <a target = _blank href="https://github.com/Fireshadow111/to-do-list.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
               
               
               </div>
@@ -158,16 +155,16 @@
         <div class="card_front">
           <div class="card_front_top_background"></div>
           <div class="center">
-            <h1 id = "card-head">Area of a triangle Calculator </h1>
-            <img src="	https://cdn-images.imagevenue.com/ba/a5/61/ME17XOPX_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
+            <h1 id = "card-head">Rock Paper Scissors</h1>
+            <img src="https://cdn-images.imagevenue.com/97/cc/70/ME18PIGS_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
           </div>
         </div>
         <div class="card_back">
-          <p>This project takes the variables of a triangle and calculates the area.</p>
+          <p>This project showcases a JavaScript-powered Rock Paper Scissors mini-game</p>
           <div id = "button-div">
                 
-                <button> <a target = _blank href="https://stirring-madeleine-61f2b2.netlify.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
-                <button>  <a target = _blank href="https://github.com/Fireshadow111/area-of-triangle.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
+                <button> <a target = _blank href="https://rock-paper-scissors-beta-rouge.vercel.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
+                <button>  <a target = _blank href="https://github.com/Fireshadow111/rock-paper-scissors.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
               
               
               </div>
