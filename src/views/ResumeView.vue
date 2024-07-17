@@ -52,7 +52,7 @@
 
 <div id = "linkedin-div">
   <a href="https://www.linkedin.com/in/muhammad-rajah-a1a00421a/" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #44d62c; cursor: pointer;"></i>
-  <span class="mx-2" style="color: black; font-weight: bold; font-size: 15px;">Linkdin</span></a>
+  <span class="mx-2" style="color: black; font-weight: bold; font-size: 15px;">Linkedin</span></a>
   
 </div>
 
@@ -94,7 +94,7 @@
     <div class="detail-section edu">
       <div class="detail-title">
         <div class="title-icon">
-          <i class="fas fa-user-graduate"></i>
+          <i class="fas fa-user-graduate" style="background-color: white; border-radius: 50%; padding: 5px; color: black;" ></i>
         </div>
         <span>Education</span>
       </div>
@@ -121,7 +121,7 @@
     <div class="detail-section pg-skill">
   <div class="detail-title">
     <div class="title-icon">
-      <i class="fas fa-laptop-code"></i>
+      <i class="fas fa-laptop-code" style="background-color: white; border-radius: 50%; padding: 5px; color: black;"></i>
     </div>
     <span>Technical Skills</span>
   </div>
@@ -189,7 +189,7 @@
 <div class="detail-section certifications">
   <div class="detail-title">
     <div class="title-icon">
-      <i class="fas fa-certificate"></i>
+      <i class="fas fa-certificate" style="background-color: white; border-radius: 50%; padding: 5px; color: black;"></i>
     </div>
     <span>Certifications</span>
   </div>
@@ -270,7 +270,7 @@
     <div class="detail-section hobbies">
     <div class="detail-title">
         <div class="title-icon">
-            <i class="fas fa-heart"></i>
+            <i class="fas fa-heart" style="background-color: white; border-radius: 50%; padding: 5px; color: black;"></i>
         </div>
         <span>Hobbies</span>
     </div>
@@ -287,7 +287,7 @@
 <div class="detail-section languages">
     <div class="detail-title">
         <div class="title-icon">
-            <i class="fas fa-language"></i>
+            <i class="fas fa-language" style="background-color: white; border-radius: 50%; padding: 5px; color: black;"></i>
         </div>
         <span>Languages</span>
     </div>
@@ -304,7 +304,7 @@
            <div class="detail-section soft-skills">
                <div class="detail-title">
                    <div class="title-icon">
-                       <i class="fas fa-heart"></i>
+                       <i class="fas fa-heart" style="background-color: white; border-radius: 50%; padding: 5px; color: black;"></i>
                    </div>
                    <span>Soft Skills</span>
                </div>
@@ -323,7 +323,7 @@
                <div class="detail-section experience">
                <div class="detail-title">
                    <div class="title-icon">
-                       <i class="fas fa-briefcase"></i>
+                       <i class="fas fa-briefcase" style="background-color: white; border-radius: 50%; padding: 5px; color: black;"></i>
                    </div>
                    <span>Experience</span>
                </div>
