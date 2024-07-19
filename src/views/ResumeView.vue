@@ -31,7 +31,7 @@
       <h1 class="title">Contact</h1>
       <div class="info-section">
         <i style = "color: #44d62c;" class="fas fa-phone"></i>
-        <span style="color: black; font-weight: bold; font-size: 15px">067 774 1883</span>
+        <span style="color: black; font-weight: bold; font-size: 15px">+27 67 774 1883</span>
       </div>
       <div class="info-section">
         <i style = "color: #44d62c;" class="fas fa-map-marker-alt"></i>
@@ -123,7 +123,7 @@
     <div class="title-icon">
       <i class="fas fa-laptop-code" style="background-color: white; border-radius: 50%; padding: 5px; color: black;"></i>
     </div>
-    <span>Technical Skills</span>
+    <span>Skills</span>
   </div>
   <div class="detail-content">
     <div class="row">
@@ -136,8 +136,21 @@
         <center><p>CSS</p></center> 
       </div>
       <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/56/1e/f8/ME18RWKY_o.png" alt="" class="img-fluid">
+        <center><p>Bootstrap</p></center> 
+      </div>
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/55/23/a7/ME18GEF9_o.png" alt="" class="img-fluid">
+        <center><p>Visual Basic</p></center> 
+      </div>
+      <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/b9/76/b6/ME188IOX_o.png" alt="" class="img-fluid">
         <center><p>JavaScript</p></center> 
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/70/a9/94/ME18RWJU_o.png" alt="" class="img-fluid">
+        <center><p>Typescript</p></center> 
       </div>
 
       <div class="col-md-4 mb-3">
@@ -145,16 +158,16 @@
         <center><p>JQuery</p></center> 
       </div>
       <div class="col-md-4 mb-3">
-        <img src="https://cdn-images.imagevenue.com/55/23/a7/ME18GEF9_o.png" alt="" class="img-fluid">
-        <center><p>Visual Basic</p></center> 
+        <img src="https://cdn-images.imagevenue.com/c4/b4/a2/ME18RWHF_o.png" alt="" class="img-fluid">
+        <center><p>React.js</p></center> 
       </div>
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/f5/70/47/ME188IOR_o.png" alt="" class="img-fluid">
-        <center><p>Vue.JS</p></center> 
+        <center><p>Vue.js</p></center> 
       </div>
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/a0/62/9d/ME188IOT_o.png" alt="" class="img-fluid">
-        <center><p>Node.JS</p></center> 
+        <center><p>Node.js</p></center> 
       </div>
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/07/56/b4/ME188IOU_o.png" alt="" class="img-fluid">
@@ -175,6 +188,10 @@
         <center><p>Docker</p></center> 
       </div>
     
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/bf/cf/80/ME18RWKS_o.png" alt="" class="img-fluid">
+        <center><p>Figma</p></center> 
+      </div>
 
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/15/f8/df/ME18GEF7_o.png" alt="" class="img-fluid">
@@ -337,12 +354,12 @@
            </div>
         
            </div>
-           <!-- <center>
+           <center>
           
-    <a id="download-btn" href="https://doc-0s-0s-prod-01-apps-viewer.googleusercontent.com/viewer2/prod-01/pdf/6bg24jjfcr8ehvqnl6fqhtl9nmtvjmb8/kkir9kabicc8cmef34teqsrjfr3t8q32/1717925325000/3/103573390495604461687/APznzaarE5f2BiuwY6fR2_ZbGCsZqc-SgAKOyNfH9ZiuUdF7VI3NW_K2VVnMSVZgOxgFqtpF26s37c3A9Jcqbcsj63u6T0LVD1mi9pJkKO7XjpHXhBHGMbpO750G0UAgDPQEKFxyhSdGqBEEL8pKVk-AbYD7iQSk6HOjfhofD1DS837QUzNiQBAG1b12_2S5ZIoiJOTtc4LCmeQsj32QWjOULFyIrmZFBn96bUK92ImcQVySnPfaaExln6IejpZQP8RL7YPHyRjGd010lJCtnaxm0-8tM65XtD7ak1foM1BGtjITi4SYu2p0_prNRVJ323CDrlJRZx5wDcvtT9r79IfFhgbpoKtOjCsVr_KV6th-EtsDtiqZTECelfCGnQOj6w7J8w-R4ZFhUHg8eZQdep-sKovReQLCrA==?authuser=0&nonce=eho4fiif2tdmc&user=103573390495604461687&hash=0va05igmq483ip7fc1vk1sf4os8d0cp4" target="_blank">Download Resume</a>
+    <a id="download-btn" href="https://muhammadrajah-resume.tiiny.site" target="_blank">Download Resume</a>
 
 
-          </center> -->
+          </center>
        </div>
        
 
@@ -546,10 +563,10 @@ font-size: 60px;
 .about .paragraph {
 	text-align: justify;
 }
-.info-section {
+/* .info-section {
 	margin: 1rem 0;
   
-}
+} */
 .info-section span {
 	position: relative;
 	transition: all 0.3s;
