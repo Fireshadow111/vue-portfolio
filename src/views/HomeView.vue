@@ -87,6 +87,8 @@ components : {
 </script>
 <style scoped>
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* #landingBody{
   border: 3px solid #44d62c;
   border-radius: 20px;
@@ -162,6 +164,15 @@ border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.104), rgba(0, 0, 0, 0.175))
   font-weight: bold;
 }
 
+/* #button1:hover{
+  border: 2px solid #44d62c;
+} */
+
+#button1:active{
+  box-shadow: 0 5px #666;
+  transform: translatex(4px);
+}
+
 #button2{
   background-color: #d9d9d9;
   font-family: "Railway";
@@ -169,6 +180,10 @@ border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.104), rgba(0, 0, 0, 0.175))
   border-radius: 100px;
 }
 
+#button2:active{
+  box-shadow: 0 5px #666;
+  transform: translatex(4px);
+}
 
 #box {
 white-space: nowrap;

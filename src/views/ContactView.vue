@@ -239,6 +239,11 @@ textarea {
   
 }
 
+#contactButton:active{
+  box-shadow: 0 5px #666;
+  transform: translatex(4px);
+}
+
 input[type=submit]:hover {
   border-color: #d9d9d9 !important;
 }
