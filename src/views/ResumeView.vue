@@ -178,6 +178,8 @@
         <center><p>Wordpress</p></center> 
       </div>
 
+    
+
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/9a/44/33/ME18EOLN_o.png" alt="" class="img-fluid">
         <center><p>Drupal</p></center> 
@@ -187,6 +189,12 @@
         <img src="https://cdn-images.imagevenue.com/d3/d4/67/ME18EOKI_o.png" alt="" class="img-fluid">
         <center><p>Docker</p></center> 
       </div>
+
+      <div class="col-md-4 mb-3">
+        <img src="https://cdn-images.imagevenue.com/44/b4/a8/ME18RX3S_o.png" alt="" class="img-fluid">
+        <center><p>SEO</p></center> 
+      </div>
+
     
       <div class="col-md-4 mb-3">
         <img src="https://cdn-images.imagevenue.com/bf/cf/80/ME18RWKS_o.png" alt="" class="img-fluid">
