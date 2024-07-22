@@ -1,5 +1,5 @@
 <template>
- <body id="background" >
+ <body id="cont-background" >
  
     <div id = "contact" class="container" data-aos="fade-up">
       <div class="row align-items-center">
@@ -149,6 +149,9 @@ export default {
 </script>
 <style scoped>
 
+#cont-background{
+  padding-top:60px;
+}
 
 i{
   transition: transform 0.3s ease

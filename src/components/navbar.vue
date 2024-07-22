@@ -13,12 +13,12 @@
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a  id = "links" class = "mx-3 " aria-current="page" href= "#landingBody">Home</a> 
-        <a id = "links" class = "mx-3" href ="#about">About</a>
-        <a id = "links" class = "mx-3" href ="#resume">Resume</a>
-        <a id = "links" class = "mx-3" href ="#projects">Projects</a>
-        <a id = "links" class = "mx-3" href ="#testimonials">Testimonials</a>
-        <a id = "links" class = "mx-3" href ="#contact">Contact</a>
+        <a  id = "links" class = "mx-3 " aria-current="page" href= "#home-body">Home</a> 
+        <a id = "links" class = "mx-3" href ="#about-background">About</a>
+        <a id = "links" class = "mx-3" href ="#resume-background">Resume</a>
+        <a id = "links" class = "mx-3" href ="#proj-background">Projects</a>
+        <a id = "links" class = "mx-3" href ="#test-background">Testimonials</a>
+        <a id = "links" class = "mx-3" href ="#cont-background">Contact</a>
       </div>
     </div>
   </div>

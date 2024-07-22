@@ -1,5 +1,5 @@
 <template>
-<div id="body">
+<div id="home-body">
   <div class="container my-5" id="landingBody">
    
     <div  class="px-4 py-5 my-5 text-center">
@@ -113,7 +113,7 @@ components : {
   position: relative;
   animation-direction: alternate;
 }
-#body{
+#home-body{
 
 overflow: hidden;
 min-height: 100vh;
@@ -145,7 +145,7 @@ width: 10px;
 height: 5px;
 background-color: #000000;
 }
-#body{
+#home-body{
 transition: all 0.5s ease-in-out;
 
 
@@ -541,7 +541,7 @@ width: 9em;
 
 
 @media (max-width: 500px) {
-  #body {
+  #home-body {
     padding-top: 30px;
     padding-bottom: 40px;
   }
@@ -610,7 +610,7 @@ width: 9em;
 
 
 @media (max-width: 400px) {
-  #body {
+  #home-body {
     padding-top: 20px;
     padding-bottom: 30px;
   }
@@ -680,7 +680,7 @@ width: 9em;
 
 
 @media (width <=359px) {
-  #body {
+  #home-body {
     padding-top: 15px;
     padding-bottom: 20px;
   }

@@ -1,5 +1,5 @@
 <template>
-    <body id = "background">
+    <body id = "proj-background">
 
        <div id = "projects" class="container text-center" data-aos="fade-up">
 
@@ -226,9 +226,9 @@ font-size: 60px;
 }
 
 
-#background{
+#proj-background{
     background-color: black;
-   
+   padding-top: 50px;
    
 
   
