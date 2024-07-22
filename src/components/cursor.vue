@@ -39,6 +39,8 @@ export default {
       this.targetX = event.clientX;
       this.targetY = event.clientY;
     },
+
+    
     animateCursor() {
       
       const speed = 1.4; 
