@@ -1,5 +1,5 @@
 <template>
-    <body id = "background">
+    <body id = "test-background">
 
 
             
@@ -189,9 +189,9 @@ font-size: 60px;
   max-width: 1500px;
   padding-top: 110px;
 }
-#background{
+#test-background{
     background-color: black;
-    font-family: sans-serif;
+    padding-top: 50px;
 
 
  

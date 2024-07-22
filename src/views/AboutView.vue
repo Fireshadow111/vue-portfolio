@@ -1,5 +1,5 @@
 <template>
-  <body id="background">
+  <body id="about-background">
     <div id="about" class="container text-center" data-aos="fade-up">
        <div class="row align-items-center">
         <div id="about-head" class="mb-5" data-aos="fade-up">
@@ -78,9 +78,10 @@ font-size: 60px;
   max-width: 1500px;
 }
 
-#background {
+#about-background {
   background-color: black;
   color: #44d62c;
+  padding-top: 60px;
 
 }
 

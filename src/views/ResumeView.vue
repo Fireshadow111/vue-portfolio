@@ -1,5 +1,5 @@
 <template>
-   <body id = "background">
+   <body id = "resume-background">
 
 	
 	<div id = "resume" class="container text-center" data-aos="fade-up">
@@ -443,8 +443,9 @@ font-size: 60px;
 	max-width: 1500px;
 }
 
-#background{
+#resume-background{
     background-color: black;
+    padding-top: 45px;
 
 		
 }
