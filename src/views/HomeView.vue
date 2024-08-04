@@ -655,12 +655,12 @@ width: 9em;
     border-radius: 10px;
   }
   #button1{
-    width: 130px;
+    width: 110px;
     font-size: 12px;
   }
 
   #button2{
-    width: 130px;
+    width: 110px;
     font-size: 12px;
   }
   
@@ -726,12 +726,12 @@ width: 9em;
   }
 
   #button1{
-    width: 130px;
+    width: 100px;
     font-size: 12px;
   }
 
   #button2{
-    width: 130px;
+    width: 100px;
     font-size: 12px;
   }
 
