@@ -503,6 +503,15 @@ font-size: 60px;
 		font-style: italic;
 }
 
+/* .black-white-image{
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+
+.black-white-image:hover{
+  filter: grayscale(0%);
+} */
+
 
 .wrapper {
 	margin: 0 auto;
@@ -1028,6 +1037,11 @@ h1{
     display: block; 
     
   }
+
+  .intro{
+    text-align: center;
+  }
+  
 
   }
 
