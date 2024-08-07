@@ -60,8 +60,7 @@
             <p>This website mandates user registration and authentication prior to adding items to the cart and completing the checkout process</p>
             <div id = "button-div">
                 
-                <button> <a target = _blank href="https://capstone-project-4ee89.firebaseapp.com" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
-                <button>  <a target = _blank href="https://github.com/Fireshadow111/capstone-project.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
+                <p style = "background-color: transparent !important; color: black !important;">Currently Under Maintenance</p>
               
               
               </div>
