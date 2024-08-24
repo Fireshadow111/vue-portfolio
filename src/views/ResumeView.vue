@@ -1038,9 +1038,7 @@ h1{
     
   }
 
-  .intro{
-    text-align: center;
-  }
+
   
 
   }
