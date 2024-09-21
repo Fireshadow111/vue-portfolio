@@ -201,11 +201,6 @@
         <center><p>Figma</p></center> 
       </div>
 
-      <div class="col-md-4 mb-3">
-        <img src="https://cdn-images.imagevenue.com/15/f8/df/ME18GEF7_o.png" alt="" class="img-fluid">
-        <center><p>Adobe Photoshop</p></center> 
-      </div>
-     
      
     </div>
   </div>

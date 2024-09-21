@@ -76,17 +76,17 @@
           <div class="card_front">
             <div class="card_front_top_background"></div>
             <div class="center">
-              <h1 id = "card-head">Virtual Drum-Kit Simulator Game</h1>
-              <img src="https://cdn-images.imagevenue.com/21/ae/03/ME18PIJ8_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
+              <h1 id = "card-head">Spotify Clone Music Player</h1>
+              <img src="https://cdn-images.imagevenue.com/9f/89/67/ME193N0O_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
               
             </div>
           </div>
           <div class="card_back">
-            <p>This project is a compact drum kit simulation game, created with JavaScript</p>
+            <p>A spotify clone created using react.js</p>
             <div id = "button-div">
                 
-                <button> <a target = _blank href="https://drum-kit-game-swart.vercel.app/" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
-                <button>  <a target = _blank href="https://github.com/Fireshadow111/drum-kit-game.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
+                <button> <a target = _blank href="https://spotify-clone-react-six.vercel.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
+                <button>  <a target = _blank href="https://github.com/Fireshadow111/spotify-clone-react.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
               
               
               </div>
@@ -129,16 +129,16 @@
         <div class="card_front">
           <div class="card_front_top_background"></div>
           <div class="center">
-            <h1 id = "card-head">Integrated Action Planner</h1>
-            <img src="https://cdn-images.imagevenue.com/20/e0/c9/ME18PI03_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
+            <h1 id = "card-head">RazerAi Model-v1.0</h1>
+            <img src="https://cdn-images.imagevenue.com/67/1e/72/ME193N0N_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
           </div>
         </div>
         <div class="card_back">
-          <p>This is a task management tool with local storage functionality, created using JavaScript</p>
+          <p>My own personal Ai language model</p>
           <div id = "button-div">
                 
-                <button> <a target = _blank href="https://to-do-list-eight-ashen-73.vercel.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
-                <button>  <a target = _blank href="https://github.com/Fireshadow111/to-do-list.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
+                <button> <a target = _blank href="https://razer-ai-react.vercel.app" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
+                <button>  <a target = _blank href="https://github.com/Fireshadow111/razer-ai-react.git" style = "color: black; font-weight: bold;" class="btn "><i class="fab fa-github"></i> Github</a></button>
               
               
               </div>
