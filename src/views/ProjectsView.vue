@@ -49,18 +49,18 @@
           <div class="card_front">
             <div class="card_front_top_background"></div>
             <div class="center">
-              <h1 id = "card-head">Online Retail Store</h1>
+              <h1 id = "card-head">Crime Alert Application</h1>
             
-              <img src="	https://cdn-images.imagevenue.com/db/db/24/ME17VN65_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
+              <img src="https://cdn-images.imagevenue.com/98/b5/c3/ME196WW5_o.png" alt="" class="card-img-top w-100" style="height: 180px;">
             </div>
             
           </div>
           
           <div class="card_back">
-            <p>This website mandates user registration and authentication prior to adding items to the cart and completing the checkout process</p>
+            <p>This website allows a user to report a crime in their area</p>
             <div id = "button-div">
                 
-                <p style = "background-color: transparent !important; color: black !important;">Currently Under Maintenance</p>
+              <button> <a target = _blank href="https://crimeline.lcstudio-incubate.co.za" style = "color: black; font-weight: bold;" class="btn "><i class="fas fa-link"></i> Visit Site</a></button>
               
               
               </div>
